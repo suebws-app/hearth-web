@@ -52,12 +52,26 @@ export default function StoreButtons() {
         onClick={onGetStarted}
         className="bg-white text-primary"
       />
-      <StoreButton
+      {/* Google Play button - hidden until launch */}
+      {/* <StoreButton
         icon={<GooglePlayLogo className="w-7 h-7" />}
         title={t("landing.store.google_play", "Google Play")}
         caption={t("landing.store.google_play_caption", "Get it on")}
         onClick={onGetStarted}
-      />
+      /> */}
+      <Button
+        className="h-14 px-6 rounded-xl text-left flex items-center gap-3 shadow-md opacity-75 cursor-default"
+      >
+        <GooglePlayLogo className="w-7 h-7" />
+        <div className="flex flex-col leading-none">
+          <span className="type-caption uppercase font-medium">
+            {t("landing.store.google_play_coming_soon_caption", "Coming soon on")}
+          </span>
+          <span className="type-heading-4 !leading-4 font-bold">
+            {t("landing.store.google_play", "Google Play")}
+          </span>
+        </div>
+      </Button>
     </div>
   );
 }

@@ -1,127 +1,571 @@
 import React from "react";
-import IconBell from "@/assets/icons/bell";
-import IconSparkles from "@/assets/icons/sparkles";
-import IconHeart from "@/assets/icons/heart";
-import IconCalendar from "@/assets/icons/calendar";
-import IconArrowRight from "@/assets/icons/arrow-right";
-import IconMessageCircle from "@/assets/icons/message-circle";
 
 export default function AppMockup() {
   const colors = {
     primary: "#9b59b6",
     accent: "#85c1e2",
+    success: "#4caf50",
+    secondary: "#c39bd3",
   };
+
   return (
-    <div
-      className="flex-1 w-full relative flex items-center justify-center animate-fade-in-scale"
-    >
-      <div className="relative md:w-[300px] h-[620px] bg-white rounded-[3rem] shadow-2xl border-[8px] border-white overflow-hidden transform rotate-[-6deg] hover:rotate-0 transition-all duration-500">
-        <div className="absolute top-0 left-0 right-0 h-28 pt-10 pb-4 px-6 flex justify-between items-center bg-white z-10 border-b border-gray-50">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full overflow-hidden border border-gray-100">
-              <img
-                src="https://images.unsplash.com/photo-1594318223885-20dc4b889f9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHdvbWFuJTIwc21pbGluZ3xlbnwxfHx8fDE3NzAyMTExOTd8MA&ixlib=rb-4.1.0&q=80&w=64"
-                alt="Profile"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div>
-              <div className="text-xs text-gray-600 font-medium">Good morning,</div>
-              <div className="text-sm font-bold text-gray-800">Sarah</div>
-            </div>
-          </div>
-          <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-600">
-            <IconBell className="w-5 h-5" />
-          </div>
-        </div>
+    <div className="flex-1 w-full relative flex items-center justify-center animate-fade-in-scale px-6">
+      <div className="relative w-full max-w-[300px] h-[620px] bg-white rounded-[3rem] shadow-2xl border-[8px] border-white overflow-hidden">
+        <svg
+          viewBox="0 0 250 540"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full h-full"
+          preserveAspectRatio="xMidYMin slice"
+        >
+          <rect width="250" height="540" fill="#f9f7fb" />
 
-        <div className="pt-32 px-5 pb-8 h-full overflow-hidden bg-gray-50 flex flex-col gap-5">
-          <div className="flex items-center justify-between">
-            <div>
-              <h2 className="text-lg font-bold text-gray-900">Today</h2>
-              <p className="text-xs text-gray-500">Wednesday, Feb 14</p>
-            </div>
-            <div className="bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-[10px] font-bold flex items-center gap-1">
-              <span className="text-sm">🔥</span> 12 Days
-            </div>
-          </div>
+          {/* Header */}
+          <rect width="250" height="56" fill="white" />
+          <line
+            x1="0"
+            y1="56"
+            x2="250"
+            y2="56"
+            stroke="#f3f4f6"
+            strokeWidth="1"
+          />
 
-          <div className="w-full p-5 rounded-2xl bg-white shadow-sm border border-gray-100 relative overflow-hidden group hover:shadow-md transition-all">
-            <div className="absolute top-0 left-0 w-1.5 h-full bg-purple-500"></div>
-            <div className="flex items-center gap-2 mb-3">
-              <IconSparkles className="w-4 h-4 text-purple-500" />
-              <span className="text-xs font-bold text-purple-500 uppercase tracking-wide">
-                Daily Question
-              </span>
-            </div>
-            <p className="text-gray-800 font-medium text-lg leading-snug mb-4">
-              &quot;What&apos;s one small thing I did recently that made you smile?&quot;
-            </p>
-            <div className="flex items-center justify-between mt-2">
-              <div className="flex items-center -space-x-2">
-                <div className="w-8 h-8 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1594318223885-20dc4b889f9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHdvbWFuJTIwc21pbGluZ3xlbnwxfHx8fDE3NzAyMTExOTd8MA&ixlib=rb-4.1.0&q=80&w=64"
-                    alt=""
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="w-8 h-8 rounded-full border-2 border-white bg-purple-100 flex items-center justify-center text-xs font-medium text-purple-600 z-10">
-                  You
-                </div>
-              </div>
-              <span className="text-xs text-purple-600 font-medium cursor-pointer">
-                Tap to answer →
-              </span>
-            </div>
-          </div>
+          <text x="14" y="40" fontSize="16" fill="#1f2937" fontWeight="700">
+            Sarah
+          </text>
 
-          <div className="w-full rounded-2xl bg-white shadow-sm border border-gray-100 overflow-hidden group hover:shadow-md transition-all">
-            <div className="h-40 overflow-hidden relative">
-              <img
-                src="https://images.unsplash.com/photo-1743516465188-6eee2aa0828d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBwaWNuaWMlMjBsYXVnaGluZ3xlbnwxfHx8fDE3NzAzMDIzNTV8MA&ixlib=rb-4.1.0&q=80&w=400"
-                alt="Couple at a picnic in the park"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-              />
-              <div className="absolute top-3 right-3 bg-black/40 backdrop-blur-md px-2 py-1 rounded-full text-white text-[10px] font-medium flex items-center gap-1">
-                <IconHeart className="w-3 h-3 fill-white text-white" fill /> 12
-              </div>
-            </div>
-            <div className="p-4 flex justify-between items-start">
-              <div>
-                <h4 className="font-bold text-gray-900 text-sm mb-1">
-                  Picnic at the Park
-                </h4>
-                <p className="text-xs text-gray-500 flex items-center gap-1">
-                  <IconCalendar className="w-3 h-3" /> 2 years ago
-                </p>
-              </div>
-              <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center hover:bg-gray-100 transition-colors">
-                <IconArrowRight className="w-4 h-4 text-gray-500" aria-hidden="true" />
-              </div>
-            </div>
-          </div>
-        </div>
+          {/* Profile avatar (right side) */}
+          <circle cx="220" cy="34" r="16" fill="#e8e0f0" />
+          <text
+            x="220"
+            y="39"
+            fontSize="13"
+            fill={colors.primary}
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            S
+          </text>
 
-        <div className="absolute bottom-0 left-0 right-0 h-20 bg-white border-t border-gray-100 flex items-start justify-around px-4 pt-4 z-20">
-          <div className="flex flex-col items-center gap-1 text-purple-600">
-            <div className="p-1 rounded-xl bg-purple-50">
-              <IconHeart className="w-6 h-6 fill-current" fill />
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-1 text-gray-300">
-            <div className="p-1">
-              <IconSparkles className="w-6 h-6" />
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-1 text-gray-300">
-            <div className="p-1">
-              <IconMessageCircle className="w-6 h-6" />
-            </div>
-          </div>
-        </div>
+          {/* Question of the Day */}
+          <rect
+            x="14"
+            y="68"
+            rx="16"
+            ry="16"
+            width="222"
+            height="170"
+            fill="#e8e0f0"
+          />
 
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-black rounded-b-2xl z-30"></div>
+          <text
+            x="210"
+            y="108"
+            fontSize="42"
+            fill="#2c1e3d"
+            opacity="0.05"
+            fontWeight="500"
+          >
+            &ldquo;
+          </text>
+
+          <text
+            x="28"
+            y="92"
+            fontSize="9"
+            fill="#6b7280"
+            fontWeight="600"
+            letterSpacing="2"
+          >
+            QUESTION OF THE DAY
+          </text>
+
+          <text
+            x="28"
+            y="116"
+            fontSize="15"
+            fill="#1f2937"
+            fontWeight="500"
+            fontFamily="serif"
+          >
+            What&apos;s one small thing
+          </text>
+          <text
+            x="28"
+            y="135"
+            fontSize="15"
+            fill="#1f2937"
+            fontWeight="500"
+            fontFamily="serif"
+          >
+            I did recently that made
+          </text>
+          <text
+            x="28"
+            y="154"
+            fontSize="15"
+            fill="#1f2937"
+            fontWeight="500"
+            fontFamily="serif"
+          >
+            you smile?
+          </text>
+
+          <line
+            x1="28"
+            y1="166"
+            x2="222"
+            y2="166"
+            stroke="#d8cfe4"
+            strokeWidth="0.5"
+          />
+
+          {/* Both answered badge */}
+          <rect
+            x="28"
+            y="174"
+            rx="6"
+            ry="6"
+            width="100"
+            height="20"
+            fill="#4caf5020"
+          />
+          <text
+            x="37"
+            y="188"
+            fontSize="9"
+            fill={colors.success}
+            fontWeight="600"
+          >
+            Both answered ✓
+          </text>
+
+          {/* User answer box */}
+          <rect
+            x="28"
+            y="200"
+            rx="9"
+            ry="9"
+            width="96"
+            height="30"
+            fill="#9b59b610"
+          />
+          <circle cx="40" cy="210" r="6" fill={colors.accent} />
+          <text
+            x="40"
+            y="213"
+            fontSize="8"
+            fill="white"
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            S
+          </text>
+          <text x="34" y="225" fontSize="8" fill="#6b7280">
+            Making breakfast
+          </text>
+
+          {/* Partner answer box */}
+          <rect
+            x="130"
+            y="200"
+            rx="9"
+            ry="9"
+            width="96"
+            height="30"
+            fill="#9b59b610"
+          />
+          <circle cx="142" cy="210" r="6" fill={colors.accent} />
+          <text
+            x="142"
+            y="213"
+            fontSize="8"
+            fill="white"
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            A
+          </text>
+          <text x="136" y="225" fontSize="8" fill="#6b7280">
+            Goodnight texts
+          </text>
+
+          {/* Relationship Pulse Card */}
+          <rect
+            x="14"
+            y="246"
+            rx="16"
+            ry="16"
+            width="222"
+            height="108"
+            fill="white"
+            stroke="#e8e0f0"
+            strokeWidth="1"
+          />
+
+          <circle
+            cx="50"
+            cy="286"
+            r="22"
+            stroke="#e8e0f0"
+            strokeWidth="5"
+            fill="none"
+          />
+          <circle
+            cx="50"
+            cy="286"
+            r="22"
+            stroke={colors.primary}
+            strokeWidth="5"
+            fill="none"
+            strokeLinecap="round"
+            strokeDasharray="138.2"
+            strokeDashoffset="30.4"
+            transform="rotate(-90 50 286)"
+          />
+          <text
+            x="50"
+            y="291"
+            fontSize="13"
+            fill="#2c1e3d"
+            fontWeight="800"
+            textAnchor="middle"
+          >
+            78%
+          </text>
+
+          <text x="82" y="280" fontSize="13" fill="#2c1e3d" fontWeight="600">
+            Relationship Pulse
+          </text>
+          <text
+            x="82"
+            y="296"
+            fontSize="10"
+            fill={colors.success}
+            fontWeight="500"
+          >
+            ↑ 5% this week
+          </text>
+
+          <line
+            x1="28"
+            y1="313"
+            x2="222"
+            y2="313"
+            stroke="#e8e0f0"
+            strokeWidth="0.8"
+          />
+
+          <text
+            x="50"
+            y="332"
+            fontSize="16"
+            fill="#2c1e3d"
+            fontWeight="700"
+            textAnchor="middle"
+          >
+            248
+          </text>
+          <text x="50" y="344" fontSize="8" fill="#6b7280" textAnchor="middle">
+            Days Together
+          </text>
+          <line
+            x1="93"
+            y1="322"
+            x2="93"
+            y2="346"
+            stroke="#e8e0f0"
+            strokeWidth="0.8"
+          />
+          <text
+            x="125"
+            y="332"
+            fontSize="16"
+            fill="#2c1e3d"
+            fontWeight="700"
+            textAnchor="middle"
+          >
+            86
+          </text>
+          <text x="125" y="344" fontSize="8" fill="#6b7280" textAnchor="middle">
+            Check-ins
+          </text>
+          <line
+            x1="157"
+            y1="322"
+            x2="157"
+            y2="346"
+            stroke="#e8e0f0"
+            strokeWidth="0.8"
+          />
+          <text
+            x="194"
+            y="332"
+            fontSize="16"
+            fill="#2c1e3d"
+            fontWeight="700"
+            textAnchor="middle"
+          >
+            34
+          </text>
+          <text x="194" y="344" fontSize="8" fill="#6b7280" textAnchor="middle">
+            Memories
+          </text>
+
+          {/* Daily Checkin Button */}
+          <rect
+            x="14"
+            y="366"
+            rx="16"
+            ry="16"
+            width="222"
+            height="48"
+            fill={colors.primary}
+          />
+          <rect
+            x="26"
+            y="375"
+            rx="10"
+            ry="10"
+            width="32"
+            height="30"
+            fill="rgba(255,255,255,0.2)"
+          />
+          {/* Sparkle/check-in icon */}
+          <g transform="translate(34.5, 382.5) scale(0.75)">
+            <path
+              d="M9.18 2.345a.833.833 0 0 1 1.638 0l.875 4.63a1.67 1.67 0 0 0 1.329 1.33l4.63.875a.833.833 0 0 1 0 1.638l-4.63.876a1.67 1.67 0 0 0-1.329 1.328l-.875 4.631a.834.834 0 0 1-1.639 0l-.875-4.631a1.67 1.67 0 0 0-1.329-1.328l-4.63-.876a.833.833 0 0 1 0-1.638l4.63-.876a1.67 1.67 0 0 0 1.329-1.328z"
+              stroke="white"
+              strokeWidth="1.666"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </g>
+          <text x="68" y="392" fontSize="13" fill="white" fontWeight="600">
+            Daily Check-in
+          </text>
+          <text x="68" y="406" fontSize="9" fill="rgba(255,255,255,0.7)">
+            How are you feeling today?
+          </text>
+          <text
+            x="224"
+            y="398"
+            fontSize="16"
+            fill="rgba(255,255,255,0.5)"
+            textAnchor="end"
+          >
+            →
+          </text>
+
+          {/* Quick Action Buttons Row */}
+          {/* Appreciate */}
+          <rect
+            x="14"
+            y="422"
+            rx="12"
+            ry="12"
+            width="52"
+            height="56"
+            fill="#85c1e220"
+          />
+          <foreignObject x="14" y="426" width="52" height="32">
+            <div
+              style={{
+                textAlign: "center",
+                fontSize: "22px",
+                lineHeight: "32px",
+              }}
+            >
+              🎁
+            </div>
+          </foreignObject>
+          <text
+            x="40"
+            y="470"
+            fontSize="9"
+            fill={colors.accent}
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            Appreciate
+          </text>
+
+          {/* Chat */}
+          <rect
+            x="71"
+            y="422"
+            rx="12"
+            ry="12"
+            width="52"
+            height="56"
+            fill="#9b59b61A"
+          />
+          <foreignObject x="71" y="426" width="52" height="32">
+            <div
+              style={{
+                textAlign: "center",
+                fontSize: "22px",
+                lineHeight: "32px",
+              }}
+            >
+              💬
+            </div>
+          </foreignObject>
+          <text
+            x="97"
+            y="470"
+            fontSize="9"
+            fill={colors.primary}
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            Chat
+          </text>
+
+          {/* Drawings */}
+          <rect
+            x="128"
+            y="422"
+            rx="12"
+            ry="12"
+            width="52"
+            height="56"
+            fill="#c39bd320"
+          />
+          <foreignObject x="128" y="426" width="52" height="32">
+            <div
+              style={{
+                textAlign: "center",
+                fontSize: "22px",
+                lineHeight: "32px",
+              }}
+            >
+              🖌️
+            </div>
+          </foreignObject>
+          <text
+            x="154"
+            y="470"
+            fontSize="9"
+            fill={colors.primary}
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            Drawings
+          </text>
+
+          {/* Memories */}
+          <rect
+            x="184"
+            y="422"
+            rx="12"
+            ry="12"
+            width="52"
+            height="56"
+            fill="#e8e0f0"
+          />
+          <foreignObject x="184" y="426" width="52" height="32">
+            <div
+              style={{
+                textAlign: "center",
+                fontSize: "22px",
+                lineHeight: "32px",
+              }}
+            >
+              📷
+            </div>
+          </foreignObject>
+          <text
+            x="210"
+            y="470"
+            fontSize="9"
+            fill="#2c1e3d"
+            fontWeight="600"
+            textAnchor="middle"
+          >
+            Memories
+          </text>
+
+          {/* Partner Activity Feed */}
+          <rect
+            x="14"
+            y="486"
+            rx="14"
+            ry="14"
+            width="222"
+            height="90"
+            fill="#85c1e20F"
+          />
+
+          <circle cx="32" cy="504" r="9" fill={colors.accent} />
+          <text
+            x="32"
+            y="508"
+            fontSize="9"
+            fill="white"
+            fontWeight="700"
+            textAnchor="middle"
+          >
+            A
+          </text>
+          <text x="47" y="508" fontSize="11" fill="#2c1e3d" fontWeight="600">
+            Alex&apos;s Activity
+          </text>
+
+          <line
+            x1="27"
+            y1="519"
+            x2="27"
+            y2="566"
+            stroke="#e8e0f0"
+            strokeWidth="1.5"
+          />
+
+          <circle
+            cx="27"
+            cy="528"
+            r="4"
+            fill={colors.primary}
+            stroke="#85c1e20F"
+            strokeWidth="2"
+          />
+          <text x="39" y="528" fontSize="9" fill="#2c1e3d" fontWeight="500">
+            Answered today&apos;s question
+          </text>
+          <text x="39" y="540" fontSize="8" fill="#6b7280">
+            2 hours ago
+          </text>
+
+          <circle
+            cx="27"
+            cy="554"
+            r="4"
+            fill={colors.accent}
+            stroke="#85c1e20F"
+            strokeWidth="2"
+          />
+          <text x="39" y="554" fontSize="9" fill="#2c1e3d" fontWeight="500">
+            Sent you an appreciation
+          </text>
+          <text x="39" y="566" fontSize="8" fill="#6b7280">
+            5 hours ago
+          </text>
+
+          {/* Notch */}
+          <rect
+            x="75"
+            y="0"
+            rx="12"
+            ry="12"
+            width="100"
+            height="24"
+            fill="black"
+          />
+        </svg>
+
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-black rounded-b-2xl z-30" />
       </div>
 
       <div

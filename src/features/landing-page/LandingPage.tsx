@@ -12,7 +12,7 @@ const Cta = lazy(() => import("./Cta/Cta"));
 
 export default function LandingPage() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
       <HeroSection />
       <Stats />
@@ -32,6 +32,6 @@ export default function LandingPage() {
         <Cta />
       </Suspense>
       <Footer />
-    </>
+    </div>
   );
 }

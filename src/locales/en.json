@@ -79,13 +79,14 @@
     "cta": {
       "title": "Ready to prioritize your relationship?",
       "subtitle": "Join the community of couples who are intentionally building a better future together.",
-      "available_on": "Available on iOS & Android"
+      "available_on": "Available on iOS & coming soon on Android"
     },
     "store": {
       "app_store": "App Store",
       "app_store_caption": "Download on the",
       "google_play": "Google Play",
-      "google_play_caption": "Get it on"
+      "google_play_caption": "Get it on",
+      "google_play_coming_soon_caption": "Coming soon on"
     },
     "footer": {
       "tagline": "Making the world a more loving place, one couple at a time.",

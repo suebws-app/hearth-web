@@ -10,7 +10,7 @@ export default function HeroSection() {
   const { t } = useI18n();
 
   return (
-    <div className="flex-1 flex flex-col lg:flex-row items-center px-6 py-12 lg:px-12 lg:py-24 gap-12 max-w-7xl mx-auto w-full overflow-x-hidden">
+    <div className="flex-1 flex flex-col lg:flex-row items-center px-6 py-12 lg:px-12 lg:py-24 gap-12 max-w-7xl mx-auto w-full">
       <div
         className="flex-1 space-y-8 animate-fade-in-up"
         style={{ animationFillMode: "backwards" }}

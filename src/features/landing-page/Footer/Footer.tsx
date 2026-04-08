@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="py-12 px-6 border-t border-border bg-background">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 mb-12">
         <div className="col-span-1 md:col-span-1">
-          <div className="flex items-center gap-2 mb-4 text-white">
+          <div className="flex items-center gap-2 mb-4 text-foreground">
             <Logo className="w-10 h-10" />
             <span className="font-bold text-xl">Hearth</span>
           </div>

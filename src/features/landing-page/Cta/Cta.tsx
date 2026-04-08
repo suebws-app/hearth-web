@@ -27,7 +27,7 @@ export default function Cta() {
         <div className="mt-8 flex items-center justify-center gap-6 opacity-60">
           <div className="flex items-center gap-2 type-body font-semibold">
             <IconDownload className="w-4 h-4" />{" "}
-            {t("landing.cta.available_on", "Available on iOS & Android")}
+            {t("landing.cta.available_on", "Available on iOS & coming soon on Android")}
           </div>
         </div>
       </div>
