@@ -22,5 +22,12 @@ const description = enMessages["notfound.description"] ?? "";
 ---
 
 <Layout title={title} description={description} lang="en" path="/404/" noindex>
-  <NotFoundPage client:idle allMessages={allMessages} />
+  <NotFoundPage client:only="react" allMessages={allMessages}>
+    <div
+      slot="fallback"
+      class="min-h-screen bg-background"
+      aria-hidden="true"
+    >
+    </div>
+  </NotFoundPage>
 </Layout>
