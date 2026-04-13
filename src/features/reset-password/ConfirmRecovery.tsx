@@ -14,6 +14,7 @@ export default function ConfirmRecovery() {
     const params = new URLSearchParams(window.location.search);
     const tokenHash = params.get("token_hash");
     const type = params.get("type");
+    const lang = params.get("lang");
 
     if (!tokenHash || !type) {
       setError(t("reset_password.invalid_params"));
@@ -33,7 +34,8 @@ export default function ConfirmRecovery() {
         return res.json();
       })
       .then((data: { accessToken: string; refreshToken: string }) => {
-        const redirectUrl = `/reset-password?access_token=${encodeURIComponent(data.accessToken)}&refresh_token=${encodeURIComponent(data.refreshToken)}`;
+        const langParam = lang ? `&lang=${encodeURIComponent(lang)}` : "";
+        const redirectUrl = `/reset-password?access_token=${encodeURIComponent(data.accessToken)}&refresh_token=${encodeURIComponent(data.refreshToken)}${langParam}`;
         window.location.href = redirectUrl;
       })
       .catch((err: Error) => {

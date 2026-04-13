@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { I18nProvider } from "@/contexts/I18nContext";
 import ConfirmRecovery from "@/features/reset-password/ConfirmRecovery";
 import LanguageSelectorInline from "@/components/LanguageSelectorInline";
@@ -13,6 +13,13 @@ export default function ConfirmRecoveryWithI18n({
 }: ConfirmRecoveryWithI18nProps) {
   const [lang, setLang] = useState("en");
   const messages = allMessages[lang] ?? allMessages["en"];
+
+  useEffect(() => {
+    const urlLang = new URLSearchParams(window.location.search).get("lang");
+    if (urlLang && allMessages[urlLang]) {
+      setLang(urlLang);
+    }
+  }, [allMessages]);
 
   return (
     <I18nProvider lang={lang} messages={messages}>
