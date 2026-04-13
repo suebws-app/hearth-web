@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Doma",
-    "meta_description": "Hearth — vaša ciljna stran. Odkrijte več."
+    "page_title": "Hearth — Poglabljajte povezavo Vsak dan",
+    "meta_description": "Hearth vam pomaga zgraditi močnejši, intimnejši odnos s skupnimi spomini, dnevnimi vprašanji in smiselnimi interakcijami."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Prenesi iz",
       "google_play": "Google Play",
-      "google_play_caption": "Pridobi na"
+      "google_play_caption": "Pridobi na",
+      "google_play_coming_soon_caption": "Kmalu v"
     },
     "footer": {
       "tagline": "Svet naredimo bolj poln ljubezni, en par naenkrat.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Napaka 404",
     "header": "Ni najdeno",
     "description": "Ta stran ne obstaja.",
-    "try_creating_page": "Poskusite ustvariti stran v"
+    "go_back": "Nazaj na domačo stran",
+    "contact": "Stopi v stik s podporo",
+    "illustration_alt": "Plavajoče srce išče pot domov"
   },
-  "go_back": "Nazaj na domačo stran",
   "reset_password": {
     "title": "Ponastavite geslo",
     "subtitle": "Vnesite novo geslo za vaš račun Hearth",

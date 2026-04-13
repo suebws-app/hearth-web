@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Pagina principală",
-    "meta_description": "Hearth — pagina ta de destinație. Descoperă mai mult."
+    "page_title": "Hearth — Adâncește legătura În fiecare zi",
+    "meta_description": "Hearth te ajută să construiești o relație mai puternică și intimă prin amintiri partajate, întrebări zilnice și interacțiuni pline de sens."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Descarcă pe",
       "google_play": "Google Play",
-      "google_play_caption": "Obține pe"
+      "google_play_caption": "Obține pe",
+      "google_play_coming_soon_caption": "În curând pe"
     },
     "footer": {
       "tagline": "Facem lumea un loc mai plin de iubire, un cuplu pe rând.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Eroare 404",
     "header": "Negăsit",
     "description": "Această pagină nu există.",
-    "try_creating_page": "Încearcă să creezi o pagină în"
+    "go_back": "Înapoi la pagina principală",
+    "contact": "Contactează suportul",
+    "illustration_alt": "O inimă plutitoare care caută drumul spre casă"
   },
-  "go_back": "Înapoi la pagina principală",
   "reset_password": {
     "title": "Resetează-ți parola",
     "subtitle": "Introdu o parolă nouă pentru contul tău Hearth",

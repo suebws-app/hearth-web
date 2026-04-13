@@ -7,9 +7,14 @@ type Theme = "light" | "dark";
 
 function getEffectiveTheme(): Theme {
   if (typeof document === "undefined") return "light";
-  const stored = document.documentElement.getAttribute("data-theme") as Theme | null;
+  const stored = document.documentElement.getAttribute(
+    "data-theme",
+  ) as Theme | null;
   if (stored === "light" || stored === "dark") return stored;
-  if (typeof window !== "undefined" && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  if (
+    typeof window !== "undefined" &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  ) {
     return "dark";
   }
   return "light";
@@ -30,7 +35,8 @@ export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const stored = (window.localStorage.getItem(THEME_KEY) ?? getEffectiveTheme()) as Theme;
+    const stored = (window.localStorage.getItem(THEME_KEY) ??
+      getEffectiveTheme()) as Theme;
     applyTheme(stored);
     setTheme(stored);
     setMounted(true);
@@ -46,10 +52,10 @@ export function ThemeToggle() {
     return (
       <button
         type="button"
-        className="p-2 rounded-lg text-muted-foreground hover:text-foreground transition-colors"
+        className="rounded-lg p-2 text-muted-foreground transition-colors hover:text-foreground"
         aria-label="Toggle theme"
       >
-        <IconSun className="w-5 h-5" />
+        <IconSun className="h-5 w-5" />
       </button>
     );
   }
@@ -58,13 +64,15 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      className="p-2 rounded-lg text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50"
-      aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+      className="focus:ring-primary/50 rounded-lg p-2 text-muted-foreground transition-colors hover:text-foreground focus:outline-none focus:ring-2"
+      aria-label={
+        theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
+      }
     >
       {theme === "dark" ? (
-        <IconSun className="w-5 h-5" />
+        <IconSun className="h-5 w-5" />
       ) : (
-        <IconMoon className="w-5 h-5" />
+        <IconMoon className="h-5 w-5" />
       )}
     </button>
   );

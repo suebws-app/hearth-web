@@ -1,13 +1,23 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { siteConfig, getAbsoluteUrl, buildWebSiteJsonLd } from "../../config/site";
+import {
+  siteConfig,
+  getAbsoluteUrl,
+  buildWebSiteJsonLd,
+  buildOrganizationJsonLd,
+  buildSoftwareAppJsonLd,
+  buildFaqPageJsonLd,
+} from "../../config/site";
+import { faqs } from "../../data/data";
 import { flattenMessages } from "../../utils/flattenMessages";
-import LandingPageWithI18n from "../../components/LandingPageWithI18n";
+import Header from "../../components/landing/Header.astro";
+import HeroSection from "../../components/landing/HeroSection.astro";
+import LandingBelowFold from "../../components/LandingBelowFold";
 
 export async function getStaticPaths() {
   const localeModules = import.meta.glob<{ default: Record<string, unknown> }>(
     "../../locales/*.json",
-    { eager: true }
+    { eager: true },
   );
   const localeToMessages: Record<string, Record<string, string>> = {};
   for (const [path, mod] of Object.entries(localeModules)) {
@@ -17,28 +27,59 @@ export async function getStaticPaths() {
     }
   }
   const enMessages = localeToMessages["en"] ?? {};
-  const paths: { params: { locale: string }; props: { lang: string; messages: Record<string, string> } }[] = [];
+  const enKeyCount = Object.keys(enMessages).length || 1;
+  const paths: {
+    params: { locale: string };
+    props: {
+      lang: string;
+      messages: Record<string, string>;
+      coverage: number;
+    };
+  }[] = [];
   for (const locale of siteConfig.locales) {
     if (locale === "en") continue;
     const messages = localeToMessages[locale] ?? enMessages;
+    const translated = Object.keys(enMessages).filter(
+      (k) => typeof messages[k] === "string" && messages[k].length > 0,
+    ).length;
+    const coverage = translated / enKeyCount;
     paths.push({
       params: { locale },
-      props: { lang: locale, messages },
+      props: { lang: locale, messages, coverage },
     });
   }
   return paths;
 }
 
-const { lang, messages } = Astro.props;
+const { lang, messages, coverage } = Astro.props;
 const title = messages["home.page_title"] ?? siteConfig.defaultTitle;
-const description = messages["home.meta_description"] ?? siteConfig.defaultDescription;
+const description =
+  messages["home.meta_description"] ?? siteConfig.defaultDescription;
 const path = `/${lang}/`;
+const canonicalUrl = getAbsoluteUrl(path);
 const localeAlternates = [
   ...siteConfig.locales.map((locale) => ({
     hreflang: locale === "en" ? "en" : locale,
     href: getAbsoluteUrl(locale === "en" ? "/" : `/${locale}/`),
   })),
   { hreflang: "x-default", href: getAbsoluteUrl("/") },
+];
+
+// Noindex locales that are less than 90% translated to avoid thin/duplicate-content signals.
+const noindex = coverage < 0.9;
+
+const faqEntries = faqs
+  .map((f) => ({
+    question: messages[f.questionKey] ?? "",
+    answer: messages[f.answerKey] ?? "",
+  }))
+  .filter((f) => f.question && f.answer);
+
+const jsonLd = [
+  buildOrganizationJsonLd(),
+  buildWebSiteJsonLd({ lang, description, url: canonicalUrl }),
+  buildSoftwareAppJsonLd({ lang, description, url: canonicalUrl }),
+  ...(faqEntries.length ? [buildFaqPageJsonLd(faqEntries, lang)] : []),
 ];
 ---
 
@@ -48,12 +89,14 @@ const localeAlternates = [
   lang={lang}
   path={path}
   localeAlternates={localeAlternates}
-  jsonLd={buildWebSiteJsonLd()}
+  jsonLd={jsonLd}
+  noindex={noindex}
 >
-  <main
-    class="bg-background text-foreground w-screen font-body"
-    role="main"
-  >
-    <LandingPageWithI18n client:load lang={lang} messages={messages} />
-  </main>
+  <div class="w-screen overflow-x-hidden bg-background font-body text-foreground">
+    <Header messages={messages} lang={lang} />
+    <main role="main">
+      <HeroSection messages={messages} />
+      <LandingBelowFold client:visible lang={lang} messages={messages} />
+    </main>
+  </div>
 </Layout>

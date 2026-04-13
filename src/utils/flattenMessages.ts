@@ -9,7 +9,10 @@ export function flattenMessages(
   for (const [key, value] of Object.entries(obj)) {
     const fullKey = prefix ? `${prefix}.${key}` : key;
     if (value !== null && typeof value === "object" && !Array.isArray(value)) {
-      Object.assign(result, flattenMessages(value as Record<string, unknown>, fullKey));
+      Object.assign(
+        result,
+        flattenMessages(value as Record<string, unknown>, fullKey),
+      );
     } else if (typeof value === "string") {
       result[fullKey] = value;
     }

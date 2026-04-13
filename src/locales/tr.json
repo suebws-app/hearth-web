@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Ana sayfa",
-    "meta_description": "Hearth — açılış sayfanız. Daha fazlasını keşfedin."
+    "page_title": "Hearth — Bağınızı güçlendirin Her gün",
+    "meta_description": "Hearth, paylaşılan anılar, günlük sorular ve anlamlı etkileşimlerle daha güçlü ve samimi bir ilişki kurmanıza yardımcı olur."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "İndir:",
       "google_play": "Google Play",
-      "google_play_caption": "Şurada mevcut:"
+      "google_play_caption": "Şurada mevcut:",
+      "google_play_coming_soon_caption": "Yakında"
     },
     "footer": {
       "tagline": "Dünyayı daha sevgi dolu bir yer yapıyoruz, bir çift bir zaman.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Hata 404",
     "header": "Bulunamadı",
     "description": "Böyle bir sayfa yok... üzücü.",
-    "try_creating_page": "Şurada bir sayfa oluşturmayı deneyin:"
+    "go_back": "Ana sayfaya dön",
+    "contact": "Desteğe ulaşın",
+    "illustration_alt": "Evin yolunu arayan havada süzülen bir kalp"
   },
-  "go_back": "Ana sayfaya dön",
   "reset_password": {
     "title": "Şifrenizi sıfırlayın",
     "subtitle": "Hearth hesabınız için yeni bir şifre girin",

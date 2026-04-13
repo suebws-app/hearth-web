@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Strona główna",
-    "meta_description": "Hearth — twoja strona docelowa. Odkryj więcej."
+    "page_title": "Hearth — Pogłęb swoją więź Każdego dnia",
+    "meta_description": "Hearth pomaga budować silniejszą, bliższą relację dzięki wspólnym wspomnieniom, codziennym pytaniom i znaczącym rozmowom."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Pobierz w",
       "google_play": "Google Play",
-      "google_play_caption": "Pobierz w"
+      "google_play_caption": "Pobierz w",
+      "google_play_coming_soon_caption": "Wkrótce w"
     },
     "footer": {
       "tagline": "Sprawiamy, że świat jest pełen miłości — jedna para na raz.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Błąd 404",
     "header": "Nie znaleziono",
     "description": "Ta strona nie istnieje.",
-    "try_creating_page": "Spróbuj utworzyć stronę w"
+    "go_back": "Powrót do strony głównej",
+    "contact": "Skontaktuj się z pomocą",
+    "illustration_alt": "Unoszące się serce szukające drogi do domu"
   },
-  "go_back": "Powrót do strony głównej",
   "reset_password": {
     "title": "Zresetuj hasło",
     "subtitle": "Wprowadź nowe hasło do konta Hearth",

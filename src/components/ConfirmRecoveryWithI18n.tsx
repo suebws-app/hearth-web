@@ -8,7 +8,9 @@ export interface ConfirmRecoveryWithI18nProps {
   allMessages: Record<string, Messages>;
 }
 
-export default function ConfirmRecoveryWithI18n({ allMessages }: ConfirmRecoveryWithI18nProps) {
+export default function ConfirmRecoveryWithI18n({
+  allMessages,
+}: ConfirmRecoveryWithI18nProps) {
   const [lang, setLang] = useState("en");
   const messages = allMessages[lang] ?? allMessages["en"];
 

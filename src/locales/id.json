@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Beranda",
-    "meta_description": "Hearth — halaman landing Anda. Temukan lebih banyak."
+    "page_title": "Hearth — Perdalam Koneksi Anda Setiap Hari",
+    "meta_description": "Hearth membantu Anda membangun hubungan yang lebih kuat dan intim melalui kenangan bersama, pertanyaan harian, dan interaksi yang bermakna."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Unduh di",
       "google_play": "Google Play",
-      "google_play_caption": "Dapatkan di"
+      "google_play_caption": "Dapatkan di",
+      "google_play_coming_soon_caption": "Segera hadir di"
     },
     "footer": {
       "tagline": "Membuat dunia lebih penuh cinta, satu pasangan pada satu waktu.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Error 404",
     "header": "Tidak ditemukan",
     "description": "Halaman ini tidak ada.",
-    "try_creating_page": "Coba buat halaman di"
+    "go_back": "Kembali ke beranda",
+    "contact": "Hubungi dukungan",
+    "illustration_alt": "Hati mengambang mencari jalan pulang"
   },
-  "go_back": "Kembali ke beranda",
   "reset_password": {
     "title": "Atur ulang kata sandi Anda",
     "subtitle": "Masukkan kata sandi baru untuk akun Hearth Anda",

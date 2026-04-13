@@ -14,16 +14,16 @@ export default function LanguageSelector() {
       <button
         type="button"
         onClick={() => setLangMenuOpen((o) => !o)}
-        className="text-muted-foreground hover:text-foreground transition-colors p-1 rounded focus:outline-none focus:ring-2 focus:ring-primary/50"
+        className="focus:ring-primary/50 rounded p-1 text-muted-foreground transition-colors hover:text-foreground focus:outline-none focus:ring-2"
         aria-expanded={langMenuOpen}
         aria-haspopup="true"
-        aria-label={t("landing.footer.aria_language", "Select language")}
+        aria-label={t("landing.footer.aria_language")}
       >
-        <IconGlobe className="w-5 h-5" />
+        <IconGlobe className="h-5 w-5" />
       </button>
       {langMenuOpen && (
         <div
-          className="absolute right-0 bottom-8 py-1 w-40 rounded-lg border border-border bg-background shadow-lg z-50 max-h-[18rem] overflow-y-auto"
+          className="absolute bottom-8 right-0 z-50 max-h-[18rem] w-40 overflow-y-auto rounded-lg border border-border bg-background py-1 shadow-lg"
           role="menu"
         >
           {siteConfig.locales.map((locale) => (
@@ -33,10 +33,10 @@ export default function LanguageSelector() {
               role="menuitem"
               onClick={() => setLangMenuOpen(false)}
               className={cn(
-                "block w-full text-left px-4 py-2 text-sm transition-colors",
+                "block w-full px-4 py-2 text-left transition-colors type-small-body",
                 lang === locale
-                  ? "bg-muted text-foreground font-medium"
-                  : "text-muted-foreground hover:bg-muted/50 hover:text-foreground",
+                  ? "bg-muted font-medium text-foreground"
+                  : "hover:bg-muted/50 text-muted-foreground hover:text-foreground",
               )}
             >
               {LOCALES[locale] ?? locale}

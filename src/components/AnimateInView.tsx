@@ -23,6 +23,17 @@ export function AnimateInView({
     const el = ref.current;
     if (!el) return;
 
+    // If element is already in or past the viewport when mounted
+    // (e.g. after scrolling fast or when lazy-loaded below the fold),
+    // reveal it immediately instead of waiting for the next intersection.
+    const rect = el.getBoundingClientRect();
+    const viewportHeight =
+      window.innerHeight || document.documentElement.clientHeight;
+    if (rect.top < viewportHeight) {
+      setInView(true);
+      if (once) return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -31,7 +42,7 @@ export function AnimateInView({
           setInView(false);
         }
       },
-      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
     );
 
     observer.observe(el);

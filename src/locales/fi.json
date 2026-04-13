@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Etusivu",
-    "meta_description": "Hearth — maalaussivusi. Löydä lisää."
+    "page_title": "Hearth — Syvennä yhteyttänne Joka ikinen päivä",
+    "meta_description": "Hearth auttaa rakentamaan vahvempaa, intiimimpiä suhdetta jaettujen muistojen, päivittäisten kysymysten ja merkityksellisten vuorovaikutusten kautta."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Lataa",
       "google_play": "Google Play",
-      "google_play_caption": "Lataa"
+      "google_play_caption": "Lataa",
+      "google_play_coming_soon_caption": "Tulossa pian"
     },
     "footer": {
       "tagline": "Teemme maailmasta rakastavaisemman paikan, yksi pari kerrallaan.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Virhe 404",
     "header": "Ei löytynyt",
     "description": "Tätä sivua ei ole olemassa.",
-    "try_creating_page": "Yritä luoda sivu"
+    "go_back": "Takaisin etusivulle",
+    "contact": "Ota yhteyttä tukeen",
+    "illustration_alt": "Leijuva sydän etsii tietä kotiin"
   },
-  "go_back": "Takaisin etusivulle",
   "reset_password": {
     "title": "Nollaa salasanasi",
     "subtitle": "Syötä uusi salasana Hearth-tilillesi",

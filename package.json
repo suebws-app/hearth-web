@@ -6,10 +6,13 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,astro,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,astro,json,css,md}\""
   },
   "dependencies": {
     "@astrojs/react": "^4.1.0",
+    "@astrojs/sitemap": "^3.7.2",
     "@astrojs/tailwind": "^6.0.2",
     "@radix-ui/react-slot": "^1.2.4",
     "astro": "^5.17.1",
@@ -23,6 +26,9 @@
   "devDependencies": {
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "prettier": "^3.8.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "^5.3.3"
   }
 }

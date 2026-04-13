@@ -1,21 +1,47 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { siteConfig, getAbsoluteUrl, buildWebSiteJsonLd } from "../config/site";
+import {
+  siteConfig,
+  getAbsoluteUrl,
+  buildWebSiteJsonLd,
+  buildOrganizationJsonLd,
+  buildSoftwareAppJsonLd,
+  buildFaqPageJsonLd,
+} from "../config/site";
+import { faqs } from "../data/data";
 import { flattenMessages } from "../utils/flattenMessages";
-import LandingPageWithI18n from "../components/LandingPageWithI18n";
+import Header from "../components/landing/Header.astro";
+import HeroSection from "../components/landing/HeroSection.astro";
+import LandingBelowFold from "../components/LandingBelowFold";
 
 const enModule = await import("../locales/en.json");
 const messages = flattenMessages(enModule.default as Record<string, unknown>);
 const lang = "en";
 const title = messages["home.page_title"] ?? siteConfig.defaultTitle;
-const description = messages["home.meta_description"] ?? siteConfig.defaultDescription;
+const description =
+  messages["home.meta_description"] ?? siteConfig.defaultDescription;
 const path = "/";
+const canonicalUrl = getAbsoluteUrl(path);
 const localeAlternates = [
   ...siteConfig.locales.map((locale) => ({
     hreflang: locale === "en" ? "en" : locale,
     href: getAbsoluteUrl(locale === "en" ? "/" : `/${locale}/`),
   })),
   { hreflang: "x-default", href: getAbsoluteUrl("/") },
+];
+
+const faqEntries = faqs
+  .map((f) => ({
+    question: messages[f.questionKey] ?? "",
+    answer: messages[f.answerKey] ?? "",
+  }))
+  .filter((f) => f.question && f.answer);
+
+const jsonLd = [
+  buildOrganizationJsonLd(),
+  buildWebSiteJsonLd({ lang, description, url: canonicalUrl }),
+  buildSoftwareAppJsonLd({ lang, description, url: canonicalUrl }),
+  ...(faqEntries.length ? [buildFaqPageJsonLd(faqEntries, lang)] : []),
 ];
 ---
 
@@ -25,12 +51,13 @@ const localeAlternates = [
   lang={lang}
   path={path}
   localeAlternates={localeAlternates}
-  jsonLd={buildWebSiteJsonLd()}
+  jsonLd={jsonLd}
 >
-  <main
-    class="bg-background text-foreground w-screen font-body"
-    role="main"
-  >
-    <LandingPageWithI18n client:load lang={lang} messages={messages} />
-  </main>
+  <div class="w-screen overflow-x-hidden bg-background font-body text-foreground">
+    <Header messages={messages} lang={lang} />
+    <main role="main">
+      <HeroSection messages={messages} />
+      <LandingBelowFold client:visible lang={lang} messages={messages} />
+    </main>
+  </div>
 </Layout>

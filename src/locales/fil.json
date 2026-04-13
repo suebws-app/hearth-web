@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Home",
-    "meta_description": "Hearth — iyong landing page. Tuklasin pa."
+    "page_title": "Hearth — Palalimin ang inyong koneksyon Araw-araw",
+    "meta_description": "Tinutulungan ka ng Hearth na bumuo ng mas malakas, mas malapit na relasyon sa pamamagitan ng shared memories, araw-araw na tanong at makabuluhang pakikipag-ugna"
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "I-download sa",
       "google_play": "Google Play",
-      "google_play_caption": "Kunin sa"
+      "google_play_caption": "Kunin sa",
+      "google_play_coming_soon_caption": "Malapit nang maging available sa"
     },
     "footer": {
       "tagline": "Ginagawang mas puno ng pagmamahal ang mundo, isang mag-asawa sa isang pagkakataon.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Error 404",
     "header": "HINDI NAKITA",
     "description": "Na-hit mo ang isang route na hindi umiiral... ang lungkot.",
-    "try_creating_page": "Subukang gumawa ng page sa"
+    "go_back": "Bumalik sa homepage",
+    "contact": "Makipag-ugnayan sa suporta",
+    "illustration_alt": "Isang lumulutang na pusong naghahanap ng daan pauwi"
   },
-  "go_back": "Bumalik sa homepage",
   "reset_password": {
     "title": "I-reset ang iyong password",
     "subtitle": "Maglagay ng bagong password para sa iyong Hearth account",

@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Početna",
-    "meta_description": "Hearth — vaša odredišna stranica. Otkrijte više."
+    "page_title": "Hearth — Produbite vezu Svaki dan",
+    "meta_description": "Hearth vam pomaže izgraditi jaču, intimniju vezu kroz zajednička sjećanja, dnevna pitanja i smislene interakcije."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Preuzmi na",
       "google_play": "Google Play",
-      "google_play_caption": "Nabavi na"
+      "google_play_caption": "Nabavi na",
+      "google_play_coming_soon_caption": "Uskoro na"
     },
     "footer": {
       "tagline": "Činimo svijet mjestom punim ljubavi, jedan par odjednom.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Greška 404",
     "header": "Nije pronađeno",
     "description": "Ova stranica ne postoji.",
-    "try_creating_page": "Pokušajte stvoriti stranicu na"
+    "go_back": "Natrag na početnu",
+    "contact": "Kontaktiraj podršku",
+    "illustration_alt": "Lebdeće srce traži put kući"
   },
-  "go_back": "Natrag na početnu",
   "reset_password": {
     "title": "Resetiraj lozinku",
     "subtitle": "Unesite novu lozinku za svoj Hearth račun",

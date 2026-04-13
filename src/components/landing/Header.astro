@@ -1,0 +1,35 @@
+---
+import type { Messages } from "@/utils/i18n";
+import { createT, localePath } from "@/utils/i18n";
+import Logo from "@/assets/icons/logo";
+import ThemeToggle from "./ThemeToggle.astro";
+
+interface Props {
+  messages: Messages;
+  lang: string;
+}
+
+const { messages, lang } = Astro.props;
+const t = createT(messages);
+const homeHref = `${localePath(lang) || ""}/`;
+---
+
+<nav class="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-background px-6 py-4 transition-colors duration-200 md:px-12 md:py-6">
+  <a
+    href={homeHref}
+    class="focus:ring-primary/40 flex items-center gap-2 rounded-md outline-none focus:ring-2"
+    aria-label="Hearth"
+  >
+    <Logo className="h-8 w-8" />
+    <span class="font-bold tracking-tight type-heading-4">Hearth</span>
+  </a>
+  <div class="flex items-center gap-2">
+    <ThemeToggle />
+    <a
+      href="#download"
+      class="inline-flex h-9 items-center justify-center whitespace-nowrap rounded-full bg-primary px-6 font-medium text-white type-small-body transition-all hover:bg-primary/90"
+    >
+      {t("landing.header.get_app")}
+    </a>
+  </div>
+</nav>

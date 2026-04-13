@@ -28,14 +28,42 @@ const fullTitle =
   title === siteConfig.defaultTitle ? title : `${title} | ${siteConfig.name}`;
 const ogImage = getAbsoluteUrl(siteConfig.defaultOgImage);
 const metaDescription =
-  description && description.trim() ? description.trim() : siteConfig.defaultDescription;
+  description && description.trim()
+    ? description.trim()
+    : siteConfig.defaultDescription;
 ---
 
 <!doctype html>
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="preload"
+      href="/fonts/Inter-Variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          var theme = stored === "dark" || stored === "light"
+            ? stored
+            : prefersDark
+              ? "dark"
+              : "light";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {}
+      })();
+    </script>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -67,7 +95,10 @@ const metaDescription =
       localeAlternates
         .filter((alt) => alt.hreflang !== lang && alt.hreflang !== "x-default")
         .map((alt) => (
-          <meta property="og:locale:alternate" content={toOgLocale(alt.hreflang)} />
+          <meta
+            property="og:locale:alternate"
+            content={toOgLocale(alt.hreflang)}
+          />
         ))
     }
     <!-- Twitter -->
@@ -76,19 +107,25 @@ const metaDescription =
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={ogImage} />
-    {siteConfig.twitterHandle && (
-      <meta name="twitter:site" content={siteConfig.twitterHandle} />
-    )}
+    {
+      siteConfig.twitterHandle && (
+        <meta name="twitter:site" content={siteConfig.twitterHandle} />
+      )
+    }
     <!-- Alternate languages -->
-    {localeAlternates.map((alt) => (
-      <link rel="alternate" hrefLang={alt.hreflang} href={alt.href} />
-    ))}
-    {jsonLd && (
-      <script
-        type="application/ld+json"
-        set:html={JSON.stringify(Array.isArray(jsonLd) ? jsonLd : [jsonLd])}
-      />
-    )}
+    {
+      localeAlternates.map((alt) => (
+        <link rel="alternate" hrefLang={alt.hreflang} href={alt.href} />
+      ))
+    }
+    {
+      jsonLd && (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(Array.isArray(jsonLd) ? jsonLd : [jsonLd])}
+        />
+      )
+    }
   </head>
   <body>
     <slot />

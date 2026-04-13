@@ -8,26 +8,22 @@ export default function Cta() {
   const colors = { primary: "#9b59b6" };
   return (
     <section
-      className="px-6 py-24 md:px-12 text-center"
+      className="px-6 py-24 text-center md:px-12"
       style={{ backgroundColor: `${colors.primary}10` }}
     >
-      <div className="max-w-3xl mx-auto flex flex-col items-center">
-        <h2 className="text-4xl font-bold mb-6">
-          {t("landing.cta.title", "Ready to prioritize your relationship?")}
+      <div className="mx-auto flex max-w-3xl flex-col items-center">
+        <h2 className="mb-6 font-bold type-display">
+          {t("landing.cta.title")}
         </h2>
-        <p className="type-heading-4 mb-10 opacity-80">
-          {t(
-            "landing.cta.subtitle",
-            "Join the community of couples who are intentionally building a better future together.",
-          )}
+        <p className="mb-10 opacity-80 type-heading-4">
+          {t("landing.cta.subtitle")}
         </p>
         <div className="scale-110">
           <StoreButtons />
         </div>
         <div className="mt-8 flex items-center justify-center gap-6 opacity-60">
-          <div className="flex items-center gap-2 type-body font-semibold">
-            <IconDownload className="w-4 h-4" />{" "}
-            {t("landing.cta.available_on", "Available on iOS & coming soon on Android")}
+          <div className="flex items-center gap-2 font-semibold type-body">
+            <IconDownload className="h-4 w-4" /> {t("landing.cta.available_on")}
           </div>
         </div>
       </div>

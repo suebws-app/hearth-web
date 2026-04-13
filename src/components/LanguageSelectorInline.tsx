@@ -8,7 +8,10 @@ interface LanguageSelectorInlineProps {
   onChangeLang: (lang: string) => void;
 }
 
-export default function LanguageSelectorInline({ currentLang, onChangeLang }: LanguageSelectorInlineProps) {
+export default function LanguageSelectorInline({
+  currentLang,
+  onChangeLang,
+}: LanguageSelectorInlineProps) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -23,21 +26,21 @@ export default function LanguageSelectorInline({ currentLang, onChangeLang }: La
   }, []);
 
   return (
-    <div ref={ref} className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
+    <div ref={ref} className="fixed bottom-4 left-1/2 z-50 -translate-x-1/2">
       <div className="relative">
         <button
           type="button"
           onClick={() => setOpen((o) => !o)}
-          className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors rounded-lg px-3 py-2 border border-border bg-card shadow-md"
+          className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-xs text-muted-foreground shadow-md transition-colors hover:text-foreground"
           aria-expanded={open}
           aria-haspopup="true"
         >
-          <IconGlobe className="w-4 h-4" />
+          <IconGlobe className="h-4 w-4" />
           <span>{LOCALES[currentLang] ?? currentLang}</span>
         </button>
         {open && (
           <div
-            className="absolute bottom-10 left-1/2 -translate-x-1/2 py-1 w-44 rounded-lg border border-border bg-background shadow-lg z-50 max-h-[16rem] overflow-y-auto"
+            className="absolute bottom-10 left-1/2 z-50 max-h-[16rem] w-44 -translate-x-1/2 overflow-y-auto rounded-lg border border-border bg-background py-1 shadow-lg"
             role="menu"
           >
             {Object.entries(LOCALES).map(([code, name]) => (
@@ -50,10 +53,10 @@ export default function LanguageSelectorInline({ currentLang, onChangeLang }: La
                   setOpen(false);
                 }}
                 className={cn(
-                  "block w-full text-left px-4 py-2 text-sm transition-colors",
+                  "block w-full px-4 py-2 text-left text-sm transition-colors",
                   currentLang === code
-                    ? "bg-muted text-foreground font-medium"
-                    : "text-muted-foreground hover:bg-muted/50 hover:text-foreground",
+                    ? "bg-muted font-medium text-foreground"
+                    : "hover:bg-muted/50 text-muted-foreground hover:text-foreground",
                 )}
               >
                 {name}

@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "홈",
-    "meta_description": "Hearth — 랜딩 페이지. 더 알아보기."
+    "page_title": "Hearth — 연결을 더 깊게 매일 함께",
+    "meta_description": "Hearth는 공유 추억, 일일 질문, 의미 있는 소통을 통해 더 강하고 친밀한 관계를 만드는 데 도움을 줍니다."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "App Store에서 다운로드",
       "google_play": "Google Play",
-      "google_play_caption": "Google Play에서 받기"
+      "google_play_caption": "Google Play에서 받기",
+      "google_play_coming_soon_caption": "곧 출시"
     },
     "footer": {
       "tagline": "세상을 더 사랑스럽게, 한 커플씩.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "오류 404",
     "header": "페이지를 찾을 수 없습니다",
     "description": "이 페이지는 존재하지 않습니다.",
-    "try_creating_page": "다음 위치에 페이지를 만들어 보세요:"
+    "go_back": "홈으로 돌아가기",
+    "contact": "지원팀에 문의하기",
+    "illustration_alt": "집으로 가는 길을 찾는 떠 있는 하트"
   },
-  "go_back": "홈으로 돌아가기",
   "reset_password": {
     "title": "비밀번호 재설정",
     "subtitle": "Hearth 계정의 새 비밀번호를 입력하세요",

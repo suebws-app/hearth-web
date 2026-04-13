@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Trang chủ",
-    "meta_description": "Hearth — trang đích của bạn. Khám phá thêm."
+    "page_title": "Hearth — Gắn kết sâu sắc hơn Mỗi ngày",
+    "meta_description": "Hearth giúp bạn xây dựng mối quan hệ bền chặt và thân mật hơn qua kỷ niệm chung, câu hỏi hàng ngày và tương tác ý nghĩa."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Tải trên",
       "google_play": "Google Play",
-      "google_play_caption": "Tải trên"
+      "google_play_caption": "Tải trên",
+      "google_play_coming_soon_caption": "Sắp có trên"
     },
     "footer": {
       "tagline": "Làm thế giới tràn đầy yêu thương hơn, từng cặp đôi một.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Lỗi 404",
     "header": "Không tìm thấy",
     "description": "Trang này không tồn tại.",
-    "try_creating_page": "Thử tạo trang trong"
+    "go_back": "Về trang chủ",
+    "contact": "Liên hệ hỗ trợ",
+    "illustration_alt": "Trái tim lơ lửng đang tìm đường về nhà"
   },
-  "go_back": "Về trang chủ",
   "reset_password": {
     "title": "Đặt lại mật khẩu",
     "subtitle": "Nhập mật khẩu mới cho tài khoản Hearth của bạn",

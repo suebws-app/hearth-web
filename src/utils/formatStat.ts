@@ -10,6 +10,7 @@ export function formatStatValue(value: number): string {
     return `${thousands}k`;
   }
   const rounded = Math.floor(value / 10_000) * 10_000;
-  const formatted = rounded >= 1_000 ? rounded.toLocaleString() : String(rounded);
+  const formatted =
+    rounded >= 1_000 ? rounded.toLocaleString() : String(rounded);
   return `${formatted}+`;
 }

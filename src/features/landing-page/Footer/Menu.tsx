@@ -16,14 +16,12 @@ export default function Menu() {
     <>
       {MENU_ITEMS.map((item) => (
         <div key={item.label}>
-          <h4 className="font-bold mb-4">
-            {t(item.label, item.defaultMessage)}
-          </h4>
-          <ul className="space-y-2 text-sm text-muted-foreground">
+          <h4 className="mb-4 font-bold">{t(item.label)}</h4>
+          <ul className="space-y-2 text-muted-foreground type-small-body">
             {item.items.map((subItem) => (
               <MenuItem
                 key={subItem.label}
-                label={t(subItem.label, subItem.defaultMessage)}
+                label={t(subItem.label)}
                 href={subItem.href}
               />
             ))}

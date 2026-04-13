@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Startpagina",
-    "meta_description": "Hearth — jouw landingspagina. Ontdek meer."
+    "page_title": "Hearth — Verdiep jullie verbinding Elke dag",
+    "meta_description": "Hearth helpt je een sterkere, intiemere relatie op te bouwen door gedeelde herinneringen, dagelijkse vragen en zinvolle interacties."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Download in de",
       "google_play": "Google Play",
-      "google_play_caption": "Krijg het op"
+      "google_play_caption": "Krijg het op",
+      "google_play_coming_soon_caption": "Binnenkort op"
     },
     "footer": {
       "tagline": "De wereld liefdevoller maken, één koppel tegelijk.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Fout 404",
     "header": "Niet gevonden",
     "description": "Deze pagina bestaat niet.",
-    "try_creating_page": "Probeer een pagina te maken in"
+    "go_back": "Terug naar startpagina",
+    "contact": "Neem contact op met support",
+    "illustration_alt": "Een zwevend hart dat de weg naar huis zoekt"
   },
-  "go_back": "Terug naar startpagina",
   "reset_password": {
     "title": "Wachtwoord resetten",
     "subtitle": "Voer een nieuw wachtwoord in voor je Hearth-account",

@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Головна",
-    "meta_description": "Hearth — ваша цільова сторінка. Дізнайтеся більше."
+    "page_title": "Hearth — Поглибте ваш зв'язок Кожен день",
+    "meta_description": "Hearth допомагає будувати міцніші та ближчі стосунки через спільні спогади, щоденні питання та значущу взаємодію."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Завантажити в",
       "google_play": "Google Play",
-      "google_play_caption": "Доступно в"
+      "google_play_caption": "Доступно в",
+      "google_play_coming_soon_caption": "Незабаром у"
     },
     "footer": {
       "tagline": "Робимо світ добра — одну пару за раз.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Помилка 404",
     "header": "Не знайдено",
     "description": "Такої сторінки не існує... сумно.",
-    "try_creating_page": "Спробуйте створити сторінку в"
+    "go_back": "Повернутися на головну",
+    "contact": "Звернутися до підтримки",
+    "illustration_alt": "Літаюче серце шукає дорогу додому"
   },
-  "go_back": "Повернутися на головну",
   "reset_password": {
     "title": "Скинути пароль",
     "subtitle": "Введіть новий пароль для вашого облікового запису Hearth",

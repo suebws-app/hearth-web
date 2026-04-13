@@ -37,20 +37,18 @@ export default function ConfirmRecovery() {
         window.location.href = redirectUrl;
       })
       .catch((err: Error) => {
-        setError(
-          err.message || t("reset_password.link_error"),
-        );
+        setError(err.message || t("reset_password.link_error"));
       });
   }, []);
 
   if (error) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center px-4">
+      <div className="flex min-h-screen items-center justify-center bg-background px-4">
         <div className="w-full max-w-md text-center">
           <div className="mx-auto mb-4 flex justify-center">
-            <Logo className="w-14 h-14" />
+            <Logo className="h-14 w-14" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground mb-2">
+          <h1 className="mb-2 text-2xl font-bold text-foreground">
             {t("reset_password.link_expired")}
           </h1>
 
@@ -63,15 +61,17 @@ export default function ConfirmRecovery() {
   }
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center px-4">
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="w-full max-w-md text-center">
         <div className="mx-auto mb-4 flex justify-center">
-          <Logo className="w-14 h-14" />
+          <Logo className="h-14 w-14" />
         </div>
-        <h1 className="text-xl font-bold text-foreground mb-2">
+        <h1 className="mb-2 text-xl font-bold text-foreground">
           {t("reset_password.verifying")}
         </h1>
-        <p className="text-sm text-muted-foreground">{t("reset_password.please_wait")}</p>
+        <p className="text-sm text-muted-foreground">
+          {t("reset_password.please_wait")}
+        </p>
       </div>
     </div>
   );

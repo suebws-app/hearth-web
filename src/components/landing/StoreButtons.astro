@@ -1,0 +1,41 @@
+---
+import type { Messages } from "@/utils/i18n";
+import { createT } from "@/utils/i18n";
+import AppleLogo from "@/assets/icons/apple";
+import GooglePlayLogo from "@/assets/icons/google-play";
+
+interface Props {
+  messages: Messages;
+}
+
+const { messages } = Astro.props;
+const t = createT(messages);
+
+const buttonBase =
+  "inline-flex h-14 items-center gap-3 rounded-xl px-6 text-left shadow-md transition-all font-medium whitespace-nowrap type-small-body";
+---
+
+<div id="download" class="flex flex-col gap-4 pt-4 sm:flex-row">
+  <a
+    href="https://apps.apple.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class={`${buttonBase} bg-white text-primary hover:-translate-y-1 hover:shadow-xl`}
+  >
+    <AppleLogo className="h-8 w-8" />
+    <span class="flex flex-col leading-none">
+      <span class="font-medium uppercase type-caption">{t("landing.store.app_store_caption")}</span>
+      <span class="font-bold !leading-4 type-heading-4">{t("landing.store.app_store")}</span>
+    </span>
+  </a>
+  <div
+    class={`${buttonBase} cursor-default bg-primary text-primary-foreground opacity-75`}
+    aria-disabled="true"
+  >
+    <GooglePlayLogo className="h-7 w-7" />
+    <span class="flex flex-col leading-none">
+      <span class="font-medium uppercase type-caption">{t("landing.store.google_play_coming_soon_caption")}</span>
+      <span class="font-bold !leading-4 type-heading-4">{t("landing.store.google_play")}</span>
+    </span>
+  </div>
+</div>

@@ -3,15 +3,24 @@ import Layout from "../layouts/Layout.astro";
 import { flattenMessages } from "../utils/flattenMessages";
 import NotFoundPage from "../components/NotFoundPage";
 
-const enModule = await import("../locales/en.json");
-const messages = flattenMessages(enModule.default as Record<string, unknown>);
-const lang = "en";
-const title = messages["notfound.header"] ?? "Page not found";
-const description =
-  messages["notfound.description"] ??
-  "You just hit a route that doesn't exist. Go back to the homepage.";
+const localeModules = import.meta.glob<{ default: Record<string, unknown> }>(
+  "../locales/*.json",
+  { eager: true },
+);
+
+const allMessages: Record<string, Record<string, string>> = {};
+for (const [path, mod] of Object.entries(localeModules)) {
+  const match = path.match(/\/([a-z-]+)\.json$/);
+  if (match && mod?.default) {
+    allMessages[match[1]] = flattenMessages(mod.default);
+  }
+}
+
+const enMessages = allMessages["en"] ?? {};
+const title = enMessages["notfound.header"] ?? "Page not found";
+const description = enMessages["notfound.description"] ?? "";
 ---
 
-<Layout title={title} description={description} lang={lang} path="/404/" noindex>
-  <NotFoundPage client:load lang={lang} messages={messages} />
+<Layout title={title} description={description} lang="en" path="/404/" noindex>
+  <NotFoundPage client:idle allMessages={allMessages} />
 </Layout>

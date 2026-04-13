@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Αρχική",
-    "meta_description": "Hearth — η σελίδα προορισμού σας. Ανακαλύψτε περισσότερα."
+    "page_title": "Hearth — Ενισχύστε τη σύνδεσή σας Κάθε μέρα",
+    "meta_description": "Το Hearth σας βοηθά να χτίσετε μια ισχυρότερη, πιο οικεία σχέση μέσα από κοινές αναμνήσεις, καθημερινές ερωτήσεις και ουσιαστικές αλληλεπιδράσεις."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Λήψη από",
       "google_play": "Google Play",
-      "google_play_caption": "Λήψη από"
+      "google_play_caption": "Λήψη από",
+      "google_play_coming_soon_caption": "Σύντομα διαθέσιμο στο"
     },
     "footer": {
       "tagline": "Κάνουμε τον κόσμο πιο γεμάτο αγάπη, ένα ζευγάρι τη φορά.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Σφάλμα 404",
     "header": "Δεν βρέθηκε",
     "description": "Αυτή η σελίδα δεν υπάρχει.",
-    "try_creating_page": "Δοκιμάστε να δημιουργήσετε σελίδα σε"
+    "go_back": "Επιστροφή στην αρχική",
+    "contact": "Επικοινωνία με υποστήριξη",
+    "illustration_alt": "Μια αιωρούμενη καρδιά ψάχνει τον δρόμο για το σπίτι"
   },
-  "go_back": "Επιστροφή στην αρχική",
   "reset_password": {
     "title": "Επαναφορά κωδικού πρόσβασης",
     "subtitle": "Εισαγάγετε έναν νέο κωδικό πρόσβασης για τον λογαριασμό σας Hearth",

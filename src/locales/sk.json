@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Domov",
-    "meta_description": "Hearth — vaša vstupná stránka. Objavte viac."
+    "page_title": "Hearth — Prehĺbte spojenie Každý deň",
+    "meta_description": "Hearth vám pomáha budovať silnejší, intímnejší vzťah cez spoločné spomienky, denné otázky a zmysluplné interakcie."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Stiahnuť z",
       "google_play": "Google Play",
-      "google_play_caption": "Získať z"
+      "google_play_caption": "Získať z",
+      "google_play_coming_soon_caption": "Čoskoro na"
     },
     "footer": {
       "tagline": "Robíme svet láskavejším miestom, jeden pár naraz.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Chyba 404",
     "header": "Nenájdené",
     "description": "Táto stránka neexistuje.",
-    "try_creating_page": "Skúste vytvoriť stránku v"
+    "go_back": "Späť na domov",
+    "contact": "Kontaktujte podporu",
+    "illustration_alt": "Plávajúce srdce hľadajúce cestu domov"
   },
-  "go_back": "Späť na domov",
   "reset_password": {
     "title": "Obnoviť heslo",
     "subtitle": "Zadajte nové heslo pre svoj účet Hearth",

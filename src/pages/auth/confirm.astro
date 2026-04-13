@@ -5,7 +5,7 @@ import { flattenMessages } from "../../utils/flattenMessages";
 
 const localeModules = import.meta.glob<{ default: Record<string, unknown> }>(
   "../../locales/*.json",
-  { eager: true }
+  { eager: true },
 );
 
 const allMessages: Record<string, Record<string, string>> = {};
@@ -21,12 +21,13 @@ const enMessages = allMessages["en"] ?? {};
 
 <Layout
   title={enMessages["reset_password.confirm_page_title"] ?? "Verifying..."}
-  description={enMessages["reset_password.confirm_page_description"] ?? "Verifying your password reset link"}
+  description={enMessages["reset_password.confirm_page_description"] ??
+    "Verifying your password reset link"}
   lang="en"
   path="/auth/confirm"
   noindex={true}
 >
-  <main class="bg-background text-foreground w-screen font-body" role="main">
+  <main class="w-screen bg-background font-body text-foreground" role="main">
     <ConfirmRecoveryWithI18n client:load allMessages={allMessages} />
   </main>
 </Layout>

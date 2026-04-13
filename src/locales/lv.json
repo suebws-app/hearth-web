@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Sākumlapa",
-    "meta_description": "Hearth — jūsu galvenā lapa. Atklājiet vairāk."
+    "page_title": "Hearth — Padziļiniet savienību Katru dienu",
+    "meta_description": "Hearth palīdz veidot stiprākas, intīmākas attiecības caur kopīgām atmiņām, ikdienas jautājumiem un jēgpilnām mijiedarbībām."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Lejupielādēt no",
       "google_play": "Google Play",
-      "google_play_caption": "Iegūt no"
+      "google_play_caption": "Iegūt no",
+      "google_play_coming_soon_caption": "Drīzumā"
     },
     "footer": {
       "tagline": "Padarām pasauli mīļāku vietu, viens pāris vienlaicīgi.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Kļūda 404",
     "header": "Nav atrasts",
     "description": "Šī lapa neeksistē.",
-    "try_creating_page": "Mēģiniet izveidot lapu"
+    "go_back": "Atpakaļ uz sākumlapu",
+    "contact": "Sazināties ar atbalstu",
+    "illustration_alt": "Lidojoša sirds, kas meklē ceļu mājup"
   },
-  "go_back": "Atpakaļ uz sākumlapu",
   "reset_password": {
     "title": "Atiestatīt paroli",
     "subtitle": "Ievadiet jaunu paroli savam Hearth kontam",

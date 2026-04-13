@@ -1,0 +1,48 @@
+---
+import type { Messages } from "@/utils/i18n";
+import { createT } from "@/utils/i18n";
+import IconSparkles from "@/assets/icons/sparkles";
+import IconHeart from "@/assets/icons/heart";
+import IconShield from "@/assets/icons/shield";
+import AppMockup from "./AppMockup.astro";
+import StoreButtons from "./StoreButtons.astro";
+
+interface Props {
+  messages: Messages;
+}
+
+const { messages } = Astro.props;
+const t = createT(messages);
+---
+
+<section class="mx-auto flex w-full max-w-7xl flex-1 flex-col items-center gap-12 px-6 py-12 lg:flex-row lg:px-12 lg:py-24">
+  <div class="flex-1 space-y-8">
+    <div class="inline-flex items-center gap-2 rounded-full bg-muted px-4 py-2 font-medium text-foreground type-small-body">
+      <IconSparkles className="h-4 w-4" />
+      <span>{t("landing.hero.badge")}</span>
+    </div>
+
+    <h1 class="font-bold tracking-tight type-display">
+      {t("landing.hero.title_line1")} <br />
+      <span class="text-primary">{t("landing.hero.title_line2")}</span>
+    </h1>
+
+    <p class="max-w-lg leading-relaxed text-muted-foreground type-subtitle">
+      {t("landing.hero.subtitle")}
+    </p>
+
+    <StoreButtons messages={messages} />
+
+    <div class="flex items-center gap-6 text-muted-foreground type-small-body">
+      <div class="flex items-center gap-2">
+        <IconShield className="h-4 w-4" />
+        <span>{t("landing.hero.private_secure")}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <IconHeart className="h-4 w-4" />
+        <span>{t("landing.hero.trusted_by")}</span>
+      </div>
+    </div>
+  </div>
+  <AppMockup />
+</section>

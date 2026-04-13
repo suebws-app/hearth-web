@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Home Page",
-    "meta_description": "Hearth — your landing page. Discover more."
+    "page_title": "Hearth — Deepen Your Connection Every Single Day",
+    "meta_description": "Hearth helps you build a stronger, more intimate relationship through shared memories, daily questions, and meaningful interactions."
   },
   "landing": {
     "header": {
@@ -109,11 +109,13 @@
     }
   },
   "notfound": {
-    "header": "NOT FOUND",
-    "description": "You just hit a route that doesn't exist... the sadness.",
-    "try_creating_page": "Try creating a page in"
+    "error_code": "Error 404",
+    "header": "This page wandered off",
+    "description": "The link you followed may be broken, or the page may have been moved. Let's get you back to somewhere cozy.",
+    "go_back": "Go back home",
+    "contact": "Contact support",
+    "illustration_alt": "A floating heart looking for its way home"
   },
-  "go_back": "Go back to the homepage",
   "reset_password": {
     "title": "Reset your password",
     "subtitle": "Enter a new password for your Hearth account",

@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Forside",
-    "meta_description": "Hearth — din landingsside. Opdag mere."
+    "page_title": "Hearth — Fördyb jeres forbindelse Hver eneste dag",
+    "meta_description": "Hearth hjælper jer med at bygge et stærkere, mere intimt forhold gennem delte minder, daglige spørgsmål og meningsfulde interaktioner."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Download på",
       "google_play": "Google Play",
-      "google_play_caption": "Hent på"
+      "google_play_caption": "Hent på",
+      "google_play_coming_soon_caption": "Kommer snart på"
     },
     "footer": {
       "tagline": "Gør verden et mere kærligt sted, ét par ad gangen.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "Fejl 404",
     "header": "Ikke fundet",
     "description": "Denne side findes ikke.",
-    "try_creating_page": "Prøv at oprette en side på"
+    "go_back": "Tilbage til forsiden",
+    "contact": "Kontakt support",
+    "illustration_alt": "Et svævende hjerte der leder efter vejen hjem"
   },
-  "go_back": "Tilbage til forsiden",
   "reset_password": {
     "title": "Nulstil din adgangskode",
     "subtitle": "Indtast en ny adgangskode til din Hearth-konto",

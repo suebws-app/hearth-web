@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import Logo from "@/assets/icons/logo";
 import IconShield from "@/assets/icons/shield";
@@ -17,6 +17,13 @@ export default function ResetPassword() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (!params.get("access_token") || !params.get("refresh_token")) {
+      window.location.replace("/404");
+    }
+  }, []);
 
   const passwordsMatch = password === confirmPassword;
   const hasMinLength = password.length >= 8;
@@ -73,9 +80,9 @@ export default function ResetPassword() {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center px-4">
+      <div className="flex min-h-screen items-center justify-center bg-background px-4">
         <div className="w-full max-w-md text-center">
-          <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-success/10">
+          <div className="bg-success/10 mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full">
             <svg
               width="32"
               height="32"
@@ -89,10 +96,10 @@ export default function ResetPassword() {
               <polyline points="20 6 9 17 4 12" />
             </svg>
           </div>
-          <h1 className="text-2xl font-bold text-foreground mb-2">
+          <h1 className="mb-2 text-2xl font-bold text-foreground">
             {t("reset_password.success_title")}
           </h1>
-          <p className="text-muted-foreground mb-8">
+          <p className="mb-8 text-muted-foreground">
             {t("reset_password.success_message")}
           </p>
           <div className="rounded-xl border border-border bg-card p-4 text-sm text-muted-foreground">
@@ -104,13 +111,13 @@ export default function ResetPassword() {
   }
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center px-4">
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="w-full max-w-md">
         <div className="mb-8 text-center">
           <div className="mx-auto mb-4 flex justify-center">
-            <Logo className="w-14 h-14" />
+            <Logo className="h-14 w-14" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground mb-1">
+          <h1 className="mb-1 text-2xl font-bold text-foreground">
             {t("reset_password.title")}
           </h1>
           <p className="text-sm text-muted-foreground">
@@ -119,7 +126,7 @@ export default function ResetPassword() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-5">
-          <div className="rounded-2xl border border-border bg-card p-6 space-y-4">
+          <div className="space-y-4 rounded-2xl border border-border bg-card p-6">
             <div className="space-y-1.5">
               <label
                 htmlFor="password"
@@ -134,12 +141,12 @@ export default function ResetPassword() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder={t("reset_password.new_password_placeholder")}
-                  className="w-full rounded-xl border border-border bg-background px-4 py-3 pr-12 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+                  className="focus:ring-primary/30 w-full rounded-xl border border-border bg-background px-4 py-3 pr-12 text-sm text-foreground outline-none transition-all placeholder:text-muted-foreground focus:border-primary focus:ring-2"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground transition-colors hover:text-foreground"
                 >
                   {showPassword ? <EyeOffIcon /> : <EyeIcon />}
                 </button>
@@ -160,27 +167,27 @@ export default function ResetPassword() {
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   placeholder={t("reset_password.confirm_password_placeholder")}
-                  className="w-full rounded-xl border border-border bg-background px-4 py-3 pr-12 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+                  className="focus:ring-primary/30 w-full rounded-xl border border-border bg-background px-4 py-3 pr-12 text-sm text-foreground outline-none transition-all placeholder:text-muted-foreground focus:border-primary focus:ring-2"
                 />
                 <button
                   type="button"
                   onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground transition-colors hover:text-foreground"
                 >
                   {showConfirmPassword ? <EyeOffIcon /> : <EyeIcon />}
                 </button>
               </div>
               {confirmPassword.length > 0 && !passwordsMatch && (
-                <p className="text-xs text-destructive mt-1">
+                <p className="mt-1 text-xs text-destructive">
                   {t("reset_password.passwords_do_not_match")}
                 </p>
               )}
             </div>
           </div>
 
-          <div className="rounded-2xl border border-border bg-card p-4 space-y-2">
-            <div className="flex items-center gap-2 text-xs text-muted-foreground mb-1">
-              <IconShield className="w-3.5 h-3.5" />
+          <div className="space-y-2 rounded-2xl border border-border bg-card p-4">
+            <div className="mb-1 flex items-center gap-2 text-xs text-muted-foreground">
+              <IconShield className="h-3.5 w-3.5" />
               <span className="font-medium">
                 {t("reset_password.requirements_title")}
               </span>
@@ -200,7 +207,7 @@ export default function ResetPassword() {
           </div>
 
           {error && (
-            <div className="rounded-xl border border-destructive/30 bg-destructive/5 p-3 text-sm text-destructive">
+            <div className="border-destructive/30 bg-destructive/5 rounded-xl border p-3 text-sm text-destructive">
               {error}
             </div>
           )}
@@ -208,7 +215,7 @@ export default function ResetPassword() {
           <Button
             type="submit"
             disabled={!isValid || isLoading}
-            className="w-full rounded-xl h-12 text-base font-semibold bg-primary text-white hover:bg-primary/90 disabled:opacity-40"
+            className="hover:bg-primary/90 h-12 w-full rounded-xl bg-primary text-base font-semibold text-white disabled:opacity-40"
           >
             {isLoading
               ? t("reset_password.resetting")

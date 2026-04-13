@@ -8,7 +8,9 @@ export interface ResetPasswordWithI18nProps {
   allMessages: Record<string, Messages>;
 }
 
-export default function ResetPasswordWithI18n({ allMessages }: ResetPasswordWithI18nProps) {
+export default function ResetPasswordWithI18n({
+  allMessages,
+}: ResetPasswordWithI18nProps) {
   const [lang, setLang] = useState("en");
   const messages = allMessages[lang] ?? allMessages["en"];
 

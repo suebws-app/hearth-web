@@ -1,8 +1,8 @@
 {
   "title": "Hearth App",
   "home": {
-    "page_title": "Kezdőlap",
-    "meta_description": "Hearth — az Ön céloldala. Fedezzen fel többet."
+    "page_title": "Hearth — Mélyítsd a kapcsolatot Minden egyes nap",
+    "meta_description": "A Hearth segít erősebb, intimebb kapcsolatot építeni megosztott emlékekkel, napi kérdésekkel és értelmes interakciókkal."
   },
   "landing": {
     "header": {
@@ -85,7 +85,8 @@
       "app_store": "App Store",
       "app_store_caption": "Letöltés az",
       "google_play": "Google Play",
-      "google_play_caption": "Szerezd meg az"
+      "google_play_caption": "Szerezd meg az",
+      "google_play_coming_soon_caption": "Hamarosan"
     },
     "footer": {
       "tagline": "A világot egy szeretetteljesebb hellyé tenni, egy pár egyszerre.",
@@ -108,11 +109,13 @@
     }
   },
   "notfound": {
+    "error_code": "404-es hiba",
     "header": "Nem található",
     "description": "Ez az oldal nem létezik.",
-    "try_creating_page": "Próbálj oldalt létrehozni"
+    "go_back": "Vissza a kezdőlapra",
+    "contact": "Kapcsolat az ügyfélszolgálattal",
+    "illustration_alt": "Egy lebegő szív hazafelé keresi az utat"
   },
-  "go_back": "Vissza a kezdőlapra",
   "reset_password": {
     "title": "Jelszó visszaállítása",
     "subtitle": "Adj meg egy új jelszót a Hearth fiókodhoz",
