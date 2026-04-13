@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Avaleht","meta_description":"Hearth — teie sihtleht. Avastage rohkem."},"landing":{"header":{"get_app":"Laadi rakendus"},"hero":{"badge":"Rakendus nr 1 paaridele","title_line1":"Süvenda ühendust.","title_line2":"Iga päev.","subtitle":"Hearth aitab luua tugevamat, intiimsemat suhet jagatud mälestuste, igapäevaste küsimuste ja mõtestatud suhtlemise kaudu.","private_secure":"Privaatne ja turvaline","trusted_by":"Üle 50 000 paari usaldus"},"stats":{"couples_connected":"Paarid ühendatud","questions_answered":"Vastatud küsimused","memories_shared":"Jagatud mälestused","countries":"Riigid"},"features":{"section_title":"Kõik, mida vajate lähedasemaks tulemiseks","section_subtitle":"Suhete ekspertide poolt kavandatud intiimsuse, usalduse ja rõõmu toetamiseks.","shared_memories_title":"Jagatud mälestused","shared_memories_desc":"Ehitage elus ajajoon oma suhte väärtuslikumate fotode ja hetkedega.","daily_prompts_title":"Igapäevased küsimused","daily_prompts_desc":"Süütage sügavad, mõtestatud vestlused uue mõtlemapaneva küsimusega iga päev.","private_chat_title":"Privaatne vestlus","private_chat_desc":"Turvaline, intiimne ruum teie vestluste jaoks, eemal teiste rakenduste mürast.","appreciation_title":"Hindamine ja kiitused","appreciation_desc":"Saadake virtuaalseid kallistusi, armastuskirju ja kleepse, et näidata partnerile, et teda hinnatakse.","streaks_title":"Seeriad ja verstapostid","streaks_desc":"Jälgige suhte järjepidevust ja tähistage olulisi aastapäevi ja verstaposte koos.","privacy_first_title":"Privaatsus esiteks","privacy_first_desc":"Teie andmed on otsast otsani krüptitud ja nähtavad ainult teile kahele. Teie digitaalne varjupaik."},"how_it_works":{"title":"Kuidas see töötab","subtitle":"Kolm lihtsat sammu sügavama ühenduse loomiseks täna.","step_1_title":"1. Kutsu partner","step_1_desc":"Registreeruge ja saatke partnerile unikaalne kutselink kontode ühendamiseks.","step_2_title":"2. Igapäevane ühendus","step_2_desc":"Vastake ühele lõbusale või sügavale küsimusele iga päev partneri vastuse avamiseks.","step_3_title":"3. Kasvake koos","step_3_desc":"Vaadake, kuidas suhe süveneb hindamise ja avatuse harjumuse loomisel."},"testimonials":{"badge":"Armastatud üle 50 000 paari poolt","section_title":"Armastuslood meie kogukonnast","section_subtitle":"Uurige, kuidas Hearth aitab paare üle maailma sügavamaid ühendusi looma.","quote_1":"Hearth muutis meie suhtlemist. Igapäevased küsimused süütavad vestlusi, mida meil muidu ei oleks. Tundub nagu kohtingud uuesti.","author_1":"Jessica & Mark","years_1":"Koos 3 aastat","location_1":"San Francisco, CA","quote_2":"Armastan privaatset ajajoont. Nagu meie väike võrgustik, ainult meile, müra ta. Esteetika on lihtsalt ilus.","author_2":"Alex & Sam","years_2":"Abielus 5 aastat","location_2":"London, UK","quote_3":"Parim investeering meie suhtesse sel aastal. Hoiab meid ühenduses hoolimata täisgraafikust.","author_3":"Taylor & Jordan","years_3":"Koos 1 aasta","location_3":"Austin, TX"},"faq":{"section_title":"Korduma kippuvad küsimused","q1_question":"Kas Hearth on tasuta?","q1_answer":"Jah! Hearthil on helde tasuta tase igapäevaste küsimuste ja põhimälestuste jagamisega. Hearth Premium avab piiramatud mälestused, täiustatud teadmised ja rohkem.","q2_question":"Kas saan Hearthi kasutada kaugsuhtes?","q2_answer":"Absoluutselt. Hearth on kavandatud ühendama paare, olgu te samas toas või tuhandeid miile eemal.","q3_question":"Kas minu andmed on privaatsed?","q3_answer":"Privaatsus on meie prioriteet. Teie vestlused ja fotod on krüptitud ja kättesaadavad ainult teile kahele. Me ei müü teie andmeid.","q4_question":"Mis siis, kui me lahku?","q4_answer":"Saate andmeid hõlpsasti eksportida või konto jäädavalt kustutada. Teie andmed kuuluvad teile."},"cta":{"title":"Valmis suhet prioriteediks tegema?","subtitle":"Liituge paaride kogukonnaga, kes teadlikult ehitavad paremat tulevikku koos.","available_on":"Saadaval iOS-is ja Androidis"},"store":{"app_store":"App Store","app_store_caption":"Laadi alla","google_play":"Google Play","google_play_caption":"Hangi"},"footer":{"tagline":"Teeme maailmast armastusrikkama koha, üks paar korraga.","product":"Toode","features":"Funktsioonid","pricing":"Hinnad","testimonials":"Arvustused","faq":"KKK","company":"Ettevõte","about_us":"Meist","blog":"Blogi","careers":"Karjäär","contact":"Kontakt","legal":"Õiguslik","privacy_policy":"Privaatsuspoliitika","terms_of_service":"Teenuse tingimused","cookie_policy":"Küpsiste poliitika","copyright":"© 2026 Hearth App. Kõik õigused kaitstud.","aria_language":"Vali keel"}},"notfound":{"header":"Ei leitud","description":"See leht ei eksisteeri.","try_creating_page":"Proovi luua lehte"},"go_back":"Tagasi avalehele"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Avaleht",
+    "meta_description": "Hearth — teie sihtleht. Avastage rohkem."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Laadi rakendus"
+    },
+    "hero": {
+      "badge": "Rakendus nr 1 paaridele",
+      "title_line1": "Süvenda ühendust.",
+      "title_line2": "Iga päev.",
+      "subtitle": "Hearth aitab luua tugevamat, intiimsemat suhet jagatud mälestuste, igapäevaste küsimuste ja mõtestatud suhtlemise kaudu.",
+      "private_secure": "Privaatne ja turvaline",
+      "trusted_by": "Üle 50 000 paari usaldus"
+    },
+    "stats": {
+      "couples_connected": "Paarid ühendatud",
+      "questions_answered": "Vastatud küsimused",
+      "memories_shared": "Jagatud mälestused",
+      "countries": "Riigid"
+    },
+    "features": {
+      "section_title": "Kõik, mida vajate lähedasemaks tulemiseks",
+      "section_subtitle": "Suhete ekspertide poolt kavandatud intiimsuse, usalduse ja rõõmu toetamiseks.",
+      "shared_memories_title": "Jagatud mälestused",
+      "shared_memories_desc": "Ehitage elus ajajoon oma suhte väärtuslikumate fotode ja hetkedega.",
+      "daily_prompts_title": "Igapäevased küsimused",
+      "daily_prompts_desc": "Süütage sügavad, mõtestatud vestlused uue mõtlemapaneva küsimusega iga päev.",
+      "private_chat_title": "Privaatne vestlus",
+      "private_chat_desc": "Turvaline, intiimne ruum teie vestluste jaoks, eemal teiste rakenduste mürast.",
+      "appreciation_title": "Hindamine ja kiitused",
+      "appreciation_desc": "Saadake virtuaalseid kallistusi, armastuskirju ja kleepse, et näidata partnerile, et teda hinnatakse.",
+      "streaks_title": "Seeriad ja verstapostid",
+      "streaks_desc": "Jälgige suhte järjepidevust ja tähistage olulisi aastapäevi ja verstaposte koos.",
+      "privacy_first_title": "Privaatsus esiteks",
+      "privacy_first_desc": "Teie andmed on otsast otsani krüptitud ja nähtavad ainult teile kahele. Teie digitaalne varjupaik."
+    },
+    "how_it_works": {
+      "title": "Kuidas see töötab",
+      "subtitle": "Kolm lihtsat sammu sügavama ühenduse loomiseks täna.",
+      "step_1_title": "1. Kutsu partner",
+      "step_1_desc": "Registreeruge ja saatke partnerile unikaalne kutselink kontode ühendamiseks.",
+      "step_2_title": "2. Igapäevane ühendus",
+      "step_2_desc": "Vastake ühele lõbusale või sügavale küsimusele iga päev partneri vastuse avamiseks.",
+      "step_3_title": "3. Kasvake koos",
+      "step_3_desc": "Vaadake, kuidas suhe süveneb hindamise ja avatuse harjumuse loomisel."
+    },
+    "testimonials": {
+      "badge": "Armastatud üle 50 000 paari poolt",
+      "section_title": "Armastuslood meie kogukonnast",
+      "section_subtitle": "Uurige, kuidas Hearth aitab paare üle maailma sügavamaid ühendusi looma.",
+      "quote_1": "Hearth muutis meie suhtlemist. Igapäevased küsimused süütavad vestlusi, mida meil muidu ei oleks. Tundub nagu kohtingud uuesti.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Koos 3 aastat",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Armastan privaatset ajajoont. Nagu meie väike võrgustik, ainult meile, müra ta. Esteetika on lihtsalt ilus.",
+      "author_2": "Alex & Sam",
+      "years_2": "Abielus 5 aastat",
+      "location_2": "London, UK",
+      "quote_3": "Parim investeering meie suhtesse sel aastal. Hoiab meid ühenduses hoolimata täisgraafikust.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Koos 1 aasta",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Korduma kippuvad küsimused",
+      "q1_question": "Kas Hearth on tasuta?",
+      "q1_answer": "Jah! Hearthil on helde tasuta tase igapäevaste küsimuste ja põhimälestuste jagamisega. Hearth Premium avab piiramatud mälestused, täiustatud teadmised ja rohkem.",
+      "q2_question": "Kas saan Hearthi kasutada kaugsuhtes?",
+      "q2_answer": "Absoluutselt. Hearth on kavandatud ühendama paare, olgu te samas toas või tuhandeid miile eemal.",
+      "q3_question": "Kas minu andmed on privaatsed?",
+      "q3_answer": "Privaatsus on meie prioriteet. Teie vestlused ja fotod on krüptitud ja kättesaadavad ainult teile kahele. Me ei müü teie andmeid.",
+      "q4_question": "Mis siis, kui me lahku?",
+      "q4_answer": "Saate andmeid hõlpsasti eksportida või konto jäädavalt kustutada. Teie andmed kuuluvad teile."
+    },
+    "cta": {
+      "title": "Valmis suhet prioriteediks tegema?",
+      "subtitle": "Liituge paaride kogukonnaga, kes teadlikult ehitavad paremat tulevikku koos.",
+      "available_on": "Saadaval iOS-is ja Androidis"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Laadi alla",
+      "google_play": "Google Play",
+      "google_play_caption": "Hangi"
+    },
+    "footer": {
+      "tagline": "Teeme maailmast armastusrikkama koha, üks paar korraga.",
+      "product": "Toode",
+      "features": "Funktsioonid",
+      "pricing": "Hinnad",
+      "testimonials": "Arvustused",
+      "faq": "KKK",
+      "company": "Ettevõte",
+      "about_us": "Meist",
+      "blog": "Blogi",
+      "careers": "Karjäär",
+      "contact": "Kontakt",
+      "legal": "Õiguslik",
+      "privacy_policy": "Privaatsuspoliitika",
+      "terms_of_service": "Teenuse tingimused",
+      "cookie_policy": "Küpsiste poliitika",
+      "copyright": "© 2026 Hearth App. Kõik õigused kaitstud.",
+      "aria_language": "Vali keel"
+    }
+  },
+  "notfound": {
+    "header": "Ei leitud",
+    "description": "See leht ei eksisteeri.",
+    "try_creating_page": "Proovi luua lehte"
+  },
+  "go_back": "Tagasi avalehele",
+  "reset_password": {
+    "title": "Lähtesta parool",
+    "subtitle": "Sisestage oma Hearth konto uus parool",
+    "new_password": "Uus parool",
+    "new_password_placeholder": "Sisestage uus parool",
+    "confirm_password": "Kinnita parool",
+    "confirm_password_placeholder": "Kinnitage uus parool",
+    "passwords_do_not_match": "Paroolid ei ühti",
+    "requirements_title": "Parooli nõuded",
+    "min_characters": "Vähemalt 8 tähemärki",
+    "one_uppercase": "Üks suurtäht",
+    "one_number": "Üks number",
+    "resetting": "Lähtestamine...",
+    "submit": "Lähtesta parool",
+    "having_trouble": "Probleeme?",
+    "contact_support": "Võtke ühendust toega",
+    "success_title": "Parool uuendatud",
+    "success_message": "Teie parool on edukalt lähtestatud. Nüüd saate minna tagasi rakendusse ja logida sisse oma uue parooliga.",
+    "close_page": "Võite selle lehe turvaliselt sulgeda.",
+    "missing_tokens": "Seansi tokenid puuduvad. Kasutage oma e-kirjas olevat linki.",
+    "failed": "Parooli lähtestamine ebaõnnestus",
+    "generic_error": "Midagi läks valesti. Palun proovige uuesti.",
+    "invalid_params": "Kehtetud või puuduvad lähtestamislingi parameetrid.",
+    "verify_failed": "Taastetokeni kinnitamine ebaõnnestus",
+    "link_error": "Midagi läks valesti. Link võib olla aegunud.",
+    "link_expired": "Link on aegunud või kehtetu",
+    "request_new": "Palun taotlege uus parooli lähtestamine rakendusest.",
+    "verifying": "Teie lingi kinnitamine...",
+    "please_wait": "Palun oodake hetk.",
+    "page_title": "Lähtesta parool",
+    "page_description": "Lähtestage oma Hearth konto parool",
+    "confirm_page_title": "Kinnitamine...",
+    "confirm_page_description": "Teie parooli lähtestamislingi kinnitamine"
+  }
+}

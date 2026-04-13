@@ -5,7 +5,9 @@
     "meta_description": "Hearth — halaman landing Anda. Temukan lebih banyak."
   },
   "landing": {
-    "header": { "get_app": "Dapatkan Aplikasi" },
+    "header": {
+      "get_app": "Dapatkan Aplikasi"
+    },
     "hero": {
       "badge": "Aplikasi #1 untuk Pasangan",
       "title_line1": "Perdalam Koneksi Anda.",
@@ -110,5 +112,39 @@
     "description": "Halaman ini tidak ada.",
     "try_creating_page": "Coba buat halaman di"
   },
-  "go_back": "Kembali ke beranda"
+  "go_back": "Kembali ke beranda",
+  "reset_password": {
+    "title": "Atur ulang kata sandi Anda",
+    "subtitle": "Masukkan kata sandi baru untuk akun Hearth Anda",
+    "new_password": "Kata sandi baru",
+    "new_password_placeholder": "Masukkan kata sandi baru",
+    "confirm_password": "Konfirmasi kata sandi",
+    "confirm_password_placeholder": "Konfirmasi kata sandi baru",
+    "passwords_do_not_match": "Kata sandi tidak cocok",
+    "requirements_title": "Persyaratan kata sandi",
+    "min_characters": "Minimal 8 karakter",
+    "one_uppercase": "Satu huruf kapital",
+    "one_number": "Satu angka",
+    "resetting": "Mengatur ulang...",
+    "submit": "Atur ulang kata sandi",
+    "having_trouble": "Ada masalah?",
+    "contact_support": "Hubungi dukungan",
+    "success_title": "Kata sandi diperbarui",
+    "success_message": "Kata sandi Anda telah berhasil diatur ulang. Anda sekarang dapat kembali ke aplikasi dan masuk dengan kata sandi baru Anda.",
+    "close_page": "Anda dapat menutup halaman ini dengan aman.",
+    "missing_tokens": "Token sesi hilang. Silakan gunakan tautan dari email Anda.",
+    "failed": "Gagal mengatur ulang kata sandi",
+    "generic_error": "Terjadi kesalahan. Silakan coba lagi.",
+    "invalid_params": "Parameter tautan pengaturan ulang tidak valid atau hilang.",
+    "verify_failed": "Gagal memverifikasi token pemulihan",
+    "link_error": "Terjadi kesalahan. Tautan mungkin telah kedaluwarsa.",
+    "link_expired": "Tautan kedaluwarsa atau tidak valid",
+    "request_new": "Silakan minta pengaturan ulang kata sandi baru dari aplikasi.",
+    "verifying": "Memverifikasi tautan Anda...",
+    "please_wait": "Mohon tunggu sebentar.",
+    "page_title": "Atur ulang kata sandi",
+    "page_description": "Atur ulang kata sandi akun Hearth Anda",
+    "confirm_page_title": "Memverifikasi...",
+    "confirm_page_description": "Memverifikasi tautan pengaturan ulang kata sandi Anda"
+  }
 }

@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Domov","meta_description":"Hearth — vaša vstupná stránka. Objavte viac."},"landing":{"header":{"get_app":"Stiahnuť aplikáciu"},"hero":{"badge":"Aplikácia #1 pre páry","title_line1":"Prehĺbte spojenie.","title_line2":"Každý deň.","subtitle":"Hearth vám pomáha budovať silnejší, intímnejší vzťah cez spoločné spomienky, denné otázky a zmysluplné interakcie.","private_secure":"Súkromné a bezpečné","trusted_by":"Dôvera viac ako 50 000 párov"},"stats":{"couples_connected":"Páry pripojené","questions_answered":"Otázky zodpovedané","memories_shared":"Spomienky zdieľané","countries":"Krajiny"},"features":{"section_title":"Všetko, čo potrebujete na zblíženie","section_subtitle":"Navrhnuté expertmi na vzťahy na podporu intimity, dôvery a radosti.","shared_memories_title":"Spoločné spomienky","shared_memories_desc":"Vytvorte živú časovú os najvzácnejších fotiek a okamihov vášho vzťahu.","daily_prompts_title":"Denné otázky","daily_prompts_desc":"Zažeňte hlboké, zmysluplné rozhovory s jednou novou podnecujúcou otázkou každý deň.","private_chat_title":"Súkromný chat","private_chat_desc":"Bezpečný, intímny priestor pre vaše rozhovory, ďaleko od hluku iných aplikácií.","appreciation_title":"Oceňovanie a chvála","appreciation_desc":"Posielajte virtuálne objatia, láskavé správy a nálepky, aby ste partnerovi ukázali, že je oceňovaný.","streaks_title":"Série a míľniky","streaks_desc":"Sledujte konzistenciu vzťahu a spoločne oslavujte dôležité výročia a míľniky.","privacy_first_title":"Súkromie na prvom mieste","privacy_first_desc":"Vaše údaje sú šifrované od konca do konca a viditeľné len vám dvom. Vaše digitálne útočisko."},"how_it_works":{"title":"Ako to funguje","subtitle":"Tri jednoduché kroky na budovanie hlbšieho spojenia dnes.","step_1_title":"1. Pozvite partnera","step_1_desc":"Zaregistrujte sa a odošlite partnerovi unikátny pozváňkový odkaz na prepojenie účtov.","step_2_title":"2. Denné spojenie","step_2_desc":"Odpovedajte na jednu zábavnú alebo hlbokú otázku každý deň, aby ste odomkli partnerovu odpoveď.","step_3_title":"3. Rastite spolu","step_3_desc":"Sledujte, ako sa váš vzťah prehĺbuje budovaním návyku oceňovania a otvorenosti."},"testimonials":{"badge":"Obľúbené viac ako 50 000 párov","section_title":"Príbehy lásky z našej komunity","section_subtitle":"Objavte, ako Hearth pomáha párom po celom svete budovať hlbšie spojenia.","quote_1":"Hearth zmenil spôsob našej komunikácie. Denné otázky spúšťajú rozhovory, ktoré by sme inak nemali. Cítime sa, ako by sme znova chodili.","author_1":"Jessica & Mark","years_1":"Spolu 3 roky","location_1":"San Francisco, CA","quote_2":"Milujem súkromnú časovú os. Ako naša malá sieť, len pre nás, bez hluku. Estetika je jednoducho krásna.","author_2":"Alex & Sam","years_2":"Manželia 5 rokov","location_2":"London, UK","quote_3":"Najlepšia investícia do nášho vzťahu tento rok. Drží nás v kontakte napriek nabitému programu.","author_3":"Taylor & Jordan","years_3":"Spolu 1 rok","location_3":"Austin, TX"},"faq":{"section_title":"Často kladené otázky","q1_question":"Je Hearth zadarmo?","q1_answer":"Áno! Hearth má štedrú bezplatnú úroveň s dennými otázkami a základným zdieľaním spomienok. Hearth Premium odomkne neobmedzené spomienky, pokročilé prehľady a viac.","q2_question":"Môžem použiť Hearth pre vzťah na diaľku?","q2_answer":"Absolútne. Hearth je navrhnutý na premostenie medzi pármi, či ste v tej istej miestnosti alebo tisíce míľ od seba.","q3_question":"Sú moje údaje súkromné?","q3_answer":"Súkromie je naša priorita. Vaše rozhovory a fotky sú šifrované a prístupné len vám dvom. Nepredávame vaše údaje.","q4_question":"Čo ak sa rozejdeme?","q4_answer":"Údaje môžete ľahko exportovať alebo účet natrvalo vymazať. Vaše údaje vám patria."},"cta":{"title":"Pripravení dať vzťahu prioritu?","subtitle":"Pridajte sa ku komunite párov, ktoré vedome budujú lepšiu budúcnosť spolu.","available_on":"Dostupné na iOS a Android"},"store":{"app_store":"App Store","app_store_caption":"Stiahnuť z","google_play":"Google Play","google_play_caption":"Získať z"},"footer":{"tagline":"Robíme svet láskavejším miestom, jeden pár naraz.","product":"Produkt","features":"Funkcie","pricing":"Ceny","testimonials":"Recenzie","faq":"FAQ","company":"Spoločnosť","about_us":"O nás","blog":"Blog","careers":"Kariéra","contact":"Kontakt","legal":"Právne","privacy_policy":"Zásady ochrany osobných údajov","terms_of_service":"Podmienky služby","cookie_policy":"Zásady cookies","copyright":"© 2026 Hearth App. Všetky práva vyhradené.","aria_language":"Vyberte jazyk"}},"notfound":{"header":"Nenájdené","description":"Táto stránka neexistuje.","try_creating_page":"Skúste vytvoriť stránku v"},"go_back":"Späť na domov"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Domov",
+    "meta_description": "Hearth — vaša vstupná stránka. Objavte viac."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Stiahnuť aplikáciu"
+    },
+    "hero": {
+      "badge": "Aplikácia #1 pre páry",
+      "title_line1": "Prehĺbte spojenie.",
+      "title_line2": "Každý deň.",
+      "subtitle": "Hearth vám pomáha budovať silnejší, intímnejší vzťah cez spoločné spomienky, denné otázky a zmysluplné interakcie.",
+      "private_secure": "Súkromné a bezpečné",
+      "trusted_by": "Dôvera viac ako 50 000 párov"
+    },
+    "stats": {
+      "couples_connected": "Páry pripojené",
+      "questions_answered": "Otázky zodpovedané",
+      "memories_shared": "Spomienky zdieľané",
+      "countries": "Krajiny"
+    },
+    "features": {
+      "section_title": "Všetko, čo potrebujete na zblíženie",
+      "section_subtitle": "Navrhnuté expertmi na vzťahy na podporu intimity, dôvery a radosti.",
+      "shared_memories_title": "Spoločné spomienky",
+      "shared_memories_desc": "Vytvorte živú časovú os najvzácnejších fotiek a okamihov vášho vzťahu.",
+      "daily_prompts_title": "Denné otázky",
+      "daily_prompts_desc": "Zažeňte hlboké, zmysluplné rozhovory s jednou novou podnecujúcou otázkou každý deň.",
+      "private_chat_title": "Súkromný chat",
+      "private_chat_desc": "Bezpečný, intímny priestor pre vaše rozhovory, ďaleko od hluku iných aplikácií.",
+      "appreciation_title": "Oceňovanie a chvála",
+      "appreciation_desc": "Posielajte virtuálne objatia, láskavé správy a nálepky, aby ste partnerovi ukázali, že je oceňovaný.",
+      "streaks_title": "Série a míľniky",
+      "streaks_desc": "Sledujte konzistenciu vzťahu a spoločne oslavujte dôležité výročia a míľniky.",
+      "privacy_first_title": "Súkromie na prvom mieste",
+      "privacy_first_desc": "Vaše údaje sú šifrované od konca do konca a viditeľné len vám dvom. Vaše digitálne útočisko."
+    },
+    "how_it_works": {
+      "title": "Ako to funguje",
+      "subtitle": "Tri jednoduché kroky na budovanie hlbšieho spojenia dnes.",
+      "step_1_title": "1. Pozvite partnera",
+      "step_1_desc": "Zaregistrujte sa a odošlite partnerovi unikátny pozváňkový odkaz na prepojenie účtov.",
+      "step_2_title": "2. Denné spojenie",
+      "step_2_desc": "Odpovedajte na jednu zábavnú alebo hlbokú otázku každý deň, aby ste odomkli partnerovu odpoveď.",
+      "step_3_title": "3. Rastite spolu",
+      "step_3_desc": "Sledujte, ako sa váš vzťah prehĺbuje budovaním návyku oceňovania a otvorenosti."
+    },
+    "testimonials": {
+      "badge": "Obľúbené viac ako 50 000 párov",
+      "section_title": "Príbehy lásky z našej komunity",
+      "section_subtitle": "Objavte, ako Hearth pomáha párom po celom svete budovať hlbšie spojenia.",
+      "quote_1": "Hearth zmenil spôsob našej komunikácie. Denné otázky spúšťajú rozhovory, ktoré by sme inak nemali. Cítime sa, ako by sme znova chodili.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Spolu 3 roky",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Milujem súkromnú časovú os. Ako naša malá sieť, len pre nás, bez hluku. Estetika je jednoducho krásna.",
+      "author_2": "Alex & Sam",
+      "years_2": "Manželia 5 rokov",
+      "location_2": "London, UK",
+      "quote_3": "Najlepšia investícia do nášho vzťahu tento rok. Drží nás v kontakte napriek nabitému programu.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Spolu 1 rok",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Často kladené otázky",
+      "q1_question": "Je Hearth zadarmo?",
+      "q1_answer": "Áno! Hearth má štedrú bezplatnú úroveň s dennými otázkami a základným zdieľaním spomienok. Hearth Premium odomkne neobmedzené spomienky, pokročilé prehľady a viac.",
+      "q2_question": "Môžem použiť Hearth pre vzťah na diaľku?",
+      "q2_answer": "Absolútne. Hearth je navrhnutý na premostenie medzi pármi, či ste v tej istej miestnosti alebo tisíce míľ od seba.",
+      "q3_question": "Sú moje údaje súkromné?",
+      "q3_answer": "Súkromie je naša priorita. Vaše rozhovory a fotky sú šifrované a prístupné len vám dvom. Nepredávame vaše údaje.",
+      "q4_question": "Čo ak sa rozejdeme?",
+      "q4_answer": "Údaje môžete ľahko exportovať alebo účet natrvalo vymazať. Vaše údaje vám patria."
+    },
+    "cta": {
+      "title": "Pripravení dať vzťahu prioritu?",
+      "subtitle": "Pridajte sa ku komunite párov, ktoré vedome budujú lepšiu budúcnosť spolu.",
+      "available_on": "Dostupné na iOS a Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Stiahnuť z",
+      "google_play": "Google Play",
+      "google_play_caption": "Získať z"
+    },
+    "footer": {
+      "tagline": "Robíme svet láskavejším miestom, jeden pár naraz.",
+      "product": "Produkt",
+      "features": "Funkcie",
+      "pricing": "Ceny",
+      "testimonials": "Recenzie",
+      "faq": "FAQ",
+      "company": "Spoločnosť",
+      "about_us": "O nás",
+      "blog": "Blog",
+      "careers": "Kariéra",
+      "contact": "Kontakt",
+      "legal": "Právne",
+      "privacy_policy": "Zásady ochrany osobných údajov",
+      "terms_of_service": "Podmienky služby",
+      "cookie_policy": "Zásady cookies",
+      "copyright": "© 2026 Hearth App. Všetky práva vyhradené.",
+      "aria_language": "Vyberte jazyk"
+    }
+  },
+  "notfound": {
+    "header": "Nenájdené",
+    "description": "Táto stránka neexistuje.",
+    "try_creating_page": "Skúste vytvoriť stránku v"
+  },
+  "go_back": "Späť na domov",
+  "reset_password": {
+    "title": "Obnoviť heslo",
+    "subtitle": "Zadajte nové heslo pre svoj účet Hearth",
+    "new_password": "Nové heslo",
+    "new_password_placeholder": "Zadajte nové heslo",
+    "confirm_password": "Potvrdiť heslo",
+    "confirm_password_placeholder": "Potvrďte nové heslo",
+    "passwords_do_not_match": "Heslá sa nezhodujú",
+    "requirements_title": "Požiadavky na heslo",
+    "min_characters": "Aspoň 8 znakov",
+    "one_uppercase": "Jedno veľké písmeno",
+    "one_number": "Jedna číslica",
+    "resetting": "Obnovuje sa...",
+    "submit": "Obnoviť heslo",
+    "having_trouble": "Máte problémy?",
+    "contact_support": "Kontaktujte podporu",
+    "success_title": "Heslo aktualizované",
+    "success_message": "Vaše heslo bolo úspešne obnovené. Teraz sa môžete vrátiť do aplikácie a prihlásiť sa novým heslom.",
+    "close_page": "Túto stránku môžete bezpečne zavrieť.",
+    "missing_tokens": "Chýbajú tokeny relácie. Použite odkaz z e-mailu.",
+    "failed": "Obnovenie hesla zlyhalo",
+    "generic_error": "Niečo sa pokazilo. Skúste to znova.",
+    "invalid_params": "Neplatné alebo chýbajúce parametre odkazu na obnovenie.",
+    "verify_failed": "Overenie tokenu obnovy zlyhalo",
+    "link_error": "Niečo sa pokazilo. Odkaz mohol vypršať.",
+    "link_expired": "Odkaz vypršal alebo je neplatný",
+    "request_new": "Požiadajte o nové obnovenie hesla z aplikácie.",
+    "verifying": "Overuje sa váš odkaz...",
+    "please_wait": "Prosím počkajte.",
+    "page_title": "Obnoviť heslo",
+    "page_description": "Obnovte heslo svojho účtu Hearth",
+    "confirm_page_title": "Overuje sa...",
+    "confirm_page_description": "Overuje sa odkaz na obnovenie hesla"
+  }
+}

@@ -5,7 +5,9 @@
     "meta_description": "Hearth — jouw landingspagina. Ontdek meer."
   },
   "landing": {
-    "header": { "get_app": "App downloaden" },
+    "header": {
+      "get_app": "App downloaden"
+    },
     "hero": {
       "badge": "De nr. 1 app voor koppels",
       "title_line1": "Verdiep jullie verbinding.",
@@ -110,5 +112,39 @@
     "description": "Deze pagina bestaat niet.",
     "try_creating_page": "Probeer een pagina te maken in"
   },
-  "go_back": "Terug naar startpagina"
+  "go_back": "Terug naar startpagina",
+  "reset_password": {
+    "title": "Wachtwoord resetten",
+    "subtitle": "Voer een nieuw wachtwoord in voor je Hearth-account",
+    "new_password": "Nieuw wachtwoord",
+    "new_password_placeholder": "Voer nieuw wachtwoord in",
+    "confirm_password": "Bevestig wachtwoord",
+    "confirm_password_placeholder": "Bevestig nieuw wachtwoord",
+    "passwords_do_not_match": "Wachtwoorden komen niet overeen",
+    "requirements_title": "Wachtwoordvereisten",
+    "min_characters": "Minimaal 8 tekens",
+    "one_uppercase": "Eén hoofdletter",
+    "one_number": "Eén cijfer",
+    "resetting": "Resetten...",
+    "submit": "Wachtwoord resetten",
+    "having_trouble": "Problemen?",
+    "contact_support": "Neem contact op met support",
+    "success_title": "Wachtwoord bijgewerkt",
+    "success_message": "Je wachtwoord is succesvol gereset. Je kunt nu terug naar de app en inloggen met je nieuwe wachtwoord.",
+    "close_page": "Je kunt deze pagina veilig sluiten.",
+    "missing_tokens": "Sessietokens ontbreken. Gebruik de link uit je e-mail.",
+    "failed": "Wachtwoord resetten mislukt",
+    "generic_error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "invalid_params": "Ongeldige of ontbrekende resetlinkparameters.",
+    "verify_failed": "Hersteltoken kon niet worden geverifieerd",
+    "link_error": "Er is iets misgegaan. De link is mogelijk verlopen.",
+    "link_expired": "Link verlopen of ongeldig",
+    "request_new": "Vraag een nieuwe wachtwoordreset aan vanuit de app.",
+    "verifying": "Je link wordt geverifieerd...",
+    "please_wait": "Even geduld.",
+    "page_title": "Wachtwoord resetten",
+    "page_description": "Reset het wachtwoord van je Hearth-account",
+    "confirm_page_title": "Verifiëren...",
+    "confirm_page_description": "Je wachtwoordresetlink wordt geverifieerd"
+  }
 }

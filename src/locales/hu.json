@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Kezdőlap","meta_description":"Hearth — az Ön céloldala. Fedezzen fel többet."},"landing":{"header":{"get_app":"Alkalmazás letöltése"},"hero":{"badge":"A #1 alkalmazás pároknak","title_line1":"Mélyítsd a kapcsolatot.","title_line2":"Minden egyes nap.","subtitle":"A Hearth segít erősebb, intimebb kapcsolatot építeni megosztott emlékekkel, napi kérdésekkel és értelmes interakciókkal.","private_secure":"Privát és biztonságos","trusted_by":"Több mint 50 000 pár bízik bennünk"},"stats":{"couples_connected":"Összekapcsolt párok","questions_answered":"Megválaszolt kérdések","memories_shared":"Megosztott emlékek","countries":"Országok"},"features":{"section_title":"Minden, amire szükséged van a közelebb kerüléshez","section_subtitle":"Kapcsolatszakértők által tervezve az intimitás, bizalom és öröm támogatására.","shared_memories_title":"Megosztott emlékek","shared_memories_desc":"Építs élő idővonalat a kapcsolatod legértékesebb fotóiból és pillanataiból.","daily_prompts_title":"Napi kérdések","daily_prompts_desc":"Mély, értelmes beszélgetéseket indíts egy új gondolatébresztő kérdéssel minden nap.","private_chat_title":"Privát csevegés","private_chat_desc":"Biztonságos, intim tér beszélgetéseiteknek, távol más alkalmazások zajától.","appreciation_title":"Értékelés és dicséret","appreciation_desc":"Küldj virtuális öleléseket, szerelmes üzeneteket és matricákat, hogy megmutasd: értékeled a partnered.","streaks_title":"Sorozatok és mérföldkövek","streaks_desc":"Kövessed a kapcsolat konzisztenciáját és ünnepeljétek együtt a fontos évfordulókat és mérföldköveket.","privacy_first_title":"Adatvédelem először","privacy_first_desc":"Adataitok végponttól végpontig titkosított és csak nektek kettőtök látható. Digitális menedékletek."},"how_it_works":{"title":"Hogyan működik","subtitle":"Három egyszerű lépés a mélyebb kapcsolat építéséhez ma.","step_1_title":"1. Hívd meg a partnered","step_1_desc":"Regisztrálj és küldj egy egyedi meghívó linket a partnerednek a fiókok összekapcsolásához.","step_2_title":"2. Napi kapcsolat","step_2_desc":"Válaszolj egy szórakoztató vagy mély kérdésre naponta a partnered válaszához.","step_3_title":"3. Nőjetek együtt","step_3_desc":"Figyeld, ahogy a kapcsolat mélyül az értékelés és nyitottság szokásának építésével."},"testimonials":{"badge":"Több mint 50 000 pár szereti","section_title":"Szerelmes történetek közösségünkből","section_subtitle":"Fedezd fel, hogyan segít a Hearth pároknak világszerte mélyebb kapcsolatokat építeni.","quote_1":"A Hearth megváltoztatta, hogyan kommunikálunk. A napi kérdések olyan beszélgetéseket indítanak, amik másképp nem lennének. Mintha újra randiznánk.","author_1":"Jessica & Mark","years_1":"Együtt 3 éve","location_1":"San Francisco, CA","quote_2":"Szeretem a privát idővonalat. Mint a mi kis hálózatunk, csak nekünk, zaj nélkül. Az esztétika egyszerűen gyönyörű.","author_2":"Alex & Sam","years_2":"5 éve házasok","location_2":"London, UK","quote_3":"A legjobb befektetés a kapcsolatunkba idén. Összetart minket a zsúfolt napirend ellenére is.","author_3":"Taylor & Jordan","years_3":"Együtt 1 éve","location_3":"Austin, TX"},"faq":{"section_title":"Gyakori kérdések","q1_question":"A Hearth ingyenes?","q1_answer":"Igen! A Hearthnek bőkezű ingyenes szintje van napi kérdésekkel és alap emlékmegosztással. A Hearth Premium korlátlan emlékeket, fejlett betekintést és többet nyit fel.","q2_question":"Használhatom a Hearthot távolsági kapcsolatra?","q2_answer":"Abszolút. A Hearth arra készült, hogy átbridzselje a távolságot párok között, akár egy szobában vagytok, akár több ezer mérföldnyire.","q3_question":"Privátak az adataim?","q3_answer":"Az adatvédelem első prioritásunk. Beszélgetéseitek és fotóitok titkosítottak és csak nektek kettőtök számára elérhetők. Nem adjuk el adataitokat.","q4_question":"Mi van, ha szakítunk?","q4_answer":"Könnyen exportálhatod az adataidat vagy véglegesen törölheted a fiókod. Az adataid a tied."},"cta":{"title":"Kész priorizálni a kapcsolatot?","subtitle":"Csatlakozz azokhoz a párokhoz, akik tudatosan építik a jobb jövőt együtt.","available_on":"Elérhető iOS-en és Androidon"},"store":{"app_store":"App Store","app_store_caption":"Letöltés az","google_play":"Google Play","google_play_caption":"Szerezd meg az"},"footer":{"tagline":"A világot egy szeretetteljesebb hellyé tenni, egy pár egyszerre.","product":"Termék","features":"Funkciók","pricing":"Árak","testimonials":"Vélemények","faq":"GYIK","company":"Cég","about_us":"Rólunk","blog":"Blog","careers":"Karrier","contact":"Kapcsolat","legal":"Jogi","privacy_policy":"Adatvédelmi irányelvek","terms_of_service":"Szolgáltatási feltételek","cookie_policy":"Süti irányelvek","copyright":"© 2026 Hearth App. Minden jog fenntartva.","aria_language":"Nyelv kiválasztása"}},"notfound":{"header":"Nem található","description":"Ez az oldal nem létezik.","try_creating_page":"Próbálj oldalt létrehozni"},"go_back":"Vissza a kezdőlapra"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Kezdőlap",
+    "meta_description": "Hearth — az Ön céloldala. Fedezzen fel többet."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Alkalmazás letöltése"
+    },
+    "hero": {
+      "badge": "A #1 alkalmazás pároknak",
+      "title_line1": "Mélyítsd a kapcsolatot.",
+      "title_line2": "Minden egyes nap.",
+      "subtitle": "A Hearth segít erősebb, intimebb kapcsolatot építeni megosztott emlékekkel, napi kérdésekkel és értelmes interakciókkal.",
+      "private_secure": "Privát és biztonságos",
+      "trusted_by": "Több mint 50 000 pár bízik bennünk"
+    },
+    "stats": {
+      "couples_connected": "Összekapcsolt párok",
+      "questions_answered": "Megválaszolt kérdések",
+      "memories_shared": "Megosztott emlékek",
+      "countries": "Országok"
+    },
+    "features": {
+      "section_title": "Minden, amire szükséged van a közelebb kerüléshez",
+      "section_subtitle": "Kapcsolatszakértők által tervezve az intimitás, bizalom és öröm támogatására.",
+      "shared_memories_title": "Megosztott emlékek",
+      "shared_memories_desc": "Építs élő idővonalat a kapcsolatod legértékesebb fotóiból és pillanataiból.",
+      "daily_prompts_title": "Napi kérdések",
+      "daily_prompts_desc": "Mély, értelmes beszélgetéseket indíts egy új gondolatébresztő kérdéssel minden nap.",
+      "private_chat_title": "Privát csevegés",
+      "private_chat_desc": "Biztonságos, intim tér beszélgetéseiteknek, távol más alkalmazások zajától.",
+      "appreciation_title": "Értékelés és dicséret",
+      "appreciation_desc": "Küldj virtuális öleléseket, szerelmes üzeneteket és matricákat, hogy megmutasd: értékeled a partnered.",
+      "streaks_title": "Sorozatok és mérföldkövek",
+      "streaks_desc": "Kövessed a kapcsolat konzisztenciáját és ünnepeljétek együtt a fontos évfordulókat és mérföldköveket.",
+      "privacy_first_title": "Adatvédelem először",
+      "privacy_first_desc": "Adataitok végponttól végpontig titkosított és csak nektek kettőtök látható. Digitális menedékletek."
+    },
+    "how_it_works": {
+      "title": "Hogyan működik",
+      "subtitle": "Három egyszerű lépés a mélyebb kapcsolat építéséhez ma.",
+      "step_1_title": "1. Hívd meg a partnered",
+      "step_1_desc": "Regisztrálj és küldj egy egyedi meghívó linket a partnerednek a fiókok összekapcsolásához.",
+      "step_2_title": "2. Napi kapcsolat",
+      "step_2_desc": "Válaszolj egy szórakoztató vagy mély kérdésre naponta a partnered válaszához.",
+      "step_3_title": "3. Nőjetek együtt",
+      "step_3_desc": "Figyeld, ahogy a kapcsolat mélyül az értékelés és nyitottság szokásának építésével."
+    },
+    "testimonials": {
+      "badge": "Több mint 50 000 pár szereti",
+      "section_title": "Szerelmes történetek közösségünkből",
+      "section_subtitle": "Fedezd fel, hogyan segít a Hearth pároknak világszerte mélyebb kapcsolatokat építeni.",
+      "quote_1": "A Hearth megváltoztatta, hogyan kommunikálunk. A napi kérdések olyan beszélgetéseket indítanak, amik másképp nem lennének. Mintha újra randiznánk.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Együtt 3 éve",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Szeretem a privát idővonalat. Mint a mi kis hálózatunk, csak nekünk, zaj nélkül. Az esztétika egyszerűen gyönyörű.",
+      "author_2": "Alex & Sam",
+      "years_2": "5 éve házasok",
+      "location_2": "London, UK",
+      "quote_3": "A legjobb befektetés a kapcsolatunkba idén. Összetart minket a zsúfolt napirend ellenére is.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Együtt 1 éve",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Gyakori kérdések",
+      "q1_question": "A Hearth ingyenes?",
+      "q1_answer": "Igen! A Hearthnek bőkezű ingyenes szintje van napi kérdésekkel és alap emlékmegosztással. A Hearth Premium korlátlan emlékeket, fejlett betekintést és többet nyit fel.",
+      "q2_question": "Használhatom a Hearthot távolsági kapcsolatra?",
+      "q2_answer": "Abszolút. A Hearth arra készült, hogy átbridzselje a távolságot párok között, akár egy szobában vagytok, akár több ezer mérföldnyire.",
+      "q3_question": "Privátak az adataim?",
+      "q3_answer": "Az adatvédelem első prioritásunk. Beszélgetéseitek és fotóitok titkosítottak és csak nektek kettőtök számára elérhetők. Nem adjuk el adataitokat.",
+      "q4_question": "Mi van, ha szakítunk?",
+      "q4_answer": "Könnyen exportálhatod az adataidat vagy véglegesen törölheted a fiókod. Az adataid a tied."
+    },
+    "cta": {
+      "title": "Kész priorizálni a kapcsolatot?",
+      "subtitle": "Csatlakozz azokhoz a párokhoz, akik tudatosan építik a jobb jövőt együtt.",
+      "available_on": "Elérhető iOS-en és Androidon"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Letöltés az",
+      "google_play": "Google Play",
+      "google_play_caption": "Szerezd meg az"
+    },
+    "footer": {
+      "tagline": "A világot egy szeretetteljesebb hellyé tenni, egy pár egyszerre.",
+      "product": "Termék",
+      "features": "Funkciók",
+      "pricing": "Árak",
+      "testimonials": "Vélemények",
+      "faq": "GYIK",
+      "company": "Cég",
+      "about_us": "Rólunk",
+      "blog": "Blog",
+      "careers": "Karrier",
+      "contact": "Kapcsolat",
+      "legal": "Jogi",
+      "privacy_policy": "Adatvédelmi irányelvek",
+      "terms_of_service": "Szolgáltatási feltételek",
+      "cookie_policy": "Süti irányelvek",
+      "copyright": "© 2026 Hearth App. Minden jog fenntartva.",
+      "aria_language": "Nyelv kiválasztása"
+    }
+  },
+  "notfound": {
+    "header": "Nem található",
+    "description": "Ez az oldal nem létezik.",
+    "try_creating_page": "Próbálj oldalt létrehozni"
+  },
+  "go_back": "Vissza a kezdőlapra",
+  "reset_password": {
+    "title": "Jelszó visszaállítása",
+    "subtitle": "Adj meg egy új jelszót a Hearth fiókodhoz",
+    "new_password": "Új jelszó",
+    "new_password_placeholder": "Írd be az új jelszót",
+    "confirm_password": "Jelszó megerősítése",
+    "confirm_password_placeholder": "Erősítsd meg az új jelszót",
+    "passwords_do_not_match": "A jelszavak nem egyeznek",
+    "requirements_title": "Jelszókövetelmények",
+    "min_characters": "Legalább 8 karakter",
+    "one_uppercase": "Egy nagybetű",
+    "one_number": "Egy szám",
+    "resetting": "Visszaállítás...",
+    "submit": "Jelszó visszaállítása",
+    "having_trouble": "Problémád van?",
+    "contact_support": "Kapcsolatfelvétel a támogatással",
+    "success_title": "Jelszó frissítve",
+    "success_message": "A jelszavad sikeresen visszaállítva. Most visszatérhetsz az alkalmazásba és bejelentkezhetsz az új jelszavaddal.",
+    "close_page": "Biztonságosan bezárhatod ezt az oldalt.",
+    "missing_tokens": "Hiányzó munkamenet tokenek. Kérjük, használd az e-mailben kapott linket.",
+    "failed": "A jelszó visszaállítása sikertelen",
+    "generic_error": "Valami hiba történt. Kérjük, próbáld újra.",
+    "invalid_params": "Érvénytelen vagy hiányzó visszaállítási link paraméterek.",
+    "verify_failed": "A visszaállítási token ellenőrzése sikertelen",
+    "link_error": "Valami hiba történt. A link lejárhatott.",
+    "link_expired": "A link lejárt vagy érvénytelen",
+    "request_new": "Kérjük, kérj új jelszó-visszaállítást az alkalmazásból.",
+    "verifying": "A linked ellenőrzése...",
+    "please_wait": "Kérjük, várj egy pillanatot.",
+    "page_title": "Jelszó visszaállítása",
+    "page_description": "Hearth fiók jelszavának visszaállítása",
+    "confirm_page_title": "Ellenőrzés...",
+    "confirm_page_description": "A jelszó-visszaállítási link ellenőrzése"
+  }
+}

@@ -5,7 +5,9 @@
     "meta_description": "Hearth — twoja strona docelowa. Odkryj więcej."
   },
   "landing": {
-    "header": { "get_app": "Pobierz aplikację" },
+    "header": {
+      "get_app": "Pobierz aplikację"
+    },
     "hero": {
       "badge": "Aplikacja nr 1 dla par",
       "title_line1": "Pogłęb swoją więź.",
@@ -110,5 +112,39 @@
     "description": "Ta strona nie istnieje.",
     "try_creating_page": "Spróbuj utworzyć stronę w"
   },
-  "go_back": "Powrót do strony głównej"
+  "go_back": "Powrót do strony głównej",
+  "reset_password": {
+    "title": "Zresetuj hasło",
+    "subtitle": "Wprowadź nowe hasło do konta Hearth",
+    "new_password": "Nowe hasło",
+    "new_password_placeholder": "Wprowadź nowe hasło",
+    "confirm_password": "Potwierdź hasło",
+    "confirm_password_placeholder": "Potwierdź nowe hasło",
+    "passwords_do_not_match": "Hasła nie są zgodne",
+    "requirements_title": "Wymagania dotyczące hasła",
+    "min_characters": "Co najmniej 8 znaków",
+    "one_uppercase": "Jedna wielka litera",
+    "one_number": "Jedna cyfra",
+    "resetting": "Resetowanie...",
+    "submit": "Zresetuj hasło",
+    "having_trouble": "Masz problemy?",
+    "contact_support": "Skontaktuj się z pomocą",
+    "success_title": "Hasło zaktualizowane",
+    "success_message": "Twoje hasło zostało pomyślnie zresetowane. Możesz teraz wrócić do aplikacji i zalogować się nowym hasłem.",
+    "close_page": "Możesz bezpiecznie zamknąć tę stronę.",
+    "missing_tokens": "Brak tokenów sesji. Użyj linku z e-maila.",
+    "failed": "Nie udało się zresetować hasła",
+    "generic_error": "Coś poszło nie tak. Spróbuj ponownie.",
+    "invalid_params": "Nieprawidłowe lub brakujące parametry linku resetowania.",
+    "verify_failed": "Nie udało się zweryfikować tokenu odzyskiwania",
+    "link_error": "Coś poszło nie tak. Link mógł wygasnąć.",
+    "link_expired": "Link wygasł lub jest nieprawidłowy",
+    "request_new": "Poproś o nowe resetowanie hasła z aplikacji.",
+    "verifying": "Weryfikacja linku...",
+    "please_wait": "Proszę chwilę poczekać.",
+    "page_title": "Zresetuj hasło",
+    "page_description": "Zresetuj hasło konta Hearth",
+    "confirm_page_title": "Weryfikacja...",
+    "confirm_page_description": "Weryfikacja linku resetowania hasła"
+  }
 }

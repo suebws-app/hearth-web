@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Pradžia","meta_description":"Hearth — jūsų nukreipimo puslapis. Atraskite daugiau."},"landing":{"header":{"get_app":"Parsisiųsti programą"},"hero":{"badge":"Nr. 1 programa poroms","title_line1":"Gilkinkite ryšį.","title_line2":"Kiekvieną dieną.","subtitle":"Hearth padeda sukurti stipresnius, intymesnius santykius per bendras prisiminimus, kasdienius klausimus ir prasmingas sąveikas.","private_secure":"Privatu ir saugu","trusted_by":"Patikima daugiau nei 50 000 porų"},"stats":{"couples_connected":"Poros sujungtos","questions_answered":"Atsakyti klausimai","memories_shared":"Bendri prisiminimai","countries":"Šalys"},"features":{"section_title":"Viskas, ko reikia artimesniam ryšiui","section_subtitle":"Sukurti santykių ekspertų, siekiant skatinti intimumą, pasitikėjimą ir džiaugsmą.","shared_memories_title":"Bendri prisiminimai","shared_memories_desc":"Sukurkite gyvą laiko juostą savo santykių brangiausių nuotraukų ir akimirkų.","daily_prompts_title":"Kasdieniai klausimai","daily_prompts_desc":"Uždekite gilius, prasmingus pokalbius su nauju mąstymą skatinančiu klausimu kiekvieną dieną.","private_chat_title":"Privatus pokalbis","private_chat_desc":"Saugi, intymi vieta jūsų pokalbiams, toliau nuo kitų programų triukšmo.","appreciation_title":"Vertinimas ir pagyrimas","appreciation_desc":"Siųskite virtualius apkabinimus, meilės užrašus ir lipdukus, kad parodytumėte partneriui, kad jis vertinamas.","streaks_title":"Serijos ir pasiekimai","streaks_desc":"Stebėkite santykių nuoseklumą ir švęskite svarbias jubiliejus ir pasiekimus kartu.","privacy_first_title":"Privatumas pirmiausia","privacy_first_desc":"Jūsų duomenys šifruojami nuo galo iki galo ir matomi tik jums dviem. Jūsų skaitmeninė priegloba."},"how_it_works":{"title":"Kaip tai veikia","subtitle":"Trys paprasti žingsniai gilesniam ryšiui pradėti šiandien.","step_1_title":"1. Pakvieskite partnerį","step_1_desc":"Užsiregistruokite ir atsiųskite unikalų kvietimo nuorodą partneriui, kad sujungtumėte paskyras.","step_2_title":"2. Kasdieninis ryšys","step_2_desc":"Atsakykite į vieną linksmą ar gilią klausimą kiekvieną dieną, kad atrakintumėte partnerio atsakymą.","step_3_title":"3. Augkite kartu","step_3_desc":"Stebėkite, kaip gylėja santykiai, kurdami vertinimo ir atvirumo įprotį."},"testimonials":{"badge":"Mylima daugiau nei 50 000 porų","section_title":"Meilės istorijos iš mūsų bendruomenės","section_subtitle":"Sužinokite, kaip Hearth padeda poroms visame pasaulyje kurti gilesnius ryšius.","quote_1":"Hearth pakeitė mūsų bendravimą. Kasdieniai klausimai skatina pokalbius, kurių kitaip neturėtume. Jaučiamės lyg vėl susitikinėtume.","author_1":"Jessica & Mark","years_1":"Kartu 3 metai","location_1":"San Francisco, CA","quote_2":"Mėgstu privatų laiko juostą. Kaip mūsų maža socialinė grandinė, tik mums, be triukšmo. Estetika tiesiog graži.","author_2":"Alex & Sam","years_2":"Susituokę 5 metai","location_2":"London, UK","quote_3":"Geriausia investicija į mūsų santykius šiais metais. Laiko mus susijungus nepaisant užimtų grafikų.","author_3":"Taylor & Jordan","years_3":"Kartu 1 metai","location_3":"Austin, TX"},"faq":{"section_title":"Dažniausiai užduodami klausimai","q1_question":"Ar Hearth nemokamas?","q1_answer":"Taip! Hearth turi dosnų nemokamą lygį su kasdieniais klausimais ir pagrindiniu prisiminimų dalijimusi. Hearth Premium atrakina neribotus prisiminimus, išplėstines įžvalgas ir daugiau.","q2_question":"Ar galiu naudoti Hearth ilgų atstumų santykiuose?","q2_answer":"Absoliučiai. Hearth sukurtas sujungti poras, nesvarbu ar esate tame pačiame kambaryje, ar tūkstančius mylių vienas nuo kito.","q3_question":"Ar mano duomenys privatus?","q3_answer":"Privatumas — mūsų prioritetas. Jūsų pokalbiai ir nuotraukos šifruojami ir prieinami tik jums dviem. Neparduodame jūsų duomenų.","q4_question":"Ką daryti, jei išsiskirsime?","q4_answer":"Galite lengvai eksportuoti duomenis arba visam laikui ištrinti paskyrą. Jūsų duomenys priklauso jums."},"cta":{"title":"Pasiruošę prioritetuoti santykius?","subtitle":"Prisijunkite prie porų bendruomenės, kuri sąmoningai kuria geresnę ateitį kartu.","available_on":"Prieinama iOS ir Android"},"store":{"app_store":"App Store","app_store_caption":"Parsisiųsti iš","google_play":"Google Play","google_play_caption":"Gauti iš"},"footer":{"tagline":"Darome pasaulį labiau mylinčią vietą, viena pora vienu metu.","product":"Produktas","features":"Funkcijos","pricing":"Kainos","testimonials":"Atsiliepimai","faq":"DUK","company":"Įmonė","about_us":"Apie mus","blog":"Tinklaraštis","careers":"Karjera","contact":"Kontaktai","legal":"Teisė","privacy_policy":"Privatumo politika","terms_of_service":"Paslaugų sąlygos","cookie_policy":"Slapukų politika","copyright":"© 2026 Hearth App. Visos teisės saugomos.","aria_language":"Pasirinkti kalbą"}},"notfound":{"header":"Nerasta","description":"Šis puslapis neegzistuoja.","try_creating_page":"Bandykite sukurti puslapį"},"go_back":"Atgal į pradžią"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Pradžia",
+    "meta_description": "Hearth — jūsų nukreipimo puslapis. Atraskite daugiau."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Parsisiųsti programą"
+    },
+    "hero": {
+      "badge": "Nr. 1 programa poroms",
+      "title_line1": "Gilkinkite ryšį.",
+      "title_line2": "Kiekvieną dieną.",
+      "subtitle": "Hearth padeda sukurti stipresnius, intymesnius santykius per bendras prisiminimus, kasdienius klausimus ir prasmingas sąveikas.",
+      "private_secure": "Privatu ir saugu",
+      "trusted_by": "Patikima daugiau nei 50 000 porų"
+    },
+    "stats": {
+      "couples_connected": "Poros sujungtos",
+      "questions_answered": "Atsakyti klausimai",
+      "memories_shared": "Bendri prisiminimai",
+      "countries": "Šalys"
+    },
+    "features": {
+      "section_title": "Viskas, ko reikia artimesniam ryšiui",
+      "section_subtitle": "Sukurti santykių ekspertų, siekiant skatinti intimumą, pasitikėjimą ir džiaugsmą.",
+      "shared_memories_title": "Bendri prisiminimai",
+      "shared_memories_desc": "Sukurkite gyvą laiko juostą savo santykių brangiausių nuotraukų ir akimirkų.",
+      "daily_prompts_title": "Kasdieniai klausimai",
+      "daily_prompts_desc": "Uždekite gilius, prasmingus pokalbius su nauju mąstymą skatinančiu klausimu kiekvieną dieną.",
+      "private_chat_title": "Privatus pokalbis",
+      "private_chat_desc": "Saugi, intymi vieta jūsų pokalbiams, toliau nuo kitų programų triukšmo.",
+      "appreciation_title": "Vertinimas ir pagyrimas",
+      "appreciation_desc": "Siųskite virtualius apkabinimus, meilės užrašus ir lipdukus, kad parodytumėte partneriui, kad jis vertinamas.",
+      "streaks_title": "Serijos ir pasiekimai",
+      "streaks_desc": "Stebėkite santykių nuoseklumą ir švęskite svarbias jubiliejus ir pasiekimus kartu.",
+      "privacy_first_title": "Privatumas pirmiausia",
+      "privacy_first_desc": "Jūsų duomenys šifruojami nuo galo iki galo ir matomi tik jums dviem. Jūsų skaitmeninė priegloba."
+    },
+    "how_it_works": {
+      "title": "Kaip tai veikia",
+      "subtitle": "Trys paprasti žingsniai gilesniam ryšiui pradėti šiandien.",
+      "step_1_title": "1. Pakvieskite partnerį",
+      "step_1_desc": "Užsiregistruokite ir atsiųskite unikalų kvietimo nuorodą partneriui, kad sujungtumėte paskyras.",
+      "step_2_title": "2. Kasdieninis ryšys",
+      "step_2_desc": "Atsakykite į vieną linksmą ar gilią klausimą kiekvieną dieną, kad atrakintumėte partnerio atsakymą.",
+      "step_3_title": "3. Augkite kartu",
+      "step_3_desc": "Stebėkite, kaip gylėja santykiai, kurdami vertinimo ir atvirumo įprotį."
+    },
+    "testimonials": {
+      "badge": "Mylima daugiau nei 50 000 porų",
+      "section_title": "Meilės istorijos iš mūsų bendruomenės",
+      "section_subtitle": "Sužinokite, kaip Hearth padeda poroms visame pasaulyje kurti gilesnius ryšius.",
+      "quote_1": "Hearth pakeitė mūsų bendravimą. Kasdieniai klausimai skatina pokalbius, kurių kitaip neturėtume. Jaučiamės lyg vėl susitikinėtume.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Kartu 3 metai",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Mėgstu privatų laiko juostą. Kaip mūsų maža socialinė grandinė, tik mums, be triukšmo. Estetika tiesiog graži.",
+      "author_2": "Alex & Sam",
+      "years_2": "Susituokę 5 metai",
+      "location_2": "London, UK",
+      "quote_3": "Geriausia investicija į mūsų santykius šiais metais. Laiko mus susijungus nepaisant užimtų grafikų.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Kartu 1 metai",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Dažniausiai užduodami klausimai",
+      "q1_question": "Ar Hearth nemokamas?",
+      "q1_answer": "Taip! Hearth turi dosnų nemokamą lygį su kasdieniais klausimais ir pagrindiniu prisiminimų dalijimusi. Hearth Premium atrakina neribotus prisiminimus, išplėstines įžvalgas ir daugiau.",
+      "q2_question": "Ar galiu naudoti Hearth ilgų atstumų santykiuose?",
+      "q2_answer": "Absoliučiai. Hearth sukurtas sujungti poras, nesvarbu ar esate tame pačiame kambaryje, ar tūkstančius mylių vienas nuo kito.",
+      "q3_question": "Ar mano duomenys privatus?",
+      "q3_answer": "Privatumas — mūsų prioritetas. Jūsų pokalbiai ir nuotraukos šifruojami ir prieinami tik jums dviem. Neparduodame jūsų duomenų.",
+      "q4_question": "Ką daryti, jei išsiskirsime?",
+      "q4_answer": "Galite lengvai eksportuoti duomenis arba visam laikui ištrinti paskyrą. Jūsų duomenys priklauso jums."
+    },
+    "cta": {
+      "title": "Pasiruošę prioritetuoti santykius?",
+      "subtitle": "Prisijunkite prie porų bendruomenės, kuri sąmoningai kuria geresnę ateitį kartu.",
+      "available_on": "Prieinama iOS ir Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Parsisiųsti iš",
+      "google_play": "Google Play",
+      "google_play_caption": "Gauti iš"
+    },
+    "footer": {
+      "tagline": "Darome pasaulį labiau mylinčią vietą, viena pora vienu metu.",
+      "product": "Produktas",
+      "features": "Funkcijos",
+      "pricing": "Kainos",
+      "testimonials": "Atsiliepimai",
+      "faq": "DUK",
+      "company": "Įmonė",
+      "about_us": "Apie mus",
+      "blog": "Tinklaraštis",
+      "careers": "Karjera",
+      "contact": "Kontaktai",
+      "legal": "Teisė",
+      "privacy_policy": "Privatumo politika",
+      "terms_of_service": "Paslaugų sąlygos",
+      "cookie_policy": "Slapukų politika",
+      "copyright": "© 2026 Hearth App. Visos teisės saugomos.",
+      "aria_language": "Pasirinkti kalbą"
+    }
+  },
+  "notfound": {
+    "header": "Nerasta",
+    "description": "Šis puslapis neegzistuoja.",
+    "try_creating_page": "Bandykite sukurti puslapį"
+  },
+  "go_back": "Atgal į pradžią",
+  "reset_password": {
+    "title": "Atstatyti slaptažodį",
+    "subtitle": "Įveskite naują slaptažodį savo Hearth paskyrai",
+    "new_password": "Naujas slaptažodis",
+    "new_password_placeholder": "Įveskite naują slaptažodį",
+    "confirm_password": "Patvirtinti slaptažodį",
+    "confirm_password_placeholder": "Patvirtinkite naują slaptažodį",
+    "passwords_do_not_match": "Slaptažodžiai nesutampa",
+    "requirements_title": "Slaptažodžio reikalavimai",
+    "min_characters": "Bent 8 simboliai",
+    "one_uppercase": "Viena didžioji raidė",
+    "one_number": "Vienas skaičius",
+    "resetting": "Atstatoma...",
+    "submit": "Atstatyti slaptažodį",
+    "having_trouble": "Kyla problemų?",
+    "contact_support": "Susisiekite su palaikymu",
+    "success_title": "Slaptažodis atnaujintas",
+    "success_message": "Jūsų slaptažodis sėkmingai atstatytas. Dabar galite grįžti į programėlę ir prisijungti nauju slaptažodžiu.",
+    "close_page": "Galite saugiai uždaryti šį puslapį.",
+    "missing_tokens": "Trūksta sesijos žetonų. Naudokite nuorodą iš el. laiško.",
+    "failed": "Nepavyko atstatyti slaptažodžio",
+    "generic_error": "Kažkas nepavyko. Bandykite dar kartą.",
+    "invalid_params": "Neteisingi arba trūkstami atstatymo nuorodos parametrai.",
+    "verify_failed": "Nepavyko patikrinti atkūrimo žetono",
+    "link_error": "Kažkas nepavyko. Nuoroda galėjo pasibaigti.",
+    "link_expired": "Nuoroda pasibaigė arba negalioja",
+    "request_new": "Prašome pateikti naują slaptažodžio atstatymo užklausą iš programėlės.",
+    "verifying": "Tikrinama jūsų nuoroda...",
+    "please_wait": "Palaukite akimirką.",
+    "page_title": "Atstatyti slaptažodį",
+    "page_description": "Atstatykite savo Hearth paskyros slaptažodį",
+    "confirm_page_title": "Tikrinama...",
+    "confirm_page_description": "Tikrinama jūsų slaptažodžio atstatymo nuoroda"
+  }
+}

@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Etusivu","meta_description":"Hearth — maalaussivusi. Löydä lisää."},"landing":{"header":{"get_app":"Lataa sovellus"},"hero":{"badge":"Paras sovellus pareille","title_line1":"Syvennä yhteyttänne.","title_line2":"Joka ikinen päivä.","subtitle":"Hearth auttaa rakentamaan vahvempaa, intiimimpiä suhdetta jaettujen muistojen, päivittäisten kysymysten ja merkityksellisten vuorovaikutusten kautta.","private_secure":"Yksityinen ja turvallinen","trusted_by":"Yli 50 000 parin luottamus"},"stats":{"couples_connected":"Parit yhdistetty","questions_answered":"Kysymyksiin vastattu","memories_shared":"Muistoja jaettu","countries":"Maat"},"features":{"section_title":"Kaikki tarvitsemanne lähentymiseen","section_subtitle":"Suhteen asiantuntijoiden suunnittelema edistämään läheisyyttä, luottamusta ja iloa.","shared_memories_title":"Jaetut muistot","shared_memories_desc":"Rakenna elävä aikajana suhteenne arvokkaimmista kuvista ja hetkistä.","daily_prompts_title":"Päivittäiset kysymykset","daily_prompts_desc":"Syyttää syviä, merkityksellisiä keskusteluja uudella ajatuksia herättävällä kysymyksellä joka päivä.","private_chat_title":"Yksityinen chat","private_chat_desc":"Turvallinen, intiimi tila keskusteluilleenne, erillään muiden sovellusten melusta.","appreciation_title":"Arvostus ja kehut","appreciation_desc":"Lähetä virtuaalisia halauksia, rakkausviestejä ja tarroja näyttääksesi kumppanillesi arvostusta.","streaks_title":"Putket ja virstanpylväät","streaks_desc":"Seuraa suhteen jatkuvuutta ja juhli keskeisiä vuosipäiviä ja virstanpylväitä yhdessä.","privacy_first_title":"Yksityisyys ensin","privacy_first_desc":"Tietonne on päästä päähän salattu ja näkyvissä vain teille kahdelle. Digitaalinen turvapaikanne."},"how_it_works":{"title":"Miten se toimii","subtitle":"Kolme yksinkertaista askelta syvemmän yhteyden rakentamiseen tänään.","step_1_title":"1. Kutsu kumppani","step_1_desc":"Rekisteröidy ja lähetä ainutlaatuinen kutsulinkki kumppanillesi tilien yhdistämiseksi.","step_2_title":"2. Päivittäinen yhteys","step_2_desc":"Vastaa yhteen hauskaan tai syvälliseen kysymykseen päivässä avataksesi kumppanin vastauksen.","step_3_title":"3. Kasvakaa yhdessä","step_3_desc":"Katsokaa suhteenne syvenevän arvostuksen ja avoimuuden tavan kautta."},"testimonials":{"badge":"Yli 50 000 parin rakastama","section_title":"Rakkaustarinoita yhteisöstämme","section_subtitle":"Ota selvää, miten Hearth auttaa pareja maailmalla rakentamaan syvempiä yhteyksiä.","quote_1":"Hearth muutti tapamme kommunikoida. Päivittäiset kysymykset herättävät keskusteluja, joita meillä ei muuten olisi. Tuntuu kuin seurustelisimme uudestaan.","author_1":"Jessica & Mark","years_1":"Yhdessä 3 vuotta","location_1":"San Francisco, CA","quote_2":"Rakastan yksityistä aikajanaa. Kuin oma pieni verkostomme, vain meille, ilman melua. Estetiikka on vain kaunis.","author_2":"Alex & Sam","years_2":"Naimisissa 5 vuotta","location_2":"London, UK","quote_3":"Paras sijoitus suhteeseemme tänä vuonna. Pitää meidät yhteydessä kiireisistä aikatauluista huolimatta.","author_3":"Taylor & Jordan","years_3":"Yhdessä 1 vuosi","location_3":"Austin, TX"},"faq":{"section_title":"Usein kysytyt kysymykset","q1_question":"Onko Hearth ilmainen?","q1_answer":"Kyllä! Hearthilla on antelias ilmainen taso päivittäisine kysymyksineen ja perus muistojen jakamiseen. Hearth Premium avaa rajattomat muistot, edistyneet oivallukset ja lisää.","q2_question":"Voinko käyttää Hearthia etäsuhteessa?","q2_answer":"Ehdottomasti. Hearth on suunniteltu yhdistämään parit, olittepa samassa huoneessa tai tuhansien kilometrien päässä.","q3_question":"Ovatko tietoni yksityisiä?","q3_answer":"Yksityisyys on tärkeintä. Keskustelunne ja kuvanne on salattu ja niihin pääsevät vain te kaksi. Emme myy tietojanne.","q4_question":"Mitä jos eroamme?","q4_answer":"Voit helposti viedä tietosi tai poistaa tilisi pysyvästi. Tietosi kuuluvat sinulle."},"cta":{"title":"Valmis priorisoimaan suhteenne?","subtitle":"Liity parien yhteisöön, jotka tietoisesti rakentavat parempaa tulevaisuutta yhdessä.","available_on":"Saatavilla iOS:llä ja Androidilla"},"store":{"app_store":"App Store","app_store_caption":"Lataa","google_play":"Google Play","google_play_caption":"Lataa"},"footer":{"tagline":"Teemme maailmasta rakastavaisemman paikan, yksi pari kerrallaan.","product":"Tuote","features":"Ominaisuudet","pricing":"Hinnat","testimonials":"Arvostelut","faq":"FAQ","company":"Yritys","about_us":"Tietoa meistä","blog":"Blogi","careers":"Ura","contact":"Yhteystiedot","legal":"Oikeudellinen","privacy_policy":"Tietosuojakäytäntö","terms_of_service":"Käyttöehdot","cookie_policy":"Evästekäytäntö","copyright":"© 2026 Hearth App. Kaikki oikeudet pidätetään.","aria_language":"Valitse kieli"}},"notfound":{"header":"Ei löytynyt","description":"Tätä sivua ei ole olemassa.","try_creating_page":"Yritä luoda sivu"},"go_back":"Takaisin etusivulle"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Etusivu",
+    "meta_description": "Hearth — maalaussivusi. Löydä lisää."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Lataa sovellus"
+    },
+    "hero": {
+      "badge": "Paras sovellus pareille",
+      "title_line1": "Syvennä yhteyttänne.",
+      "title_line2": "Joka ikinen päivä.",
+      "subtitle": "Hearth auttaa rakentamaan vahvempaa, intiimimpiä suhdetta jaettujen muistojen, päivittäisten kysymysten ja merkityksellisten vuorovaikutusten kautta.",
+      "private_secure": "Yksityinen ja turvallinen",
+      "trusted_by": "Yli 50 000 parin luottamus"
+    },
+    "stats": {
+      "couples_connected": "Parit yhdistetty",
+      "questions_answered": "Kysymyksiin vastattu",
+      "memories_shared": "Muistoja jaettu",
+      "countries": "Maat"
+    },
+    "features": {
+      "section_title": "Kaikki tarvitsemanne lähentymiseen",
+      "section_subtitle": "Suhteen asiantuntijoiden suunnittelema edistämään läheisyyttä, luottamusta ja iloa.",
+      "shared_memories_title": "Jaetut muistot",
+      "shared_memories_desc": "Rakenna elävä aikajana suhteenne arvokkaimmista kuvista ja hetkistä.",
+      "daily_prompts_title": "Päivittäiset kysymykset",
+      "daily_prompts_desc": "Syyttää syviä, merkityksellisiä keskusteluja uudella ajatuksia herättävällä kysymyksellä joka päivä.",
+      "private_chat_title": "Yksityinen chat",
+      "private_chat_desc": "Turvallinen, intiimi tila keskusteluilleenne, erillään muiden sovellusten melusta.",
+      "appreciation_title": "Arvostus ja kehut",
+      "appreciation_desc": "Lähetä virtuaalisia halauksia, rakkausviestejä ja tarroja näyttääksesi kumppanillesi arvostusta.",
+      "streaks_title": "Putket ja virstanpylväät",
+      "streaks_desc": "Seuraa suhteen jatkuvuutta ja juhli keskeisiä vuosipäiviä ja virstanpylväitä yhdessä.",
+      "privacy_first_title": "Yksityisyys ensin",
+      "privacy_first_desc": "Tietonne on päästä päähän salattu ja näkyvissä vain teille kahdelle. Digitaalinen turvapaikanne."
+    },
+    "how_it_works": {
+      "title": "Miten se toimii",
+      "subtitle": "Kolme yksinkertaista askelta syvemmän yhteyden rakentamiseen tänään.",
+      "step_1_title": "1. Kutsu kumppani",
+      "step_1_desc": "Rekisteröidy ja lähetä ainutlaatuinen kutsulinkki kumppanillesi tilien yhdistämiseksi.",
+      "step_2_title": "2. Päivittäinen yhteys",
+      "step_2_desc": "Vastaa yhteen hauskaan tai syvälliseen kysymykseen päivässä avataksesi kumppanin vastauksen.",
+      "step_3_title": "3. Kasvakaa yhdessä",
+      "step_3_desc": "Katsokaa suhteenne syvenevän arvostuksen ja avoimuuden tavan kautta."
+    },
+    "testimonials": {
+      "badge": "Yli 50 000 parin rakastama",
+      "section_title": "Rakkaustarinoita yhteisöstämme",
+      "section_subtitle": "Ota selvää, miten Hearth auttaa pareja maailmalla rakentamaan syvempiä yhteyksiä.",
+      "quote_1": "Hearth muutti tapamme kommunikoida. Päivittäiset kysymykset herättävät keskusteluja, joita meillä ei muuten olisi. Tuntuu kuin seurustelisimme uudestaan.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Yhdessä 3 vuotta",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Rakastan yksityistä aikajanaa. Kuin oma pieni verkostomme, vain meille, ilman melua. Estetiikka on vain kaunis.",
+      "author_2": "Alex & Sam",
+      "years_2": "Naimisissa 5 vuotta",
+      "location_2": "London, UK",
+      "quote_3": "Paras sijoitus suhteeseemme tänä vuonna. Pitää meidät yhteydessä kiireisistä aikatauluista huolimatta.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Yhdessä 1 vuosi",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Usein kysytyt kysymykset",
+      "q1_question": "Onko Hearth ilmainen?",
+      "q1_answer": "Kyllä! Hearthilla on antelias ilmainen taso päivittäisine kysymyksineen ja perus muistojen jakamiseen. Hearth Premium avaa rajattomat muistot, edistyneet oivallukset ja lisää.",
+      "q2_question": "Voinko käyttää Hearthia etäsuhteessa?",
+      "q2_answer": "Ehdottomasti. Hearth on suunniteltu yhdistämään parit, olittepa samassa huoneessa tai tuhansien kilometrien päässä.",
+      "q3_question": "Ovatko tietoni yksityisiä?",
+      "q3_answer": "Yksityisyys on tärkeintä. Keskustelunne ja kuvanne on salattu ja niihin pääsevät vain te kaksi. Emme myy tietojanne.",
+      "q4_question": "Mitä jos eroamme?",
+      "q4_answer": "Voit helposti viedä tietosi tai poistaa tilisi pysyvästi. Tietosi kuuluvat sinulle."
+    },
+    "cta": {
+      "title": "Valmis priorisoimaan suhteenne?",
+      "subtitle": "Liity parien yhteisöön, jotka tietoisesti rakentavat parempaa tulevaisuutta yhdessä.",
+      "available_on": "Saatavilla iOS:llä ja Androidilla"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Lataa",
+      "google_play": "Google Play",
+      "google_play_caption": "Lataa"
+    },
+    "footer": {
+      "tagline": "Teemme maailmasta rakastavaisemman paikan, yksi pari kerrallaan.",
+      "product": "Tuote",
+      "features": "Ominaisuudet",
+      "pricing": "Hinnat",
+      "testimonials": "Arvostelut",
+      "faq": "FAQ",
+      "company": "Yritys",
+      "about_us": "Tietoa meistä",
+      "blog": "Blogi",
+      "careers": "Ura",
+      "contact": "Yhteystiedot",
+      "legal": "Oikeudellinen",
+      "privacy_policy": "Tietosuojakäytäntö",
+      "terms_of_service": "Käyttöehdot",
+      "cookie_policy": "Evästekäytäntö",
+      "copyright": "© 2026 Hearth App. Kaikki oikeudet pidätetään.",
+      "aria_language": "Valitse kieli"
+    }
+  },
+  "notfound": {
+    "header": "Ei löytynyt",
+    "description": "Tätä sivua ei ole olemassa.",
+    "try_creating_page": "Yritä luoda sivu"
+  },
+  "go_back": "Takaisin etusivulle",
+  "reset_password": {
+    "title": "Nollaa salasanasi",
+    "subtitle": "Syötä uusi salasana Hearth-tilillesi",
+    "new_password": "Uusi salasana",
+    "new_password_placeholder": "Syötä uusi salasana",
+    "confirm_password": "Vahvista salasana",
+    "confirm_password_placeholder": "Vahvista uusi salasana",
+    "passwords_do_not_match": "Salasanat eivät täsmää",
+    "requirements_title": "Salasanavaatimukset",
+    "min_characters": "Vähintään 8 merkkiä",
+    "one_uppercase": "Yksi iso kirjain",
+    "one_number": "Yksi numero",
+    "resetting": "Nollataan...",
+    "submit": "Nollaa salasana",
+    "having_trouble": "Ongelmia?",
+    "contact_support": "Ota yhteyttä tukeen",
+    "success_title": "Salasana päivitetty",
+    "success_message": "Salasanasi on nollattu onnistuneesti. Voit nyt palata sovellukseen ja kirjautua sisään uudella salasanallasi.",
+    "close_page": "Voit sulkea tämän sivun turvallisesti.",
+    "missing_tokens": "Istuntotunnisteet puuttuvat. Käytä sähköpostisi linkkiä.",
+    "failed": "Salasanan nollaus epäonnistui",
+    "generic_error": "Jokin meni pieleen. Yritä uudelleen.",
+    "invalid_params": "Virheelliset tai puuttuvat nollauslinkin parametrit.",
+    "verify_failed": "Palautustunnisteen vahvistus epäonnistui",
+    "link_error": "Jokin meni pieleen. Linkki on saattanut vanhentua.",
+    "link_expired": "Linkki vanhentunut tai virheellinen",
+    "request_new": "Pyydä uusi salasanan nollaus sovelluksesta.",
+    "verifying": "Vahvistetaan linkkiäsi...",
+    "please_wait": "Odota hetki.",
+    "page_title": "Nollaa salasana",
+    "page_description": "Nollaa Hearth-tilisi salasana",
+    "confirm_page_title": "Vahvistetaan...",
+    "confirm_page_description": "Vahvistetaan salasanan nollauslinkkiäsi"
+  }
+}

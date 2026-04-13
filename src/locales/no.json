@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Hjem","meta_description":"Hearth — din landingsside. Oppdag mer."},"landing":{"header":{"get_app":"Last ned app"},"hero":{"badge":"Appen #1 for par","title_line1":"Dyp forbindelsen.","title_line2":"Hver eneste dag.","subtitle":"Hearth hjelper deg med å bygge et sterkere, mer intimt forhold gjennom delte minner, daglige spørsmål og meningsfulle samhandlinger.","private_secure":"Privat og trygt","trusted_by":"Stolt av over 50 000 par"},"stats":{"couples_connected":"Par koblet til","questions_answered":"Spørsmål besvart","memories_shared":"Minner delt","countries":"Land"},"features":{"section_title":"Alt du trenger for å komme nærmere","section_subtitle":"Designet av relasjonseksperter for å fremme intimitet, tillit og glede.","shared_memories_title":"Delte minner","shared_memories_desc":"Bygg en levende tidslinje av forholdets mest verdifulle bilder og øyeblikk.","daily_prompts_title":"Daglige spørsmål","daily_prompts_desc":"Start dype, meningsfulle samtaler med ett nytt tankevekkende spørsmål hver dag.","private_chat_title":"Privat chat","private_chat_desc":"Et trygt, intimt rom for samtaler deres, borte fra støyen i andre apper.","appreciation_title":"Vurdering og ros","appreciation_desc":"Send virtuelle klemmer, kjærlighetsmeldinger og klistremerker for å vise partneren at de settes pris på.","streaks_title":"Rekker og milepæler","streaks_desc":"Følg konsistensen i forholdet og feir viktige jubileer og milepæler sammen.","privacy_first_title":"Personvern først","privacy_first_desc":"Dataene dine er end-til-end-kryptert og synlige bare for dere to. Deres digitale tilfluktssted."},"how_it_works":{"title":"Slik fungerer det","subtitle":"Tre enkle steg for å bygge en dypere forbindelse i dag.","step_1_title":"1. Inviter partner","step_1_desc":"Registrer deg og send en unik invitasjonslenke til partneren for å koble kontoene.","step_2_title":"2. Daglig forbindelse","step_2_desc":"Svar på ett morsomt eller dyp spørsmål hver dag for å låse opp partnerens svar.","step_3_title":"3. Voks sammen","step_3_desc":"Se forholdet deres bli dypere mens dere bygger vaner med takknemlighet og åpenhet."},"testimonials":{"badge":"Elsket av over 50 000 par","section_title":"Kjærlighetshistorier fra vårt fellesskap","section_subtitle":"Oppdag hvordan Hearth hjelper par verden rundt med å bygge dypere forbindelser.","quote_1":"Hearth endret hvordan vi kommuniserer. De daglige spørsmålene utløser samtaler vi ikke ville hatt. Det føles som å date igjen.","author_1":"Jessica & Mark","years_1":"Sammen 3 år","location_1":"San Francisco, CA","quote_2":"Jeg elsker den private tidslinjen. Som vårt eget lille nettverk, bare for oss, uten støy. Estetikken er bare vakker.","author_2":"Alex & Sam","years_2":"Gift 5 år","location_2":"London, UK","quote_3":"Den beste investeringen vi har gjort i forholdet vårt i år. Holder oss koblet til tross travel rutine.","author_3":"Taylor & Jordan","years_3":"Sammen 1 år","location_3":"Austin, TX"},"faq":{"section_title":"Ofte stilte spørsmål","q1_question":"Er Hearth gratis?","q1_answer":"Ja! Hearth har et generøst gratisnivå med daglige spørsmål og grunnleggende minnedeling. Hearth Premium åpner for ubegrensede minner, avansert innsikt og mer.","q2_question":"Kan jeg bruke Hearth i et langdistanseforhold?","q2_answer":"Absolutt. Hearth er designet for å bygge bro mellom par, enten dere er i samme rom eller tusenvis av kilometer fra hverandre.","q3_question":"Er dataene mine private?","q3_answer":"Personvern er vår topprioritet. Samtalene og bildene deres er kryptert og tilgjengelige bare for dere to. Vi selger ikke dataene deres.","q4_question":"Hva om vi slår opp?","q4_answer":"Du kan enkelt eksportere dataene eller slette kontoen permanent. Dataene dine tilhører deg."},"cta":{"title":"Klar til å prioritere forholdet?","subtitle":"Bli med i fellesskapet av par som bevisst bygger en bedre fremtid sammen.","available_on":"Tilgjengelig på iOS og Android"},"store":{"app_store":"App Store","app_store_caption":"Last ned på","google_play":"Google Play","google_play_caption":"Last ned på"},"footer":{"tagline":"Gjør verden et mer kjærlig sted, ett par om gangen.","product":"Produkt","features":"Funksjoner","pricing":"Priser","testimonials":"Anmeldelser","faq":"FAQ","company":"Selskap","about_us":"Om oss","blog":"Blogg","careers":"Karriere","contact":"Kontakt","legal":"Juridisk","privacy_policy":"Personvernregler","terms_of_service":"Tjenestevilkår","cookie_policy":"Informasjonskapsler","copyright":"© 2026 Hearth App. Alle rettigheter reservert.","aria_language":"Velg språk"}},"notfound":{"header":"Ikke funnet","description":"Denne siden finnes ikke.","try_creating_page":"Prøv å opprette en side på"},"go_back":"Tilbake til forsiden"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Hjem",
+    "meta_description": "Hearth — din landingsside. Oppdag mer."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Last ned app"
+    },
+    "hero": {
+      "badge": "Appen #1 for par",
+      "title_line1": "Dyp forbindelsen.",
+      "title_line2": "Hver eneste dag.",
+      "subtitle": "Hearth hjelper deg med å bygge et sterkere, mer intimt forhold gjennom delte minner, daglige spørsmål og meningsfulle samhandlinger.",
+      "private_secure": "Privat og trygt",
+      "trusted_by": "Stolt av over 50 000 par"
+    },
+    "stats": {
+      "couples_connected": "Par koblet til",
+      "questions_answered": "Spørsmål besvart",
+      "memories_shared": "Minner delt",
+      "countries": "Land"
+    },
+    "features": {
+      "section_title": "Alt du trenger for å komme nærmere",
+      "section_subtitle": "Designet av relasjonseksperter for å fremme intimitet, tillit og glede.",
+      "shared_memories_title": "Delte minner",
+      "shared_memories_desc": "Bygg en levende tidslinje av forholdets mest verdifulle bilder og øyeblikk.",
+      "daily_prompts_title": "Daglige spørsmål",
+      "daily_prompts_desc": "Start dype, meningsfulle samtaler med ett nytt tankevekkende spørsmål hver dag.",
+      "private_chat_title": "Privat chat",
+      "private_chat_desc": "Et trygt, intimt rom for samtaler deres, borte fra støyen i andre apper.",
+      "appreciation_title": "Vurdering og ros",
+      "appreciation_desc": "Send virtuelle klemmer, kjærlighetsmeldinger og klistremerker for å vise partneren at de settes pris på.",
+      "streaks_title": "Rekker og milepæler",
+      "streaks_desc": "Følg konsistensen i forholdet og feir viktige jubileer og milepæler sammen.",
+      "privacy_first_title": "Personvern først",
+      "privacy_first_desc": "Dataene dine er end-til-end-kryptert og synlige bare for dere to. Deres digitale tilfluktssted."
+    },
+    "how_it_works": {
+      "title": "Slik fungerer det",
+      "subtitle": "Tre enkle steg for å bygge en dypere forbindelse i dag.",
+      "step_1_title": "1. Inviter partner",
+      "step_1_desc": "Registrer deg og send en unik invitasjonslenke til partneren for å koble kontoene.",
+      "step_2_title": "2. Daglig forbindelse",
+      "step_2_desc": "Svar på ett morsomt eller dyp spørsmål hver dag for å låse opp partnerens svar.",
+      "step_3_title": "3. Voks sammen",
+      "step_3_desc": "Se forholdet deres bli dypere mens dere bygger vaner med takknemlighet og åpenhet."
+    },
+    "testimonials": {
+      "badge": "Elsket av over 50 000 par",
+      "section_title": "Kjærlighetshistorier fra vårt fellesskap",
+      "section_subtitle": "Oppdag hvordan Hearth hjelper par verden rundt med å bygge dypere forbindelser.",
+      "quote_1": "Hearth endret hvordan vi kommuniserer. De daglige spørsmålene utløser samtaler vi ikke ville hatt. Det føles som å date igjen.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Sammen 3 år",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Jeg elsker den private tidslinjen. Som vårt eget lille nettverk, bare for oss, uten støy. Estetikken er bare vakker.",
+      "author_2": "Alex & Sam",
+      "years_2": "Gift 5 år",
+      "location_2": "London, UK",
+      "quote_3": "Den beste investeringen vi har gjort i forholdet vårt i år. Holder oss koblet til tross travel rutine.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Sammen 1 år",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Ofte stilte spørsmål",
+      "q1_question": "Er Hearth gratis?",
+      "q1_answer": "Ja! Hearth har et generøst gratisnivå med daglige spørsmål og grunnleggende minnedeling. Hearth Premium åpner for ubegrensede minner, avansert innsikt og mer.",
+      "q2_question": "Kan jeg bruke Hearth i et langdistanseforhold?",
+      "q2_answer": "Absolutt. Hearth er designet for å bygge bro mellom par, enten dere er i samme rom eller tusenvis av kilometer fra hverandre.",
+      "q3_question": "Er dataene mine private?",
+      "q3_answer": "Personvern er vår topprioritet. Samtalene og bildene deres er kryptert og tilgjengelige bare for dere to. Vi selger ikke dataene deres.",
+      "q4_question": "Hva om vi slår opp?",
+      "q4_answer": "Du kan enkelt eksportere dataene eller slette kontoen permanent. Dataene dine tilhører deg."
+    },
+    "cta": {
+      "title": "Klar til å prioritere forholdet?",
+      "subtitle": "Bli med i fellesskapet av par som bevisst bygger en bedre fremtid sammen.",
+      "available_on": "Tilgjengelig på iOS og Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Last ned på",
+      "google_play": "Google Play",
+      "google_play_caption": "Last ned på"
+    },
+    "footer": {
+      "tagline": "Gjør verden et mer kjærlig sted, ett par om gangen.",
+      "product": "Produkt",
+      "features": "Funksjoner",
+      "pricing": "Priser",
+      "testimonials": "Anmeldelser",
+      "faq": "FAQ",
+      "company": "Selskap",
+      "about_us": "Om oss",
+      "blog": "Blogg",
+      "careers": "Karriere",
+      "contact": "Kontakt",
+      "legal": "Juridisk",
+      "privacy_policy": "Personvernregler",
+      "terms_of_service": "Tjenestevilkår",
+      "cookie_policy": "Informasjonskapsler",
+      "copyright": "© 2026 Hearth App. Alle rettigheter reservert.",
+      "aria_language": "Velg språk"
+    }
+  },
+  "notfound": {
+    "header": "Ikke funnet",
+    "description": "Denne siden finnes ikke.",
+    "try_creating_page": "Prøv å opprette en side på"
+  },
+  "go_back": "Tilbake til forsiden",
+  "reset_password": {
+    "title": "Tilbakestill passordet ditt",
+    "subtitle": "Skriv inn et nytt passord for Hearth-kontoen din",
+    "new_password": "Nytt passord",
+    "new_password_placeholder": "Skriv inn nytt passord",
+    "confirm_password": "Bekreft passord",
+    "confirm_password_placeholder": "Bekreft nytt passord",
+    "passwords_do_not_match": "Passordene stemmer ikke overens",
+    "requirements_title": "Passordkrav",
+    "min_characters": "Minst 8 tegn",
+    "one_uppercase": "Én stor bokstav",
+    "one_number": "Ett tall",
+    "resetting": "Tilbakestiller...",
+    "submit": "Tilbakestill passord",
+    "having_trouble": "Har du problemer?",
+    "contact_support": "Kontakt support",
+    "success_title": "Passord oppdatert",
+    "success_message": "Passordet ditt er tilbakestilt. Du kan nå gå tilbake til appen og logge inn med ditt nye passord.",
+    "close_page": "Du kan trygt lukke denne siden.",
+    "missing_tokens": "Sesjonstokens mangler. Bruk lenken fra e-posten din.",
+    "failed": "Kunne ikke tilbakestille passordet",
+    "generic_error": "Noe gikk galt. Prøv igjen.",
+    "invalid_params": "Ugyldige eller manglende parametere for tilbakestillingslenken.",
+    "verify_failed": "Kunne ikke verifisere gjenopprettingstoken",
+    "link_error": "Noe gikk galt. Lenken kan ha utløpt.",
+    "link_expired": "Lenken er utløpt eller ugyldig",
+    "request_new": "Be om en ny tilbakestilling av passord fra appen.",
+    "verifying": "Verifiserer lenken din...",
+    "please_wait": "Vennligst vent et øyeblikk.",
+    "page_title": "Tilbakestill passord",
+    "page_description": "Tilbakestill passordet for Hearth-kontoen din",
+    "confirm_page_title": "Verifiserer...",
+    "confirm_page_description": "Verifiserer lenken for tilbakestilling av passord"
+  }
+}

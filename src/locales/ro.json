@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Pagina principală","meta_description":"Hearth — pagina ta de destinație. Descoperă mai mult."},"landing":{"header":{"get_app":"Descarcă aplicația"},"hero":{"badge":"Aplicația #1 pentru cupluri","title_line1":"Adâncește legătura.","title_line2":"În fiecare zi.","subtitle":"Hearth te ajută să construiești o relație mai puternică și intimă prin amintiri partajate, întrebări zilnice și interacțiuni pline de sens.","private_secure":"Privat și sigur","trusted_by":"Încrederea peste 50.000 de cupluri"},"stats":{"couples_connected":"Cupluri conectate","questions_answered":"Întrebări răspunse","memories_shared":"Amintiri partajate","countries":"Țări"},"features":{"section_title":"Tot ce ai nevoie pentru a vă apropia","section_subtitle":"Proiectat de experți în relații pentru a cultiva intimitatea, încrederea și bucuria.","shared_memories_title":"Amintiri partajate","shared_memories_desc":"Construiește o cronologie vie cu cele mai prețioase fotografii și momente ale relației voastre.","daily_prompts_title":"Întrebări zilnice","daily_prompts_desc":"Declanșează conversații profunde și pline de sens cu o întrebare nouă, provocatoare, în fiecare zi.","private_chat_title":"Chat privat","private_chat_desc":"Un spațiu sigur și intim pentru conversațiile voastre, departe de zgomotul altor aplicații.","appreciation_title":"Apreciere și laude","appreciation_desc":"Trimite îmbrățișări virtuale, mesaje de dragoste și stickere pentru a arăta partenerului că e apreciat.","streaks_title":"Serii și repere","streaks_desc":"Urmărește consistența relației și sărbătorește aniversări și repere importante împreună.","privacy_first_title":"Confidențialitate în prim plan","privacy_first_desc":"Datele voastre sunt criptate end-to-end și vizibile doar vouă doi. Sanctuarul vostru digital."},"how_it_works":{"title":"Cum funcționează","subtitle":"Trei pași simpli pentru a începe o legătură mai profundă azi.","step_1_title":"1. Invită partenerul","step_1_desc":"Înscrie-te și trimite un link unic de invitație partenerului pentru a vă conecta conturile.","step_2_title":"2. Conexiune zilnică","step_2_desc":"Răspunde la o întrebare distractivă sau profundă în fiecare zi pentru a debloca răspunsul partenerului.","step_3_title":"3. Creșteți împreună","step_3_desc":"Vedeți relația adâncindu-se pe măsură ce construiți obiceiul aprecierii și deschiderii."},"testimonials":{"badge":"Iubit de peste 50.000 de cupluri","section_title":"Povești de dragoste din comunitatea noastră","section_subtitle":"Descoperă cum Hearth ajută cuplurile din întreaga lume să construiască legături mai profunde.","quote_1":"Hearth ne-a schimbat modul de a comunica. Întrebările zilnice declanșează conversații pe care nu le-am avea altfel. Ne simțim ca și cum am ieși din nou la întâlniri.","author_1":"Jessica & Mark","years_1":"Împreună 3 ani","location_1":"San Francisco, CA","quote_2":"Ador cronologia privată. E ca o rețea mică a noastră, doar pentru noi, fără zgomot. Estetica e pur și simplu frumoasă.","author_2":"Alex & Sam","years_2":"Căsătoriți 5 ani","location_2":"London, UK","quote_3":"Cea mai bună investiție în relația noastră anul acesta. Ne ține conectați în ciuda programului încărcat.","author_3":"Taylor & Jordan","years_3":"Împreună 1 an","location_3":"Austin, TX"},"faq":{"section_title":"Întrebări frecvente","q1_question":"Hearth e gratuit?","q1_answer":"Da! Hearth are un nivel gratuit generos cu întrebări zilnice și partajare de bază a amintirilor. Hearth Premium deblochează amintiri nelimitate, insight-uri avansate și multe altele.","q2_question":"Pot folosi Hearth într-o relație la distanță?","q2_answer":"Absolut. Hearth e conceput să pună în legătură cuplurile, fie că sunteți în aceeași cameră sau la mii de kilometri.","q3_question":"Sunt datele mele private?","q3_answer":"Confidențialitatea e prioritatea noastră. Conversațiile și fotografiile sunt criptate și accesibile doar vouă doi. Nu vindem datele voastre.","q4_question":"Ce dacă ne despărțim?","q4_answer":"Poți exporta datele sau șterge contul permanent. Datele tale îți aparțin."},"cta":{"title":"Gata să prioritizezi relația?","subtitle":"Alătură-te comunității de cupluri care construiesc conștient o viitor mai bun împreună.","available_on":"Disponibil pe iOS și Android"},"store":{"app_store":"App Store","app_store_caption":"Descarcă pe","google_play":"Google Play","google_play_caption":"Obține pe"},"footer":{"tagline":"Facem lumea un loc mai plin de iubire, un cuplu pe rând.","product":"Produs","features":"Funcții","pricing":"Prețuri","testimonials":"Recenzii","faq":"FAQ","company":"Companie","about_us":"Despre noi","blog":"Blog","careers":"Cariere","contact":"Contact","legal":"Legal","privacy_policy":"Politica de confidențialitate","terms_of_service":"Termeni și condiții","cookie_policy":"Politica cookie-urilor","copyright":"© 2026 Hearth App. Toate drepturile rezervate.","aria_language":"Selectează limba"}},"notfound":{"header":"Negăsit","description":"Această pagină nu există.","try_creating_page":"Încearcă să creezi o pagină în"},"go_back":"Înapoi la pagina principală"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Pagina principală",
+    "meta_description": "Hearth — pagina ta de destinație. Descoperă mai mult."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Descarcă aplicația"
+    },
+    "hero": {
+      "badge": "Aplicația #1 pentru cupluri",
+      "title_line1": "Adâncește legătura.",
+      "title_line2": "În fiecare zi.",
+      "subtitle": "Hearth te ajută să construiești o relație mai puternică și intimă prin amintiri partajate, întrebări zilnice și interacțiuni pline de sens.",
+      "private_secure": "Privat și sigur",
+      "trusted_by": "Încrederea peste 50.000 de cupluri"
+    },
+    "stats": {
+      "couples_connected": "Cupluri conectate",
+      "questions_answered": "Întrebări răspunse",
+      "memories_shared": "Amintiri partajate",
+      "countries": "Țări"
+    },
+    "features": {
+      "section_title": "Tot ce ai nevoie pentru a vă apropia",
+      "section_subtitle": "Proiectat de experți în relații pentru a cultiva intimitatea, încrederea și bucuria.",
+      "shared_memories_title": "Amintiri partajate",
+      "shared_memories_desc": "Construiește o cronologie vie cu cele mai prețioase fotografii și momente ale relației voastre.",
+      "daily_prompts_title": "Întrebări zilnice",
+      "daily_prompts_desc": "Declanșează conversații profunde și pline de sens cu o întrebare nouă, provocatoare, în fiecare zi.",
+      "private_chat_title": "Chat privat",
+      "private_chat_desc": "Un spațiu sigur și intim pentru conversațiile voastre, departe de zgomotul altor aplicații.",
+      "appreciation_title": "Apreciere și laude",
+      "appreciation_desc": "Trimite îmbrățișări virtuale, mesaje de dragoste și stickere pentru a arăta partenerului că e apreciat.",
+      "streaks_title": "Serii și repere",
+      "streaks_desc": "Urmărește consistența relației și sărbătorește aniversări și repere importante împreună.",
+      "privacy_first_title": "Confidențialitate în prim plan",
+      "privacy_first_desc": "Datele voastre sunt criptate end-to-end și vizibile doar vouă doi. Sanctuarul vostru digital."
+    },
+    "how_it_works": {
+      "title": "Cum funcționează",
+      "subtitle": "Trei pași simpli pentru a începe o legătură mai profundă azi.",
+      "step_1_title": "1. Invită partenerul",
+      "step_1_desc": "Înscrie-te și trimite un link unic de invitație partenerului pentru a vă conecta conturile.",
+      "step_2_title": "2. Conexiune zilnică",
+      "step_2_desc": "Răspunde la o întrebare distractivă sau profundă în fiecare zi pentru a debloca răspunsul partenerului.",
+      "step_3_title": "3. Creșteți împreună",
+      "step_3_desc": "Vedeți relația adâncindu-se pe măsură ce construiți obiceiul aprecierii și deschiderii."
+    },
+    "testimonials": {
+      "badge": "Iubit de peste 50.000 de cupluri",
+      "section_title": "Povești de dragoste din comunitatea noastră",
+      "section_subtitle": "Descoperă cum Hearth ajută cuplurile din întreaga lume să construiască legături mai profunde.",
+      "quote_1": "Hearth ne-a schimbat modul de a comunica. Întrebările zilnice declanșează conversații pe care nu le-am avea altfel. Ne simțim ca și cum am ieși din nou la întâlniri.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Împreună 3 ani",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Ador cronologia privată. E ca o rețea mică a noastră, doar pentru noi, fără zgomot. Estetica e pur și simplu frumoasă.",
+      "author_2": "Alex & Sam",
+      "years_2": "Căsătoriți 5 ani",
+      "location_2": "London, UK",
+      "quote_3": "Cea mai bună investiție în relația noastră anul acesta. Ne ține conectați în ciuda programului încărcat.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Împreună 1 an",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Întrebări frecvente",
+      "q1_question": "Hearth e gratuit?",
+      "q1_answer": "Da! Hearth are un nivel gratuit generos cu întrebări zilnice și partajare de bază a amintirilor. Hearth Premium deblochează amintiri nelimitate, insight-uri avansate și multe altele.",
+      "q2_question": "Pot folosi Hearth într-o relație la distanță?",
+      "q2_answer": "Absolut. Hearth e conceput să pună în legătură cuplurile, fie că sunteți în aceeași cameră sau la mii de kilometri.",
+      "q3_question": "Sunt datele mele private?",
+      "q3_answer": "Confidențialitatea e prioritatea noastră. Conversațiile și fotografiile sunt criptate și accesibile doar vouă doi. Nu vindem datele voastre.",
+      "q4_question": "Ce dacă ne despărțim?",
+      "q4_answer": "Poți exporta datele sau șterge contul permanent. Datele tale îți aparțin."
+    },
+    "cta": {
+      "title": "Gata să prioritizezi relația?",
+      "subtitle": "Alătură-te comunității de cupluri care construiesc conștient o viitor mai bun împreună.",
+      "available_on": "Disponibil pe iOS și Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Descarcă pe",
+      "google_play": "Google Play",
+      "google_play_caption": "Obține pe"
+    },
+    "footer": {
+      "tagline": "Facem lumea un loc mai plin de iubire, un cuplu pe rând.",
+      "product": "Produs",
+      "features": "Funcții",
+      "pricing": "Prețuri",
+      "testimonials": "Recenzii",
+      "faq": "FAQ",
+      "company": "Companie",
+      "about_us": "Despre noi",
+      "blog": "Blog",
+      "careers": "Cariere",
+      "contact": "Contact",
+      "legal": "Legal",
+      "privacy_policy": "Politica de confidențialitate",
+      "terms_of_service": "Termeni și condiții",
+      "cookie_policy": "Politica cookie-urilor",
+      "copyright": "© 2026 Hearth App. Toate drepturile rezervate.",
+      "aria_language": "Selectează limba"
+    }
+  },
+  "notfound": {
+    "header": "Negăsit",
+    "description": "Această pagină nu există.",
+    "try_creating_page": "Încearcă să creezi o pagină în"
+  },
+  "go_back": "Înapoi la pagina principală",
+  "reset_password": {
+    "title": "Resetează-ți parola",
+    "subtitle": "Introdu o parolă nouă pentru contul tău Hearth",
+    "new_password": "Parolă nouă",
+    "new_password_placeholder": "Introdu parola nouă",
+    "confirm_password": "Confirmă parola",
+    "confirm_password_placeholder": "Confirmă parola nouă",
+    "passwords_do_not_match": "Parolele nu se potrivesc",
+    "requirements_title": "Cerințe pentru parolă",
+    "min_characters": "Cel puțin 8 caractere",
+    "one_uppercase": "O literă mare",
+    "one_number": "O cifră",
+    "resetting": "Se resetează...",
+    "submit": "Resetează parola",
+    "having_trouble": "Ai probleme?",
+    "contact_support": "Contactează suportul",
+    "success_title": "Parolă actualizată",
+    "success_message": "Parola ta a fost resetată cu succes. Acum te poți întoarce în aplicație și te poți autentifica cu noua ta parolă.",
+    "close_page": "Poți închide această pagină în siguranță.",
+    "missing_tokens": "Tokenurile de sesiune lipsesc. Te rugăm să folosești linkul din e-mail.",
+    "failed": "Resetarea parolei a eșuat",
+    "generic_error": "Ceva a mers prost. Te rugăm să încerci din nou.",
+    "invalid_params": "Parametrii linkului de resetare sunt invalizi sau lipsesc.",
+    "verify_failed": "Verificarea tokenului de recuperare a eșuat",
+    "link_error": "Ceva a mers prost. Linkul poate fi expirat.",
+    "link_expired": "Link expirat sau invalid",
+    "request_new": "Te rugăm să soliciți o nouă resetare a parolei din aplicație.",
+    "verifying": "Se verifică linkul tău...",
+    "please_wait": "Te rugăm așteaptă un moment.",
+    "page_title": "Resetează parola",
+    "page_description": "Resetează parola contului tău Hearth",
+    "confirm_page_title": "Se verifică...",
+    "confirm_page_description": "Se verifică linkul tău de resetare a parolei"
+  }
+}

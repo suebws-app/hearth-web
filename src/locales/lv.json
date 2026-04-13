@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Sākumlapa","meta_description":"Hearth — jūsu galvenā lapa. Atklājiet vairāk."},"landing":{"header":{"get_app":"Lejupielādēt lietotni"},"hero":{"badge":"Nr. 1 lietotne pāriem","title_line1":"Padziļiniet savienību.","title_line2":"Katru dienu.","subtitle":"Hearth palīdz veidot stiprākas, intīmākas attiecības caur kopīgām atmiņām, ikdienas jautājumiem un jēgpilnām mijiedarbībām.","private_secure":"Privāts un drošs","trusted_by":"Uzticas vairāk nekā 50 000 pāru"},"stats":{"couples_connected":"Pāri savienoti","questions_answered":"Atbildēti jautājumi","memories_shared":"Kopīgotas atmiņas","countries":"Valstis"},"features":{"section_title":"Viss, kas nepieciešams tuvākai saiknei","section_subtitle":"Izstrādāts attiecību ekspertu, lai veicinātu intīmumu, uzticību un prieku.","shared_memories_title":"Kopīgotas atmiņas","shared_memories_desc":"Veidojiet dzīvu laika līniju no savu attiecību dārgākajām fotogrāfijām un brīžiem.","daily_prompts_title":"Ikdienas jautājumi","daily_prompts_desc":"Aizdedziniet dziļas, jēgpilnas sarunas ar jaunu, domāšanu rosināšanu jautājumu katru dienu.","private_chat_title":"Privāts tērzēšana","private_chat_desc":"Droša, intīma vieta jūsu sarunām, prom no citu lietotņu trokšņa.","appreciation_title":"Novērtējums un slavējums","appreciation_desc":"Sūtiet virtuālus apskāvienus, mīlestības zīmes un uzlīmes, lai parādītu partnerim, ka viņš tiek novērtēts.","streaks_title":"Sērijas un paveiktie soļi","streaks_desc":"Seko attiecību konsekvencei un sviniet svarīgus gadadienas un paveiktos soļus kopā.","privacy_first_title":"Privātums vispirms","privacy_first_desc":"Jūsu dati ir šifrēti no gala līdz galam un redzami tikai jums diviem. Jūsu digitālā patvērums."},"how_it_works":{"title":"Kā tas darbojas","subtitle":"Trīs vienkārši soļi dziļākas saiknes veidošanai šodien.","step_1_title":"1. Uzaiciniet partneri","step_1_desc":"Reģistrējieties un nosūtiet unikālu uzaicinājuma saiti partnerim, lai savienotu kontus.","step_2_title":"2. Ikdienas saikne","step_2_desc":"Atbildiet uz vienu jautru vai dziļu jautājumu katru dienu, lai atbloķētu partnera atbildi.","step_3_title":"3. Augiet kopā","step_3_desc":"Vērojiet, kā attiecības padziļinās, veidojot novērtējuma un atvērtības ierašu."},"testimonials":{"badge":"Mīlēts vairāk nekā 50 000 pāru","section_title":"Mīlestības stāsti no mūsu kopienas","section_subtitle":"Uzziniet, kā Hearth palīdz pāriem visā pasaulē veidot dziļākus sakarus.","quote_1":"Hearth mainīja mūsu saziņu. Ikdienas jautājumi aizdedz sarunas, kādas mums citādi nebūtu. Jūtamies kā atkal satikties.","author_1":"Jessica & Mark","years_1":"Kopā 3 gadus","location_1":"San Francisco, CA","quote_2":"Man patīk privātā laika līnija. Kā mūsu mazā tīkla daļa, tikai mums, bez trokšņa. Estētika vienkārši skaista.","author_2":"Alex & Sam","years_2":"Precējušies 5 gadus","location_2":"London, UK","quote_3":"Labākā ieguldījums mūsu attiecībās šogad. Tur mūs savienotus neskatoties uz aizņemtajiem grafikiem.","author_3":"Taylor & Jordan","years_3":"Kopā 1 gadu","location_3":"Austin, TX"},"faq":{"section_title":"Bieži uzdotie jautājumi","q1_question":"Vai Hearth ir bezmaksas?","q1_answer":"Jā! Hearth ir dāsna bezmaksas pakāpe ar ikdienas jautājumiem un pamata atmiņu kopīgošanu. Hearth Premium atbloķē neierobežotas atmiņas, uzlabotas ieskatus un vairāk.","q2_question":"Vai varu lietot Hearth attiecībās attālumā?","q2_answer":"Absolūti. Hearth ir izstrādāts, lai pārvarētu attālumu starp pāriem, vai nu vienā istabā, vai tūkstošiem jūdžu attālumā.","q3_question":"Vai mani dati ir privāti?","q3_answer":"Privātums ir mūsu prioritāte. Jūsu sarunas un fotogrāfijas ir šifrētas un pieejamas tikai jums diviem. Mēs nepārdodam jūsu datus.","q4_question":"Ko darīt, ja mēs šķirsimies?","q4_answer":"Varat viegli eksportēt datus vai pastāvīgi dzēst kontu. Jūsu dati pieder jums."},"cta":{"title":"Gatavi prioritizēt attiecības?","subtitle":"Pievienojieties pāru kopienai, kas apzināti veido labāku nākotni kopā.","available_on":"Pieejams iOS un Android"},"store":{"app_store":"App Store","app_store_caption":"Lejupielādēt no","google_play":"Google Play","google_play_caption":"Iegūt no"},"footer":{"tagline":"Padarām pasauli mīļāku vietu, viens pāris vienlaicīgi.","product":"Produkts","features":"Funkcijas","pricing":"Cenas","testimonials":"Atsauksmes","faq":"BUJ","company":"Uzņēmums","about_us":"Par mums","blog":"Blogs","careers":"Karjera","contact":"Kontakti","legal":"Juridiski","privacy_policy":"Privātuma politika","terms_of_service":"Pakalpojumu noteikumi","cookie_policy":"Sīkdatņu politika","copyright":"© 2026 Hearth App. Visas tiesības aizsargātas.","aria_language":"Izvēlēties valodu"}},"notfound":{"header":"Nav atrasts","description":"Šī lapa neeksistē.","try_creating_page":"Mēģiniet izveidot lapu"},"go_back":"Atpakaļ uz sākumlapu"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Sākumlapa",
+    "meta_description": "Hearth — jūsu galvenā lapa. Atklājiet vairāk."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Lejupielādēt lietotni"
+    },
+    "hero": {
+      "badge": "Nr. 1 lietotne pāriem",
+      "title_line1": "Padziļiniet savienību.",
+      "title_line2": "Katru dienu.",
+      "subtitle": "Hearth palīdz veidot stiprākas, intīmākas attiecības caur kopīgām atmiņām, ikdienas jautājumiem un jēgpilnām mijiedarbībām.",
+      "private_secure": "Privāts un drošs",
+      "trusted_by": "Uzticas vairāk nekā 50 000 pāru"
+    },
+    "stats": {
+      "couples_connected": "Pāri savienoti",
+      "questions_answered": "Atbildēti jautājumi",
+      "memories_shared": "Kopīgotas atmiņas",
+      "countries": "Valstis"
+    },
+    "features": {
+      "section_title": "Viss, kas nepieciešams tuvākai saiknei",
+      "section_subtitle": "Izstrādāts attiecību ekspertu, lai veicinātu intīmumu, uzticību un prieku.",
+      "shared_memories_title": "Kopīgotas atmiņas",
+      "shared_memories_desc": "Veidojiet dzīvu laika līniju no savu attiecību dārgākajām fotogrāfijām un brīžiem.",
+      "daily_prompts_title": "Ikdienas jautājumi",
+      "daily_prompts_desc": "Aizdedziniet dziļas, jēgpilnas sarunas ar jaunu, domāšanu rosināšanu jautājumu katru dienu.",
+      "private_chat_title": "Privāts tērzēšana",
+      "private_chat_desc": "Droša, intīma vieta jūsu sarunām, prom no citu lietotņu trokšņa.",
+      "appreciation_title": "Novērtējums un slavējums",
+      "appreciation_desc": "Sūtiet virtuālus apskāvienus, mīlestības zīmes un uzlīmes, lai parādītu partnerim, ka viņš tiek novērtēts.",
+      "streaks_title": "Sērijas un paveiktie soļi",
+      "streaks_desc": "Seko attiecību konsekvencei un sviniet svarīgus gadadienas un paveiktos soļus kopā.",
+      "privacy_first_title": "Privātums vispirms",
+      "privacy_first_desc": "Jūsu dati ir šifrēti no gala līdz galam un redzami tikai jums diviem. Jūsu digitālā patvērums."
+    },
+    "how_it_works": {
+      "title": "Kā tas darbojas",
+      "subtitle": "Trīs vienkārši soļi dziļākas saiknes veidošanai šodien.",
+      "step_1_title": "1. Uzaiciniet partneri",
+      "step_1_desc": "Reģistrējieties un nosūtiet unikālu uzaicinājuma saiti partnerim, lai savienotu kontus.",
+      "step_2_title": "2. Ikdienas saikne",
+      "step_2_desc": "Atbildiet uz vienu jautru vai dziļu jautājumu katru dienu, lai atbloķētu partnera atbildi.",
+      "step_3_title": "3. Augiet kopā",
+      "step_3_desc": "Vērojiet, kā attiecības padziļinās, veidojot novērtējuma un atvērtības ierašu."
+    },
+    "testimonials": {
+      "badge": "Mīlēts vairāk nekā 50 000 pāru",
+      "section_title": "Mīlestības stāsti no mūsu kopienas",
+      "section_subtitle": "Uzziniet, kā Hearth palīdz pāriem visā pasaulē veidot dziļākus sakarus.",
+      "quote_1": "Hearth mainīja mūsu saziņu. Ikdienas jautājumi aizdedz sarunas, kādas mums citādi nebūtu. Jūtamies kā atkal satikties.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Kopā 3 gadus",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Man patīk privātā laika līnija. Kā mūsu mazā tīkla daļa, tikai mums, bez trokšņa. Estētika vienkārši skaista.",
+      "author_2": "Alex & Sam",
+      "years_2": "Precējušies 5 gadus",
+      "location_2": "London, UK",
+      "quote_3": "Labākā ieguldījums mūsu attiecībās šogad. Tur mūs savienotus neskatoties uz aizņemtajiem grafikiem.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Kopā 1 gadu",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Bieži uzdotie jautājumi",
+      "q1_question": "Vai Hearth ir bezmaksas?",
+      "q1_answer": "Jā! Hearth ir dāsna bezmaksas pakāpe ar ikdienas jautājumiem un pamata atmiņu kopīgošanu. Hearth Premium atbloķē neierobežotas atmiņas, uzlabotas ieskatus un vairāk.",
+      "q2_question": "Vai varu lietot Hearth attiecībās attālumā?",
+      "q2_answer": "Absolūti. Hearth ir izstrādāts, lai pārvarētu attālumu starp pāriem, vai nu vienā istabā, vai tūkstošiem jūdžu attālumā.",
+      "q3_question": "Vai mani dati ir privāti?",
+      "q3_answer": "Privātums ir mūsu prioritāte. Jūsu sarunas un fotogrāfijas ir šifrētas un pieejamas tikai jums diviem. Mēs nepārdodam jūsu datus.",
+      "q4_question": "Ko darīt, ja mēs šķirsimies?",
+      "q4_answer": "Varat viegli eksportēt datus vai pastāvīgi dzēst kontu. Jūsu dati pieder jums."
+    },
+    "cta": {
+      "title": "Gatavi prioritizēt attiecības?",
+      "subtitle": "Pievienojieties pāru kopienai, kas apzināti veido labāku nākotni kopā.",
+      "available_on": "Pieejams iOS un Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Lejupielādēt no",
+      "google_play": "Google Play",
+      "google_play_caption": "Iegūt no"
+    },
+    "footer": {
+      "tagline": "Padarām pasauli mīļāku vietu, viens pāris vienlaicīgi.",
+      "product": "Produkts",
+      "features": "Funkcijas",
+      "pricing": "Cenas",
+      "testimonials": "Atsauksmes",
+      "faq": "BUJ",
+      "company": "Uzņēmums",
+      "about_us": "Par mums",
+      "blog": "Blogs",
+      "careers": "Karjera",
+      "contact": "Kontakti",
+      "legal": "Juridiski",
+      "privacy_policy": "Privātuma politika",
+      "terms_of_service": "Pakalpojumu noteikumi",
+      "cookie_policy": "Sīkdatņu politika",
+      "copyright": "© 2026 Hearth App. Visas tiesības aizsargātas.",
+      "aria_language": "Izvēlēties valodu"
+    }
+  },
+  "notfound": {
+    "header": "Nav atrasts",
+    "description": "Šī lapa neeksistē.",
+    "try_creating_page": "Mēģiniet izveidot lapu"
+  },
+  "go_back": "Atpakaļ uz sākumlapu",
+  "reset_password": {
+    "title": "Atiestatīt paroli",
+    "subtitle": "Ievadiet jaunu paroli savam Hearth kontam",
+    "new_password": "Jaunā parole",
+    "new_password_placeholder": "Ievadiet jauno paroli",
+    "confirm_password": "Apstiprināt paroli",
+    "confirm_password_placeholder": "Apstipriniet jauno paroli",
+    "passwords_do_not_match": "Paroles nesakrīt",
+    "requirements_title": "Paroles prasības",
+    "min_characters": "Vismaz 8 rakstzīmes",
+    "one_uppercase": "Viens lielais burts",
+    "one_number": "Viens cipars",
+    "resetting": "Atiestata...",
+    "submit": "Atiestatīt paroli",
+    "having_trouble": "Ir problēmas?",
+    "contact_support": "Sazināties ar atbalstu",
+    "success_title": "Parole atjaunināta",
+    "success_message": "Jūsu parole ir veiksmīgi atiestatīta. Tagad varat atgriezties lietotnē un pieteikties ar jauno paroli.",
+    "close_page": "Varat droši aizvērt šo lapu.",
+    "missing_tokens": "Trūkst sesijas marķieru. Lūdzu, izmantojiet saiti no e-pasta.",
+    "failed": "Neizdevās atiestatīt paroli",
+    "generic_error": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.",
+    "invalid_params": "Nederīgi vai trūkstoši atiestatīšanas saites parametri.",
+    "verify_failed": "Neizdevās verificēt atjaunošanas marķieri",
+    "link_error": "Kaut kas nogāja greizi. Saite varētu būt beigusies.",
+    "link_expired": "Saite ir beigusies vai nederīga",
+    "request_new": "Lūdzu, pieprasiet jaunu paroles atiestatīšanu no lietotnes.",
+    "verifying": "Tiek verificēta jūsu saite...",
+    "please_wait": "Lūdzu, uzgaidiet brīdi.",
+    "page_title": "Atiestatīt paroli",
+    "page_description": "Atiestatiet sava Hearth konta paroli",
+    "confirm_page_title": "Verificē...",
+    "confirm_page_description": "Tiek verificēta jūsu paroles atiestatīšanas saite"
+  }
+}

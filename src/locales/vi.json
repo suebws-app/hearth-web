@@ -5,7 +5,9 @@
     "meta_description": "Hearth — trang đích của bạn. Khám phá thêm."
   },
   "landing": {
-    "header": { "get_app": "Tải ứng dụng" },
+    "header": {
+      "get_app": "Tải ứng dụng"
+    },
     "hero": {
       "badge": "Ứng dụng #1 cho các cặp đôi",
       "title_line1": "Gắn kết sâu sắc hơn.",
@@ -110,5 +112,39 @@
     "description": "Trang này không tồn tại.",
     "try_creating_page": "Thử tạo trang trong"
   },
-  "go_back": "Về trang chủ"
+  "go_back": "Về trang chủ",
+  "reset_password": {
+    "title": "Đặt lại mật khẩu",
+    "subtitle": "Nhập mật khẩu mới cho tài khoản Hearth của bạn",
+    "new_password": "Mật khẩu mới",
+    "new_password_placeholder": "Nhập mật khẩu mới",
+    "confirm_password": "Xác nhận mật khẩu",
+    "confirm_password_placeholder": "Xác nhận mật khẩu mới",
+    "passwords_do_not_match": "Mật khẩu không khớp",
+    "requirements_title": "Yêu cầu mật khẩu",
+    "min_characters": "Ít nhất 8 ký tự",
+    "one_uppercase": "Một chữ cái viết hoa",
+    "one_number": "Một chữ số",
+    "resetting": "Đang đặt lại...",
+    "submit": "Đặt lại mật khẩu",
+    "having_trouble": "Gặp sự cố?",
+    "contact_support": "Liên hệ hỗ trợ",
+    "success_title": "Đã cập nhật mật khẩu",
+    "success_message": "Mật khẩu của bạn đã được đặt lại thành công. Bây giờ bạn có thể quay lại ứng dụng và đăng nhập bằng mật khẩu mới.",
+    "close_page": "Bạn có thể đóng trang này một cách an toàn.",
+    "missing_tokens": "Thiếu token phiên. Vui lòng sử dụng liên kết từ email của bạn.",
+    "failed": "Không thể đặt lại mật khẩu",
+    "generic_error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "invalid_params": "Tham số liên kết đặt lại không hợp lệ hoặc bị thiếu.",
+    "verify_failed": "Không thể xác minh token khôi phục",
+    "link_error": "Đã xảy ra lỗi. Liên kết có thể đã hết hạn.",
+    "link_expired": "Liên kết đã hết hạn hoặc không hợp lệ",
+    "request_new": "Vui lòng yêu cầu đặt lại mật khẩu mới từ ứng dụng.",
+    "verifying": "Đang xác minh liên kết của bạn...",
+    "please_wait": "Vui lòng đợi một chút.",
+    "page_title": "Đặt lại mật khẩu",
+    "page_description": "Đặt lại mật khẩu tài khoản Hearth của bạn",
+    "confirm_page_title": "Đang xác minh...",
+    "confirm_page_description": "Đang xác minh liên kết đặt lại mật khẩu của bạn"
+  }
 }

@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Laman Utama","meta_description":"Hearth — laman destinası anda. Terokai lagi."},"landing":{"header":{"get_app":"Dapatkan Aplikasi"},"hero":{"badge":"Aplikasi #1 untuk Pasangan","title_line1":"Dalamkan Hubungan Anda.","title_line2":"Setiap Hari.","subtitle":"Hearth membantu anda membina hubungan yang lebih kuat dan mesra melalui kenangan bersama, soalan harian dan interaksi bermakna.","private_secure":"Peribadi & Selamat","trusted_by":"Dipercayai lebih 50k pasangan"},"stats":{"couples_connected":"Pasangan Berhubung","questions_answered":"Soalan Dijawab","memories_shared":"Kenangan Dikongsi","countries":"Negara"},"features":{"section_title":"Semua yang anda perlukan untuk lebih rapat","section_subtitle":"Direka oleh pakar hubungan untuk memupuk keintiman, kepercayaan dan kegembiraan.","shared_memories_title":"Kenangan Bersama","shared_memories_desc":"Bina garis masa hidup foto dan detik paling berharga dalam hubungan anda.","daily_prompts_title":"Soalan Harian","daily_prompts_desc":"Cetus perbualan mendalam dan bermakna dengan satu soalan baru setiap hari.","private_chat_title":"Sembang Peribadi","private_chat_desc":"Ruang selamat dan mesra untuk perbualan anda, jauh dari hingar aplikasi lain.","appreciation_title":"Penghargaan & Pujian","appreciation_desc":"Hantar pelukan maya, nota cinta dan pelekat untuk tunjuk pasangan anda dihargai.","streaks_title":"Rentetan & Pencapaian","streaks_desc":"Jejaki konsistensi hubungan dan raikan ulang tahun serta pencapaian bersama.","privacy_first_title":"Privasi Utama","privacy_first_desc":"Data anda disulitkan hujung-ke-hujung dan hanya kelihatan untuk anda berdua. Tempat perlindungan digital anda."},"how_it_works":{"title":"Cara ia berfungsi","subtitle":"Tiga langkah mudah untuk mula membina hubungan lebih dalam hari ini.","step_1_title":"1. Jemput Pasangan","step_1_desc":"Daftar dan hantar pautan jemputan unik kepada pasangan untuk menyambung akaun.","step_2_title":"2. Hubungan Harian","step_2_desc":"Jawab satu soalan seronok atau mendalam setiap hari untuk buka jawapan pasangan.","step_3_title":"3. Berkembang Bersama","step_3_desc":"Tonton hubungan anda mendalam dengan tabiat penghargaan dan keterbukaan."},"testimonials":{"badge":"Disayangi lebih 50,000 pasangan","section_title":"Kisah cinta dari komuniti kami","section_subtitle":"Temui bagaimana Hearth membantu pasangan di seluruh dunia membina hubungan lebih bermakna.","quote_1":"Hearth ubah cara kami berkomunikasi. Soalan harian cetus perbualan yang kami tak akan ada. Rasanya seperti bercinta lagi.","author_1":"Jessica & Mark","years_1":"Bersama 3 tahun","location_1":"San Francisco, CA","quote_2":"Saya suka garis masa peribadi. Seperti rangkaian kecil kami, hanya untuk kami, tanpa hingar. Estetiknya cantik.","author_2":"Alex & Sam","years_2":"Berkahwin 5 tahun","location_2":"London, UK","quote_3":"Pelaburan terbaik untuk hubungan kami tahun ini. Kekalkan kami berhubung walaupun jadual sibuk.","author_3":"Taylor & Jordan","years_3":"Bersama 1 tahun","location_3":"Austin, TX"},"faq":{"section_title":"Soalan lazim","q1_question":"Adakah Hearth percuma?","q1_answer":"Ya! Hearth ada peringkat percuma dengan soalan harian dan perkongsian kenangan asas. Hearth Premium buka kenangan tanpa had, insight lanjutan dan lagi.","q2_question":"Boleh saya guna Hearth untuk hubungan jarak jauh?","q2_answer":"Sememangnya. Hearth direka untuk merapatkan jurang antara pasangan, sama ada dalam bilik sama atau beribu batu.","q3_question":"Adakah data saya peribadi?","q3_answer":"Privasi keutamaan kami. Perbualan dan foto disulitkan dan hanya boleh diakses oleh anda dan pasangan. Kami tidak jual data anda.","q4_question":"Bagaimana jika kami berpisah?","q4_answer":"Anda boleh eksport data atau padam akaun kekal. Data anda milik anda."},"cta":{"title":"Sedia utamakan hubungan anda?","subtitle":"Sertai komuniti pasangan yang membina masa depan lebih baik bersama.","available_on":"Tersedia di iOS & Android"},"store":{"app_store":"App Store","app_store_caption":"Muat turun di","google_play":"Google Play","google_play_caption":"Dapatkan di"},"footer":{"tagline":"Menjadikan dunia lebih penuh cinta, satu pasangan demi satu.","product":"Produk","features":"Ciri","pricing":"Harga","testimonials":"Testimoni","faq":"FAQ","company":"Syarikat","about_us":"Tentang Kami","blog":"Blog","careers":"Kerjaya","contact":"Hubungi","legal":"Undang-undang","privacy_policy":"Dasar Privasi","terms_of_service":"Terma Perkhidmatan","cookie_policy":"Dasar Kuki","copyright":"© 2026 Hearth App. Hak cipta terpelihara.","aria_language":"Pilih bahasa"}},"notfound":{"header":"Tidak dijumpai","description":"Halaman ini tidak wujud.","try_creating_page":"Cuba buat halaman dalam"},"go_back":"Kembali ke laman utama"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Laman Utama",
+    "meta_description": "Hearth — laman destinası anda. Terokai lagi."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Dapatkan Aplikasi"
+    },
+    "hero": {
+      "badge": "Aplikasi #1 untuk Pasangan",
+      "title_line1": "Dalamkan Hubungan Anda.",
+      "title_line2": "Setiap Hari.",
+      "subtitle": "Hearth membantu anda membina hubungan yang lebih kuat dan mesra melalui kenangan bersama, soalan harian dan interaksi bermakna.",
+      "private_secure": "Peribadi & Selamat",
+      "trusted_by": "Dipercayai lebih 50k pasangan"
+    },
+    "stats": {
+      "couples_connected": "Pasangan Berhubung",
+      "questions_answered": "Soalan Dijawab",
+      "memories_shared": "Kenangan Dikongsi",
+      "countries": "Negara"
+    },
+    "features": {
+      "section_title": "Semua yang anda perlukan untuk lebih rapat",
+      "section_subtitle": "Direka oleh pakar hubungan untuk memupuk keintiman, kepercayaan dan kegembiraan.",
+      "shared_memories_title": "Kenangan Bersama",
+      "shared_memories_desc": "Bina garis masa hidup foto dan detik paling berharga dalam hubungan anda.",
+      "daily_prompts_title": "Soalan Harian",
+      "daily_prompts_desc": "Cetus perbualan mendalam dan bermakna dengan satu soalan baru setiap hari.",
+      "private_chat_title": "Sembang Peribadi",
+      "private_chat_desc": "Ruang selamat dan mesra untuk perbualan anda, jauh dari hingar aplikasi lain.",
+      "appreciation_title": "Penghargaan & Pujian",
+      "appreciation_desc": "Hantar pelukan maya, nota cinta dan pelekat untuk tunjuk pasangan anda dihargai.",
+      "streaks_title": "Rentetan & Pencapaian",
+      "streaks_desc": "Jejaki konsistensi hubungan dan raikan ulang tahun serta pencapaian bersama.",
+      "privacy_first_title": "Privasi Utama",
+      "privacy_first_desc": "Data anda disulitkan hujung-ke-hujung dan hanya kelihatan untuk anda berdua. Tempat perlindungan digital anda."
+    },
+    "how_it_works": {
+      "title": "Cara ia berfungsi",
+      "subtitle": "Tiga langkah mudah untuk mula membina hubungan lebih dalam hari ini.",
+      "step_1_title": "1. Jemput Pasangan",
+      "step_1_desc": "Daftar dan hantar pautan jemputan unik kepada pasangan untuk menyambung akaun.",
+      "step_2_title": "2. Hubungan Harian",
+      "step_2_desc": "Jawab satu soalan seronok atau mendalam setiap hari untuk buka jawapan pasangan.",
+      "step_3_title": "3. Berkembang Bersama",
+      "step_3_desc": "Tonton hubungan anda mendalam dengan tabiat penghargaan dan keterbukaan."
+    },
+    "testimonials": {
+      "badge": "Disayangi lebih 50,000 pasangan",
+      "section_title": "Kisah cinta dari komuniti kami",
+      "section_subtitle": "Temui bagaimana Hearth membantu pasangan di seluruh dunia membina hubungan lebih bermakna.",
+      "quote_1": "Hearth ubah cara kami berkomunikasi. Soalan harian cetus perbualan yang kami tak akan ada. Rasanya seperti bercinta lagi.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Bersama 3 tahun",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Saya suka garis masa peribadi. Seperti rangkaian kecil kami, hanya untuk kami, tanpa hingar. Estetiknya cantik.",
+      "author_2": "Alex & Sam",
+      "years_2": "Berkahwin 5 tahun",
+      "location_2": "London, UK",
+      "quote_3": "Pelaburan terbaik untuk hubungan kami tahun ini. Kekalkan kami berhubung walaupun jadual sibuk.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Bersama 1 tahun",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Soalan lazim",
+      "q1_question": "Adakah Hearth percuma?",
+      "q1_answer": "Ya! Hearth ada peringkat percuma dengan soalan harian dan perkongsian kenangan asas. Hearth Premium buka kenangan tanpa had, insight lanjutan dan lagi.",
+      "q2_question": "Boleh saya guna Hearth untuk hubungan jarak jauh?",
+      "q2_answer": "Sememangnya. Hearth direka untuk merapatkan jurang antara pasangan, sama ada dalam bilik sama atau beribu batu.",
+      "q3_question": "Adakah data saya peribadi?",
+      "q3_answer": "Privasi keutamaan kami. Perbualan dan foto disulitkan dan hanya boleh diakses oleh anda dan pasangan. Kami tidak jual data anda.",
+      "q4_question": "Bagaimana jika kami berpisah?",
+      "q4_answer": "Anda boleh eksport data atau padam akaun kekal. Data anda milik anda."
+    },
+    "cta": {
+      "title": "Sedia utamakan hubungan anda?",
+      "subtitle": "Sertai komuniti pasangan yang membina masa depan lebih baik bersama.",
+      "available_on": "Tersedia di iOS & Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Muat turun di",
+      "google_play": "Google Play",
+      "google_play_caption": "Dapatkan di"
+    },
+    "footer": {
+      "tagline": "Menjadikan dunia lebih penuh cinta, satu pasangan demi satu.",
+      "product": "Produk",
+      "features": "Ciri",
+      "pricing": "Harga",
+      "testimonials": "Testimoni",
+      "faq": "FAQ",
+      "company": "Syarikat",
+      "about_us": "Tentang Kami",
+      "blog": "Blog",
+      "careers": "Kerjaya",
+      "contact": "Hubungi",
+      "legal": "Undang-undang",
+      "privacy_policy": "Dasar Privasi",
+      "terms_of_service": "Terma Perkhidmatan",
+      "cookie_policy": "Dasar Kuki",
+      "copyright": "© 2026 Hearth App. Hak cipta terpelihara.",
+      "aria_language": "Pilih bahasa"
+    }
+  },
+  "notfound": {
+    "header": "Tidak dijumpai",
+    "description": "Halaman ini tidak wujud.",
+    "try_creating_page": "Cuba buat halaman dalam"
+  },
+  "go_back": "Kembali ke laman utama",
+  "reset_password": {
+    "title": "Tetapkan semula kata laluan anda",
+    "subtitle": "Masukkan kata laluan baharu untuk akaun Hearth anda",
+    "new_password": "Kata laluan baharu",
+    "new_password_placeholder": "Masukkan kata laluan baharu",
+    "confirm_password": "Sahkan kata laluan",
+    "confirm_password_placeholder": "Sahkan kata laluan baharu",
+    "passwords_do_not_match": "Kata laluan tidak sepadan",
+    "requirements_title": "Keperluan kata laluan",
+    "min_characters": "Sekurang-kurangnya 8 aksara",
+    "one_uppercase": "Satu huruf besar",
+    "one_number": "Satu nombor",
+    "resetting": "Menetapkan semula...",
+    "submit": "Tetapkan semula kata laluan",
+    "having_trouble": "Ada masalah?",
+    "contact_support": "Hubungi sokongan",
+    "success_title": "Kata laluan dikemas kini",
+    "success_message": "Kata laluan anda telah berjaya ditetapkan semula. Anda kini boleh kembali ke aplikasi dan log masuk dengan kata laluan baharu anda.",
+    "close_page": "Anda boleh menutup halaman ini dengan selamat.",
+    "missing_tokens": "Token sesi tiada. Sila gunakan pautan daripada e-mel anda.",
+    "failed": "Gagal menetapkan semula kata laluan",
+    "generic_error": "Sesuatu telah berlaku. Sila cuba lagi.",
+    "invalid_params": "Parameter pautan tetapan semula tidak sah atau tiada.",
+    "verify_failed": "Gagal mengesahkan token pemulihan",
+    "link_error": "Sesuatu telah berlaku. Pautan mungkin telah tamat tempoh.",
+    "link_expired": "Pautan tamat tempoh atau tidak sah",
+    "request_new": "Sila minta tetapan semula kata laluan baharu daripada aplikasi.",
+    "verifying": "Mengesahkan pautan anda...",
+    "please_wait": "Sila tunggu sebentar.",
+    "page_title": "Tetapkan semula kata laluan",
+    "page_description": "Tetapkan semula kata laluan akaun Hearth anda",
+    "confirm_page_title": "Mengesahkan...",
+    "confirm_page_description": "Mengesahkan pautan tetapan semula kata laluan anda"
+  }
+}

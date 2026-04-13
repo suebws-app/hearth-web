@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Početna","meta_description":"Hearth — vaša odredišna stranica. Otkrijte više."},"landing":{"header":{"get_app":"Preuzmi aplikaciju"},"hero":{"badge":"Aplikacija #1 za parove","title_line1":"Produbite vezu.","title_line2":"Svaki dan.","subtitle":"Hearth vam pomaže izgraditi jaču, intimniju vezu kroz zajednička sjećanja, dnevna pitanja i smislene interakcije.","private_secure":"Privatno i sigurno","trusted_by":"Povjerenje više od 50 000 parova"},"stats":{"couples_connected":"Parovi povezani","questions_answered":"Pitanja odgovorena","memories_shared":"Sjećanja podijeljena","countries":"Države"},"features":{"section_title":"Sve što vam treba da se približite","section_subtitle":"Dizajnirano od stručnjaka za veze kako bi potaknulo intimnost, povjerenje i radost.","shared_memories_title":"Zajednička sjećanja","shared_memories_desc":"Izgradite živu vremensku crtu najdražih fotografija i trenutaka vaše veze.","daily_prompts_title":"Dnevna pitanja","daily_prompts_desc":"Potaknite duboke, smislene razgovore s jednim novim poticajnim pitanjem svaki dan.","private_chat_title":"Privatni chat","private_chat_desc":"Siguran, intiman prostor za vaše razgovore, daleko od buke drugih aplikacija.","appreciation_title":"Uvažavanje i pohvale","appreciation_desc":"Šaljite virtualne zagrljaje, ljubavne poruke i naljepnice da partneru pokažete da je cijenjen.","streaks_title":"Nizovi i prekretnice","streaks_desc":"Pratite dosljednost veze i zajedno slavite važne obljetnice i prekretnice.","privacy_first_title":"Privatnost na prvom mjestu","privacy_first_desc":"Vaši podaci su šifrirani od kraja do kraja i vidljivi samo vama dvoje. Vaše digitalno utočište."},"how_it_works":{"title":"Kako radi","subtitle":"Tri jednostavna koraka za gradnju dublje veze danas.","step_1_title":"1. Pozovite partnera","step_1_desc":"Registrirajte se i pošaljite partneru jedinstvenu poveznicu za poziv za povezivanje računa.","step_2_title":"2. Dnevna veza","step_2_desc":"Odgovorite na jedno zabavno ili duboko pitanje svaki dan da otključate partnerov odgovor.","step_3_title":"3. Rastite zajedno","step_3_desc":"Gledajte kako se vaša veza produbljuje gradeći naviku uvažavanja i otvorenosti."},"testimonials":{"badge":"Voljeno od više od 50 000 parova","section_title":"Ljubavne priče iz naše zajednice","section_subtitle":"Otkrijte kako Hearth pomaže parovima diljem svijeta graditi dublje veze.","quote_1":"Hearth je promijenio način na koji komuniciramo. Dnevna pitanja potiču razgovore koje inače ne bismo imali. Osjećamo se kao da opet izlazimo.","author_1":"Jessica & Mark","years_1":"Zajedno 3 godine","location_1":"San Francisco, CA","quote_2":"Obožavam privatnu vremensku crtu. Kao naša mala mreža, samo za nas, bez buke. Estetika je jednostavno prekrasna.","author_2":"Alex & Sam","years_2":"U braku 5 godina","location_2":"London, UK","quote_3":"Najbolja investicija u našu vezu ove godine. Drži nas povezane unatoč zauzetom rasporedu.","author_3":"Taylor & Jordan","years_3":"Zajedno 1 godinu","location_3":"Austin, TX"},"faq":{"section_title":"Često postavljana pitanja","q1_question":"Je li Hearth besplatan?","q1_answer":"Da! Hearth ima velikodušnu besplatnu razinu s dnevnim pitanjima i osnovnim dijeljenjem sjećanja. Hearth Premium otključava neograničena sjećanja, napredne uvide i više.","q2_question":"Mogu li koristiti Hearth za vezu na daljinu?","q2_answer":"Apsolutno. Hearth je dizajniran da premosti jaz između parova, bilo u istoj sobi ili tisućama kilometara.","q3_question":"Jesu li moji podaci privatni?","q3_answer":"Privatnost je naš prioritet. Vaši razgovori i fotografije su šifrirani i dostupni samo vama dvoje. Ne prodajemo vaše podatke.","q4_question":"Što ako raskinemo?","q4_answer":"Lako možete izvesti podatke ili trajno izbrisati račun. Vaši podaci pripadaju vama."},"cta":{"title":"Spremni dati vezi prioritet?","subtitle":"Pridružite se zajednici parova koji svjesno grade bolju budućnost zajedno.","available_on":"Dostupno na iOS i Android"},"store":{"app_store":"App Store","app_store_caption":"Preuzmi na","google_play":"Google Play","google_play_caption":"Nabavi na"},"footer":{"tagline":"Činimo svijet mjestom punim ljubavi, jedan par odjednom.","product":"Proizvod","features":"Funkcije","pricing":"Cijene","testimonials":"Recenzije","faq":"FAQ","company":"Tvrtka","about_us":"O nama","blog":"Blog","careers":"Karijera","contact":"Kontakt","legal":"Pravno","privacy_policy":"Pravila o privatnosti","terms_of_service":"Uvjeti korištenja","cookie_policy":"Pravila o kolačićima","copyright":"© 2026 Hearth App. Sva prava pridržana.","aria_language":"Odaberi jezik"}},"notfound":{"header":"Nije pronađeno","description":"Ova stranica ne postoji.","try_creating_page":"Pokušajte stvoriti stranicu na"},"go_back":"Natrag na početnu"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Početna",
+    "meta_description": "Hearth — vaša odredišna stranica. Otkrijte više."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Preuzmi aplikaciju"
+    },
+    "hero": {
+      "badge": "Aplikacija #1 za parove",
+      "title_line1": "Produbite vezu.",
+      "title_line2": "Svaki dan.",
+      "subtitle": "Hearth vam pomaže izgraditi jaču, intimniju vezu kroz zajednička sjećanja, dnevna pitanja i smislene interakcije.",
+      "private_secure": "Privatno i sigurno",
+      "trusted_by": "Povjerenje više od 50 000 parova"
+    },
+    "stats": {
+      "couples_connected": "Parovi povezani",
+      "questions_answered": "Pitanja odgovorena",
+      "memories_shared": "Sjećanja podijeljena",
+      "countries": "Države"
+    },
+    "features": {
+      "section_title": "Sve što vam treba da se približite",
+      "section_subtitle": "Dizajnirano od stručnjaka za veze kako bi potaknulo intimnost, povjerenje i radost.",
+      "shared_memories_title": "Zajednička sjećanja",
+      "shared_memories_desc": "Izgradite živu vremensku crtu najdražih fotografija i trenutaka vaše veze.",
+      "daily_prompts_title": "Dnevna pitanja",
+      "daily_prompts_desc": "Potaknite duboke, smislene razgovore s jednim novim poticajnim pitanjem svaki dan.",
+      "private_chat_title": "Privatni chat",
+      "private_chat_desc": "Siguran, intiman prostor za vaše razgovore, daleko od buke drugih aplikacija.",
+      "appreciation_title": "Uvažavanje i pohvale",
+      "appreciation_desc": "Šaljite virtualne zagrljaje, ljubavne poruke i naljepnice da partneru pokažete da je cijenjen.",
+      "streaks_title": "Nizovi i prekretnice",
+      "streaks_desc": "Pratite dosljednost veze i zajedno slavite važne obljetnice i prekretnice.",
+      "privacy_first_title": "Privatnost na prvom mjestu",
+      "privacy_first_desc": "Vaši podaci su šifrirani od kraja do kraja i vidljivi samo vama dvoje. Vaše digitalno utočište."
+    },
+    "how_it_works": {
+      "title": "Kako radi",
+      "subtitle": "Tri jednostavna koraka za gradnju dublje veze danas.",
+      "step_1_title": "1. Pozovite partnera",
+      "step_1_desc": "Registrirajte se i pošaljite partneru jedinstvenu poveznicu za poziv za povezivanje računa.",
+      "step_2_title": "2. Dnevna veza",
+      "step_2_desc": "Odgovorite na jedno zabavno ili duboko pitanje svaki dan da otključate partnerov odgovor.",
+      "step_3_title": "3. Rastite zajedno",
+      "step_3_desc": "Gledajte kako se vaša veza produbljuje gradeći naviku uvažavanja i otvorenosti."
+    },
+    "testimonials": {
+      "badge": "Voljeno od više od 50 000 parova",
+      "section_title": "Ljubavne priče iz naše zajednice",
+      "section_subtitle": "Otkrijte kako Hearth pomaže parovima diljem svijeta graditi dublje veze.",
+      "quote_1": "Hearth je promijenio način na koji komuniciramo. Dnevna pitanja potiču razgovore koje inače ne bismo imali. Osjećamo se kao da opet izlazimo.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Zajedno 3 godine",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Obožavam privatnu vremensku crtu. Kao naša mala mreža, samo za nas, bez buke. Estetika je jednostavno prekrasna.",
+      "author_2": "Alex & Sam",
+      "years_2": "U braku 5 godina",
+      "location_2": "London, UK",
+      "quote_3": "Najbolja investicija u našu vezu ove godine. Drži nas povezane unatoč zauzetom rasporedu.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Zajedno 1 godinu",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Često postavljana pitanja",
+      "q1_question": "Je li Hearth besplatan?",
+      "q1_answer": "Da! Hearth ima velikodušnu besplatnu razinu s dnevnim pitanjima i osnovnim dijeljenjem sjećanja. Hearth Premium otključava neograničena sjećanja, napredne uvide i više.",
+      "q2_question": "Mogu li koristiti Hearth za vezu na daljinu?",
+      "q2_answer": "Apsolutno. Hearth je dizajniran da premosti jaz između parova, bilo u istoj sobi ili tisućama kilometara.",
+      "q3_question": "Jesu li moji podaci privatni?",
+      "q3_answer": "Privatnost je naš prioritet. Vaši razgovori i fotografije su šifrirani i dostupni samo vama dvoje. Ne prodajemo vaše podatke.",
+      "q4_question": "Što ako raskinemo?",
+      "q4_answer": "Lako možete izvesti podatke ili trajno izbrisati račun. Vaši podaci pripadaju vama."
+    },
+    "cta": {
+      "title": "Spremni dati vezi prioritet?",
+      "subtitle": "Pridružite se zajednici parova koji svjesno grade bolju budućnost zajedno.",
+      "available_on": "Dostupno na iOS i Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Preuzmi na",
+      "google_play": "Google Play",
+      "google_play_caption": "Nabavi na"
+    },
+    "footer": {
+      "tagline": "Činimo svijet mjestom punim ljubavi, jedan par odjednom.",
+      "product": "Proizvod",
+      "features": "Funkcije",
+      "pricing": "Cijene",
+      "testimonials": "Recenzije",
+      "faq": "FAQ",
+      "company": "Tvrtka",
+      "about_us": "O nama",
+      "blog": "Blog",
+      "careers": "Karijera",
+      "contact": "Kontakt",
+      "legal": "Pravno",
+      "privacy_policy": "Pravila o privatnosti",
+      "terms_of_service": "Uvjeti korištenja",
+      "cookie_policy": "Pravila o kolačićima",
+      "copyright": "© 2026 Hearth App. Sva prava pridržana.",
+      "aria_language": "Odaberi jezik"
+    }
+  },
+  "notfound": {
+    "header": "Nije pronađeno",
+    "description": "Ova stranica ne postoji.",
+    "try_creating_page": "Pokušajte stvoriti stranicu na"
+  },
+  "go_back": "Natrag na početnu",
+  "reset_password": {
+    "title": "Resetiraj lozinku",
+    "subtitle": "Unesite novu lozinku za svoj Hearth račun",
+    "new_password": "Nova lozinka",
+    "new_password_placeholder": "Unesite novu lozinku",
+    "confirm_password": "Potvrdi lozinku",
+    "confirm_password_placeholder": "Potvrdite novu lozinku",
+    "passwords_do_not_match": "Lozinke se ne podudaraju",
+    "requirements_title": "Zahtjevi za lozinku",
+    "min_characters": "Najmanje 8 znakova",
+    "one_uppercase": "Jedno veliko slovo",
+    "one_number": "Jedan broj",
+    "resetting": "Resetiranje...",
+    "submit": "Resetiraj lozinku",
+    "having_trouble": "Imate problema?",
+    "contact_support": "Kontaktirajte podršku",
+    "success_title": "Lozinka ažurirana",
+    "success_message": "Vaša lozinka je uspješno resetirana. Sada se možete vratiti u aplikaciju i prijaviti s novom lozinkom.",
+    "close_page": "Možete sigurno zatvoriti ovu stranicu.",
+    "missing_tokens": "Nedostaju tokeni sesije. Koristite poveznicu iz e-pošte.",
+    "failed": "Resetiranje lozinke nije uspjelo",
+    "generic_error": "Nešto je pošlo po krivu. Pokušajte ponovo.",
+    "invalid_params": "Nevažeći ili nedostajući parametri veze za resetiranje.",
+    "verify_failed": "Provjera tokena za oporavak nije uspjela",
+    "link_error": "Nešto je pošlo po krivu. Veza je možda istekla.",
+    "link_expired": "Veza je istekla ili nije valjana",
+    "request_new": "Zatražite novo resetiranje lozinke iz aplikacije.",
+    "verifying": "Provjeravanje vaše veze...",
+    "please_wait": "Pričekajte trenutak.",
+    "page_title": "Resetiraj lozinku",
+    "page_description": "Resetirajte lozinku svog Hearth računa",
+    "confirm_page_title": "Provjeravanje...",
+    "confirm_page_description": "Provjeravanje vaše veze za resetiranje lozinke"
+  }
+}

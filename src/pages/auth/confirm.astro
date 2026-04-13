@@ -1,0 +1,32 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ConfirmRecoveryWithI18n from "../../components/ConfirmRecoveryWithI18n";
+import { flattenMessages } from "../../utils/flattenMessages";
+
+const localeModules = import.meta.glob<{ default: Record<string, unknown> }>(
+  "../../locales/*.json",
+  { eager: true }
+);
+
+const allMessages: Record<string, Record<string, string>> = {};
+for (const [path, mod] of Object.entries(localeModules)) {
+  const match = path.match(/\/([a-z-]+)\.json$/);
+  if (match && mod?.default) {
+    allMessages[match[1]] = flattenMessages(mod.default);
+  }
+}
+
+const enMessages = allMessages["en"] ?? {};
+---
+
+<Layout
+  title={enMessages["reset_password.confirm_page_title"] ?? "Verifying..."}
+  description={enMessages["reset_password.confirm_page_description"] ?? "Verifying your password reset link"}
+  lang="en"
+  path="/auth/confirm"
+  noindex={true}
+>
+  <main class="bg-background text-foreground w-screen font-body" role="main">
+    <ConfirmRecoveryWithI18n client:load allMessages={allMessages} />
+  </main>
+</Layout>

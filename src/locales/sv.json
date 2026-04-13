@@ -1,1 +1,150 @@
-{"title":"Hearth App","home":{"page_title":"Startsida","meta_description":"Hearth — din landningssida. Upptäck mer."},"landing":{"header":{"get_app":"Hämta app"},"hero":{"badge":"Appen #1 för par","title_line1":"Fördjupa er koppling.","title_line2":"Varje dag.","subtitle":"Hearth hjälper er bygga en starkare, mer intim relation genom delade minnen, dagliga frågor och meningsfulla interaktioner.","private_secure":"Privat och säkert","trusted_by":"Förtroende från över 50 000 par"},"stats":{"couples_connected":"Par anslutna","questions_answered":"Frågor besvarade","memories_shared":"Minnen delade","countries":"Länder"},"features":{"section_title":"Allt du behöver för att komma närmare","section_subtitle":"Designad av relationsexperter för att främja intimitet, tillit och glädje.","shared_memories_title":"Delade minnen","shared_memories_desc":"Bygg en levande tidslinje av er relations mest värdefulla foton och ögonblick.","daily_prompts_title":"Dagliga frågor","daily_prompts_desc":"Starta djupa, meningsfulla samtal med en ny tankeväckande fråga varje dag.","private_chat_title":"Privat chatt","private_chat_desc":"Ett säkert, intimt utrymme för era samtal, borta från bruset från andra appar.","appreciation_title":"Uppskattning och beröm","appreciation_desc":"Skicka virtuella kramar, kärleksmeddelanden och klistermärken för att visa partnern att de uppskattas.","streaks_title":"Serier och milstolpar","streaks_desc":"Följ relationens konsekvens och fira viktiga jubileum och milstolpar tillsammans.","privacy_first_title":"Integritet först","privacy_first_desc":"Er data är end-till-end-krypterad och synlig bara för er två. Er digitala tillflykt."},"how_it_works":{"title":"Så fungerar det","subtitle":"Tre enkla steg för att bygga en djupare koppling idag.","step_1_title":"1. Bjud in partner","step_1_desc":"Registrera dig och skicka en unik inbjudningslänk till din partner för att koppla ihop konton.","step_2_title":"2. Daglig koppling","step_2_desc":"Svara på en rolig eller djup fråga varje dag för att låsa upp partnerens svar.","step_3_title":"3. Väx tillsammans","step_3_desc":"Se er relation fördjupas när ni bygger vanan av uppskattning och öppenhet."},"testimonials":{"badge":"Älskad av över 50 000 par","section_title":"Kärlekshistorier från vår community","section_subtitle":"Upptäck hur Hearth hjälper par världen över att bygga djupare kopplingar.","quote_1":"Hearth förändrade hur vi kommunicerar. De dagliga frågorna utlöser samtal vi annars inte skulle ha. Det känns som att vi dejtar igen.","author_1":"Jessica & Mark","years_1":"Tillsammans 3 år","location_1":"San Francisco, CA","quote_2":"Jag älskar den privata tidslinjen. Som vårt eget lilla nätverk, bara för oss, utan brus. Estetiken är bara vacker.","author_2":"Alex & Sam","years_2":"Gifta 5 år","location_2":"London, UK","quote_3":"Den bästa investeringen vi gjort i vår relation i år. Håller oss uppkopplade trots fullspäckade scheman.","author_3":"Taylor & Jordan","years_3":"Tillsammans 1 år","location_3":"Austin, TX"},"faq":{"section_title":"Vanliga frågor","q1_question":"Är Hearth gratis?","q1_answer":"Ja! Hearth har en generös gratisnivå med dagliga frågor och grundläggande minnesdelning. Hearth Premium låser upp obegränsade minnen, avancerade insikter och mer.","q2_question":"Kan jag använda Hearth för en långdistansrelation?","q2_answer":"Absolut. Hearth är designad för att överbrygga klyftan mellan par, oavsett om ni är i samma rum eller tusentals mil ifrån varandra.","q3_question":"Är min data privat?","q3_answer":"Integritet är vår prioritet. Era samtal och foton är krypterade och tillgängliga bara för er två. Vi säljer inte er data.","q4_question":"Vad händer om vi gör slut?","q4_answer":"Du kan enkelt exportera din data eller radera kontot permanent. Din data tillhör dig."},"cta":{"title":"Redo att prioritera er relation?","subtitle":"Gå med i communityn av par som medvetet bygger en bättre framtid tillsammans.","available_on":"Tillgänglig på iOS och Android"},"store":{"app_store":"App Store","app_store_caption":"Ladda ner på","google_play":"Google Play","google_play_caption":"Hämta på"},"footer":{"tagline":"Gör världen en mer kärleksfull plats, ett par i taget.","product":"Produkt","features":"Funktioner","pricing":"Priser","testimonials":"Omdömen","faq":"FAQ","company":"Företag","about_us":"Om oss","blog":"Blogg","careers":"Karriär","contact":"Kontakt","legal":"Juridiskt","privacy_policy":"Integritetspolicy","terms_of_service":"Användarvillkor","cookie_policy":"Cookiepolicy","copyright":"© 2026 Hearth App. Alla rättigheter förbehållna.","aria_language":"Välj språk"}},"notfound":{"header":"Hittades inte","description":"Denna sida finns inte.","try_creating_page":"Försök skapa en sida på"},"go_back":"Tillbaka till startsidan"}
+{
+  "title": "Hearth App",
+  "home": {
+    "page_title": "Startsida",
+    "meta_description": "Hearth — din landningssida. Upptäck mer."
+  },
+  "landing": {
+    "header": {
+      "get_app": "Hämta app"
+    },
+    "hero": {
+      "badge": "Appen #1 för par",
+      "title_line1": "Fördjupa er koppling.",
+      "title_line2": "Varje dag.",
+      "subtitle": "Hearth hjälper er bygga en starkare, mer intim relation genom delade minnen, dagliga frågor och meningsfulla interaktioner.",
+      "private_secure": "Privat och säkert",
+      "trusted_by": "Förtroende från över 50 000 par"
+    },
+    "stats": {
+      "couples_connected": "Par anslutna",
+      "questions_answered": "Frågor besvarade",
+      "memories_shared": "Minnen delade",
+      "countries": "Länder"
+    },
+    "features": {
+      "section_title": "Allt du behöver för att komma närmare",
+      "section_subtitle": "Designad av relationsexperter för att främja intimitet, tillit och glädje.",
+      "shared_memories_title": "Delade minnen",
+      "shared_memories_desc": "Bygg en levande tidslinje av er relations mest värdefulla foton och ögonblick.",
+      "daily_prompts_title": "Dagliga frågor",
+      "daily_prompts_desc": "Starta djupa, meningsfulla samtal med en ny tankeväckande fråga varje dag.",
+      "private_chat_title": "Privat chatt",
+      "private_chat_desc": "Ett säkert, intimt utrymme för era samtal, borta från bruset från andra appar.",
+      "appreciation_title": "Uppskattning och beröm",
+      "appreciation_desc": "Skicka virtuella kramar, kärleksmeddelanden och klistermärken för att visa partnern att de uppskattas.",
+      "streaks_title": "Serier och milstolpar",
+      "streaks_desc": "Följ relationens konsekvens och fira viktiga jubileum och milstolpar tillsammans.",
+      "privacy_first_title": "Integritet först",
+      "privacy_first_desc": "Er data är end-till-end-krypterad och synlig bara för er två. Er digitala tillflykt."
+    },
+    "how_it_works": {
+      "title": "Så fungerar det",
+      "subtitle": "Tre enkla steg för att bygga en djupare koppling idag.",
+      "step_1_title": "1. Bjud in partner",
+      "step_1_desc": "Registrera dig och skicka en unik inbjudningslänk till din partner för att koppla ihop konton.",
+      "step_2_title": "2. Daglig koppling",
+      "step_2_desc": "Svara på en rolig eller djup fråga varje dag för att låsa upp partnerens svar.",
+      "step_3_title": "3. Väx tillsammans",
+      "step_3_desc": "Se er relation fördjupas när ni bygger vanan av uppskattning och öppenhet."
+    },
+    "testimonials": {
+      "badge": "Älskad av över 50 000 par",
+      "section_title": "Kärlekshistorier från vår community",
+      "section_subtitle": "Upptäck hur Hearth hjälper par världen över att bygga djupare kopplingar.",
+      "quote_1": "Hearth förändrade hur vi kommunicerar. De dagliga frågorna utlöser samtal vi annars inte skulle ha. Det känns som att vi dejtar igen.",
+      "author_1": "Jessica & Mark",
+      "years_1": "Tillsammans 3 år",
+      "location_1": "San Francisco, CA",
+      "quote_2": "Jag älskar den privata tidslinjen. Som vårt eget lilla nätverk, bara för oss, utan brus. Estetiken är bara vacker.",
+      "author_2": "Alex & Sam",
+      "years_2": "Gifta 5 år",
+      "location_2": "London, UK",
+      "quote_3": "Den bästa investeringen vi gjort i vår relation i år. Håller oss uppkopplade trots fullspäckade scheman.",
+      "author_3": "Taylor & Jordan",
+      "years_3": "Tillsammans 1 år",
+      "location_3": "Austin, TX"
+    },
+    "faq": {
+      "section_title": "Vanliga frågor",
+      "q1_question": "Är Hearth gratis?",
+      "q1_answer": "Ja! Hearth har en generös gratisnivå med dagliga frågor och grundläggande minnesdelning. Hearth Premium låser upp obegränsade minnen, avancerade insikter och mer.",
+      "q2_question": "Kan jag använda Hearth för en långdistansrelation?",
+      "q2_answer": "Absolut. Hearth är designad för att överbrygga klyftan mellan par, oavsett om ni är i samma rum eller tusentals mil ifrån varandra.",
+      "q3_question": "Är min data privat?",
+      "q3_answer": "Integritet är vår prioritet. Era samtal och foton är krypterade och tillgängliga bara för er två. Vi säljer inte er data.",
+      "q4_question": "Vad händer om vi gör slut?",
+      "q4_answer": "Du kan enkelt exportera din data eller radera kontot permanent. Din data tillhör dig."
+    },
+    "cta": {
+      "title": "Redo att prioritera er relation?",
+      "subtitle": "Gå med i communityn av par som medvetet bygger en bättre framtid tillsammans.",
+      "available_on": "Tillgänglig på iOS och Android"
+    },
+    "store": {
+      "app_store": "App Store",
+      "app_store_caption": "Ladda ner på",
+      "google_play": "Google Play",
+      "google_play_caption": "Hämta på"
+    },
+    "footer": {
+      "tagline": "Gör världen en mer kärleksfull plats, ett par i taget.",
+      "product": "Produkt",
+      "features": "Funktioner",
+      "pricing": "Priser",
+      "testimonials": "Omdömen",
+      "faq": "FAQ",
+      "company": "Företag",
+      "about_us": "Om oss",
+      "blog": "Blogg",
+      "careers": "Karriär",
+      "contact": "Kontakt",
+      "legal": "Juridiskt",
+      "privacy_policy": "Integritetspolicy",
+      "terms_of_service": "Användarvillkor",
+      "cookie_policy": "Cookiepolicy",
+      "copyright": "© 2026 Hearth App. Alla rättigheter förbehållna.",
+      "aria_language": "Välj språk"
+    }
+  },
+  "notfound": {
+    "header": "Hittades inte",
+    "description": "Denna sida finns inte.",
+    "try_creating_page": "Försök skapa en sida på"
+  },
+  "go_back": "Tillbaka till startsidan",
+  "reset_password": {
+    "title": "Återställ ditt lösenord",
+    "subtitle": "Ange ett nytt lösenord för ditt Hearth-konto",
+    "new_password": "Nytt lösenord",
+    "new_password_placeholder": "Ange nytt lösenord",
+    "confirm_password": "Bekräfta lösenord",
+    "confirm_password_placeholder": "Bekräfta nytt lösenord",
+    "passwords_do_not_match": "Lösenorden matchar inte",
+    "requirements_title": "Lösenordskrav",
+    "min_characters": "Minst 8 tecken",
+    "one_uppercase": "En stor bokstav",
+    "one_number": "En siffra",
+    "resetting": "Återställer...",
+    "submit": "Återställ lösenord",
+    "having_trouble": "Problem?",
+    "contact_support": "Kontakta support",
+    "success_title": "Lösenord uppdaterat",
+    "success_message": "Ditt lösenord har återställts. Du kan nu gå tillbaka till appen och logga in med ditt nya lösenord.",
+    "close_page": "Du kan stänga denna sida.",
+    "missing_tokens": "Sessionstokens saknas. Använd länken från ditt e-postmeddelande.",
+    "failed": "Kunde inte återställa lösenordet",
+    "generic_error": "Något gick fel. Försök igen.",
+    "invalid_params": "Ogiltiga eller saknade parametrar för återställningslänken.",
+    "verify_failed": "Kunde inte verifiera återställningstoken",
+    "link_error": "Något gick fel. Länken kan ha löpt ut.",
+    "link_expired": "Länken har löpt ut eller är ogiltig",
+    "request_new": "Begär en ny lösenordsåterställning från appen.",
+    "verifying": "Verifierar din länk...",
+    "please_wait": "Vänta ett ögonblick.",
+    "page_title": "Återställ lösenord",
+    "page_description": "Återställ lösenordet för ditt Hearth-konto",
+    "confirm_page_title": "Verifierar...",
+    "confirm_page_description": "Verifierar din länk för lösenordsåterställning"
+  }
+}

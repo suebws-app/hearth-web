@@ -40,12 +40,15 @@ export default function HowItWorks() {
                 </div>
               </div>
 
-              <div className="rounded-2xl hover:bg-white/60 p-4 transition-colors duration-300">
+              <div className="rounded-2xl p-4 transition-colors duration-300">
                 <h3 className="type-heading-4 font-bold mb-3">
                   {t(step.titleKey, getDefaultMessage(step.titleKey))}
                 </h3>
                 <p className="max-w-xs mx-auto type-body leading-relaxed text-muted-foreground">
-                  {t(step.descriptionKey, getDefaultMessage(step.descriptionKey))}
+                  {t(
+                    step.descriptionKey,
+                    getDefaultMessage(step.descriptionKey),
+                  )}
                 </p>
               </div>
             </AnimateInView>
