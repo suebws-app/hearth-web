@@ -148,6 +148,17 @@
     "page_title": "I-reset ang password",
     "page_description": "I-reset ang password ng iyong Hearth account",
     "confirm_page_title": "Vine-verify...",
-    "confirm_page_description": "Vine-verify ang iyong password reset link"
+    "confirm_page_description": "Vine-verify ang iyong password reset link",
+    "errors": {
+      "same_password": "Ang bagong password mo ay dapat magkaiba sa kasalukuyan.",
+      "password_too_short": "Masyadong maikli ang password. Gumamit ng hindi bababa sa 8 karakter.",
+      "password_too_weak": "Masyadong mahina ang password. Magdagdag ng malalaking titik, numero o simbolo.",
+      "token_expired_or_invalid": "Nag-expire na ang link na ito o hindi balido. Humingi ng bago.",
+      "email_link_expired": "Nag-expire na ang link na ito o hindi balido. Humingi ng bago.",
+      "invalid_recovery_token": "Nag-expire na ang link na ito o hindi balido. Humingi ng bago.",
+      "request_rate_limited": "Masyadong maraming pagsubok. Maghintay sandali at subukan muli.",
+      "user_not_found": "Wala kaming nakitang account para sa link na ito.",
+      "generic": "Hindi nagawa ang pag-reset ng password. Subukan muli."
+    }
   }
 }

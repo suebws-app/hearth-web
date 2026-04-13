@@ -148,6 +148,17 @@
     "page_title": "Atstatyti slaptažodį",
     "page_description": "Atstatykite savo Hearth paskyros slaptažodį",
     "confirm_page_title": "Tikrinama...",
-    "confirm_page_description": "Tikrinama jūsų slaptažodžio atstatymo nuoroda"
+    "confirm_page_description": "Tikrinama jūsų slaptažodžio atstatymo nuoroda",
+    "errors": {
+      "same_password": "Naujas slaptažodis turi skirtis nuo dabartinio.",
+      "password_too_short": "Slaptažodis per trumpas. Naudokite bent 8 simbolius.",
+      "password_too_weak": "Slaptažodis per silpnas. Pridėkite didžiųjų raidžių, skaičių ar simbolių.",
+      "token_expired_or_invalid": "Ši nuoroda nebegalioja arba neteisinga. Prašykite naujos.",
+      "email_link_expired": "Ši nuoroda nebegalioja arba neteisinga. Prašykite naujos.",
+      "invalid_recovery_token": "Ši nuoroda nebegalioja arba neteisinga. Prašykite naujos.",
+      "request_rate_limited": "Per daug bandymų. Palaukite ir pabandykite dar kartą.",
+      "user_not_found": "Nerasta paskyros šiai nuorodai.",
+      "generic": "Slaptažodžio atkūrimas nepavyko. Bandykite dar kartą."
+    }
   }
 }

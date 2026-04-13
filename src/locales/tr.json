@@ -148,6 +148,17 @@
     "page_title": "Şifreyi sıfırla",
     "page_description": "Hearth hesap şifrenizi sıfırlayın",
     "confirm_page_title": "Doğrulanıyor...",
-    "confirm_page_description": "Şifre sıfırlama bağlantınız doğrulanıyor"
+    "confirm_page_description": "Şifre sıfırlama bağlantınız doğrulanıyor",
+    "errors": {
+      "same_password": "Yeni şifren mevcut olandan farklı olmalı.",
+      "password_too_short": "Şifre çok kısa. En az 8 karakter kullan.",
+      "password_too_weak": "Şifre çok zayıf. Büyük harf, rakam veya sembol ekle.",
+      "token_expired_or_invalid": "Bu bağlantının süresi dolmuş veya geçersiz. Yeni bir tane iste.",
+      "email_link_expired": "Bu bağlantının süresi dolmuş veya geçersiz. Yeni bir tane iste.",
+      "invalid_recovery_token": "Bu bağlantının süresi dolmuş veya geçersiz. Yeni bir tane iste.",
+      "request_rate_limited": "Çok fazla deneme. Biraz bekle ve tekrar dene.",
+      "user_not_found": "Bu bağlantı için hesap bulunamadı.",
+      "generic": "Şifre sıfırlama başarısız. Tekrar dene."
+    }
   }
 }

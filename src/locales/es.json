@@ -148,6 +148,17 @@
     "page_title": "Restablecer contraseña",
     "page_description": "Restablece la contraseña de tu cuenta de Hearth",
     "confirm_page_title": "Verificando...",
-    "confirm_page_description": "Verificando tu enlace de restablecimiento de contraseña"
+    "confirm_page_description": "Verificando tu enlace de restablecimiento de contraseña",
+    "errors": {
+      "same_password": "Tu nueva contraseña debe ser diferente a la actual.",
+      "password_too_short": "La contraseña es demasiado corta. Usa al menos 8 caracteres.",
+      "password_too_weak": "La contraseña es demasiado débil. Añade más variedad (mayúsculas, números, símbolos).",
+      "token_expired_or_invalid": "Este enlace de restablecimiento ha expirado o no es válido. Solicita uno nuevo.",
+      "email_link_expired": "Este enlace de restablecimiento ha expirado o no es válido. Solicita uno nuevo.",
+      "invalid_recovery_token": "Este enlace de restablecimiento ha expirado o no es válido. Solicita uno nuevo.",
+      "request_rate_limited": "Demasiados intentos. Espera un momento e inténtalo de nuevo.",
+      "user_not_found": "No encontramos una cuenta para este enlace de restablecimiento.",
+      "generic": "Error al restablecer la contraseña. Inténtalo de nuevo."
+    }
   }
 }

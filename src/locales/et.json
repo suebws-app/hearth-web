@@ -148,6 +148,17 @@
     "page_title": "Lähtesta parool",
     "page_description": "Lähtestage oma Hearth konto parool",
     "confirm_page_title": "Kinnitamine...",
-    "confirm_page_description": "Teie parooli lähtestamislingi kinnitamine"
+    "confirm_page_description": "Teie parooli lähtestamislingi kinnitamine",
+    "errors": {
+      "same_password": "Uus parool peab erinema praegusest.",
+      "password_too_short": "Parool on liiga lühike. Kasuta vähemalt 8 tähemärki.",
+      "password_too_weak": "Parool on liiga nõrk. Lisa suurtähti, numbreid või sümboleid.",
+      "token_expired_or_invalid": "See link on aegunud või kehtetu. Palu uut.",
+      "email_link_expired": "See link on aegunud või kehtetu. Palu uut.",
+      "invalid_recovery_token": "See link on aegunud või kehtetu. Palu uut.",
+      "request_rate_limited": "Liiga palju katseid. Oota hetk ja proovi uuesti.",
+      "user_not_found": "Selle lingi jaoks kontot ei leitud.",
+      "generic": "Parooli lähtestamine ebaõnnestus. Proovi uuesti."
+    }
   }
 }

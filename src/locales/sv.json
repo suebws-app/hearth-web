@@ -148,6 +148,17 @@
     "page_title": "Återställ lösenord",
     "page_description": "Återställ lösenordet för ditt Hearth-konto",
     "confirm_page_title": "Verifierar...",
-    "confirm_page_description": "Verifierar din länk för lösenordsåterställning"
+    "confirm_page_description": "Verifierar din länk för lösenordsåterställning",
+    "errors": {
+      "same_password": "Det nya lösenordet måste skilja sig från det nuvarande.",
+      "password_too_short": "Lösenordet är för kort. Använd minst 8 tecken.",
+      "password_too_weak": "Lösenordet är för svagt. Lägg till versaler, siffror eller symboler.",
+      "token_expired_or_invalid": "Den här länken har gått ut eller är ogiltig. Begär en ny.",
+      "email_link_expired": "Den här länken har gått ut eller är ogiltig. Begär en ny.",
+      "invalid_recovery_token": "Den här länken har gått ut eller är ogiltig. Begär en ny.",
+      "request_rate_limited": "För många försök. Vänta en stund och försök igen.",
+      "user_not_found": "Inget konto hittades för den här länken.",
+      "generic": "Återställning av lösenord misslyckades. Försök igen."
+    }
   }
 }

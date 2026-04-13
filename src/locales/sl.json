@@ -148,6 +148,17 @@
     "page_title": "Ponastavi geslo",
     "page_description": "Ponastavite geslo svojega računa Hearth",
     "confirm_page_title": "Preverjanje...",
-    "confirm_page_description": "Preverjanje vaše povezave za ponastavitev gesla"
+    "confirm_page_description": "Preverjanje vaše povezave za ponastavitev gesla",
+    "errors": {
+      "same_password": "Novo geslo mora biti drugačno od trenutnega.",
+      "password_too_short": "Geslo je prekratko. Uporabite vsaj 8 znakov.",
+      "password_too_weak": "Geslo je prešibko. Dodajte velike črke, številke ali simbole.",
+      "token_expired_or_invalid": "Ta povezava je potekla ali ni veljavna. Zahtevajte novo.",
+      "email_link_expired": "Ta povezava je potekla ali ni veljavna. Zahtevajte novo.",
+      "invalid_recovery_token": "Ta povezava je potekla ali ni veljavna. Zahtevajte novo.",
+      "request_rate_limited": "Preveč poskusov. Počakajte trenutek in poskusite znova.",
+      "user_not_found": "Računa za to povezavo ni mogoče najti.",
+      "generic": "Ponastavitev gesla ni uspela. Poskusite znova."
+    }
   }
 }

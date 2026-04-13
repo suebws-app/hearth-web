@@ -148,6 +148,17 @@
     "page_title": "비밀번호 재설정",
     "page_description": "Hearth 계정 비밀번호 재설정",
     "confirm_page_title": "확인 중...",
-    "confirm_page_description": "비밀번호 재설정 링크 확인 중"
+    "confirm_page_description": "비밀번호 재설정 링크 확인 중",
+    "errors": {
+      "same_password": "새 비밀번호는 현재 비밀번호와 달라야 합니다.",
+      "password_too_short": "비밀번호가 너무 짧습니다. 최소 8자를 사용하세요.",
+      "password_too_weak": "비밀번호가 너무 약합니다. 대문자, 숫자 또는 기호를 추가하세요.",
+      "token_expired_or_invalid": "이 링크는 만료되었거나 유효하지 않습니다. 새로 요청하세요.",
+      "email_link_expired": "이 링크는 만료되었거나 유효하지 않습니다. 새로 요청하세요.",
+      "invalid_recovery_token": "이 링크는 만료되었거나 유효하지 않습니다. 새로 요청하세요.",
+      "request_rate_limited": "시도가 너무 많습니다. 잠시 기다렸다가 다시 시도하세요.",
+      "user_not_found": "이 링크에 해당하는 계정을 찾을 수 없습니다.",
+      "generic": "비밀번호 재설정에 실패했습니다. 다시 시도하세요."
+    }
   }
 }

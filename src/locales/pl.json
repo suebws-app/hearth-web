@@ -148,6 +148,17 @@
     "page_title": "Zresetuj hasło",
     "page_description": "Zresetuj hasło konta Hearth",
     "confirm_page_title": "Weryfikacja...",
-    "confirm_page_description": "Weryfikacja linku resetowania hasła"
+    "confirm_page_description": "Weryfikacja linku resetowania hasła",
+    "errors": {
+      "same_password": "Nowe hasło musi różnić się od obecnego.",
+      "password_too_short": "Hasło jest za krótkie. Użyj co najmniej 8 znaków.",
+      "password_too_weak": "Hasło jest za słabe. Dodaj wielkie litery, cyfry lub symbole.",
+      "token_expired_or_invalid": "Ten link wygasł lub jest nieprawidłowy. Poproś o nowy.",
+      "email_link_expired": "Ten link wygasł lub jest nieprawidłowy. Poproś o nowy.",
+      "invalid_recovery_token": "Ten link wygasł lub jest nieprawidłowy. Poproś o nowy.",
+      "request_rate_limited": "Zbyt wiele prób. Poczekaj chwilę i spróbuj ponownie.",
+      "user_not_found": "Nie znaleziono konta dla tego linku.",
+      "generic": "Resetowanie hasła nie powiodło się. Spróbuj ponownie."
+    }
   }
 }

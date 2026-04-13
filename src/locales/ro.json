@@ -148,6 +148,17 @@
     "page_title": "Resetează parola",
     "page_description": "Resetează parola contului tău Hearth",
     "confirm_page_title": "Se verifică...",
-    "confirm_page_description": "Se verifică linkul tău de resetare a parolei"
+    "confirm_page_description": "Se verifică linkul tău de resetare a parolei",
+    "errors": {
+      "same_password": "Noua parolă trebuie să fie diferită de cea actuală.",
+      "password_too_short": "Parola este prea scurtă. Folosește cel puțin 8 caractere.",
+      "password_too_weak": "Parola este prea slabă. Adaugă majuscule, cifre sau simboluri.",
+      "token_expired_or_invalid": "Acest link a expirat sau nu este valid. Solicită unul nou.",
+      "email_link_expired": "Acest link a expirat sau nu este valid. Solicită unul nou.",
+      "invalid_recovery_token": "Acest link a expirat sau nu este valid. Solicită unul nou.",
+      "request_rate_limited": "Prea multe încercări. Așteaptă un moment și încearcă din nou.",
+      "user_not_found": "Niciun cont găsit pentru acest link.",
+      "generic": "Resetarea parolei a eșuat. Încearcă din nou."
+    }
   }
 }

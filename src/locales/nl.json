@@ -148,6 +148,17 @@
     "page_title": "Wachtwoord resetten",
     "page_description": "Reset het wachtwoord van je Hearth-account",
     "confirm_page_title": "Verifiëren...",
-    "confirm_page_description": "Je wachtwoordresetlink wordt geverifieerd"
+    "confirm_page_description": "Je wachtwoordresetlink wordt geverifieerd",
+    "errors": {
+      "same_password": "Je nieuwe wachtwoord moet anders zijn dan het huidige.",
+      "password_too_short": "Het wachtwoord is te kort. Gebruik minimaal 8 tekens.",
+      "password_too_weak": "Het wachtwoord is te zwak. Voeg hoofdletters, cijfers of symbolen toe.",
+      "token_expired_or_invalid": "Deze link is verlopen of ongeldig. Vraag een nieuwe aan.",
+      "email_link_expired": "Deze link is verlopen of ongeldig. Vraag een nieuwe aan.",
+      "invalid_recovery_token": "Deze link is verlopen of ongeldig. Vraag een nieuwe aan.",
+      "request_rate_limited": "Te veel pogingen. Wacht even en probeer opnieuw.",
+      "user_not_found": "Geen account gevonden voor deze link.",
+      "generic": "Wachtwoord resetten mislukt. Probeer opnieuw."
+    }
   }
 }

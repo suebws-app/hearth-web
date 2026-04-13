@@ -148,6 +148,17 @@
     "page_title": "Resetiraj lozinku",
     "page_description": "Resetirajte lozinku svog Hearth računa",
     "confirm_page_title": "Provjeravanje...",
-    "confirm_page_description": "Provjeravanje vaše veze za resetiranje lozinke"
+    "confirm_page_description": "Provjeravanje vaše veze za resetiranje lozinke",
+    "errors": {
+      "same_password": "Nova lozinka mora se razlikovati od trenutne.",
+      "password_too_short": "Lozinka je prekratka. Upotrijebite barem 8 znakova.",
+      "password_too_weak": "Lozinka je preslaba. Dodajte velika slova, brojeve ili simbole.",
+      "token_expired_or_invalid": "Ova poveznica je istekla ili nije valjana. Zatražite novu.",
+      "email_link_expired": "Ova poveznica je istekla ili nije valjana. Zatražite novu.",
+      "invalid_recovery_token": "Ova poveznica je istekla ili nije valjana. Zatražite novu.",
+      "request_rate_limited": "Previše pokušaja. Pričekajte trenutak i pokušajte ponovno.",
+      "user_not_found": "Nismo pronašli račun za ovu poveznicu.",
+      "generic": "Ponovno postavljanje lozinke nije uspjelo. Pokušajte ponovno."
+    }
   }
 }

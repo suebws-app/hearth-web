@@ -148,6 +148,17 @@
     "page_title": "Nollaa salasana",
     "page_description": "Nollaa Hearth-tilisi salasana",
     "confirm_page_title": "Vahvistetaan...",
-    "confirm_page_description": "Vahvistetaan salasanan nollauslinkkiäsi"
+    "confirm_page_description": "Vahvistetaan salasanan nollauslinkkiäsi",
+    "errors": {
+      "same_password": "Uuden salasanan on oltava eri kuin nykyisen.",
+      "password_too_short": "Salasana on liian lyhyt. Käytä vähintään 8 merkkiä.",
+      "password_too_weak": "Salasana on liian heikko. Lisää isoja kirjaimia, numeroita tai symboleja.",
+      "token_expired_or_invalid": "Tämä linkki on vanhentunut tai virheellinen. Pyydä uusi.",
+      "email_link_expired": "Tämä linkki on vanhentunut tai virheellinen. Pyydä uusi.",
+      "invalid_recovery_token": "Tämä linkki on vanhentunut tai virheellinen. Pyydä uusi.",
+      "request_rate_limited": "Liian monta yritystä. Odota hetki ja yritä uudelleen.",
+      "user_not_found": "Tälle linkille ei löydy tiliä.",
+      "generic": "Salasanan nollaus epäonnistui. Yritä uudelleen."
+    }
   }
 }

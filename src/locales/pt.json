@@ -148,6 +148,17 @@
     "page_title": "Redefinir senha",
     "page_description": "Redefina a senha da sua conta Hearth",
     "confirm_page_title": "Verificando...",
-    "confirm_page_description": "Verificando seu link de redefinição de senha"
+    "confirm_page_description": "Verificando seu link de redefinição de senha",
+    "errors": {
+      "same_password": "A nova palavra-passe deve ser diferente da atual.",
+      "password_too_short": "A palavra-passe é demasiado curta. Usa pelo menos 8 caracteres.",
+      "password_too_weak": "A palavra-passe é demasiado fraca. Adiciona maiúsculas, números ou símbolos.",
+      "token_expired_or_invalid": "Este link expirou ou é inválido. Solicita um novo.",
+      "email_link_expired": "Este link expirou ou é inválido. Solicita um novo.",
+      "invalid_recovery_token": "Este link expirou ou é inválido. Solicita um novo.",
+      "request_rate_limited": "Demasiadas tentativas. Aguarda um momento e tenta novamente.",
+      "user_not_found": "Não foi encontrada uma conta para este link.",
+      "generic": "Falha ao redefinir a palavra-passe. Tenta novamente."
+    }
   }
 }

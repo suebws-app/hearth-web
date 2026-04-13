@@ -148,6 +148,17 @@
     "page_title": "Atur ulang kata sandi",
     "page_description": "Atur ulang kata sandi akun Hearth Anda",
     "confirm_page_title": "Memverifikasi...",
-    "confirm_page_description": "Memverifikasi tautan pengaturan ulang kata sandi Anda"
+    "confirm_page_description": "Memverifikasi tautan pengaturan ulang kata sandi Anda",
+    "errors": {
+      "same_password": "Kata sandi baru harus berbeda dari yang saat ini.",
+      "password_too_short": "Kata sandi terlalu pendek. Gunakan minimal 8 karakter.",
+      "password_too_weak": "Kata sandi terlalu lemah. Tambahkan huruf besar, angka atau simbol.",
+      "token_expired_or_invalid": "Tautan ini sudah kedaluwarsa atau tidak valid. Minta yang baru.",
+      "email_link_expired": "Tautan ini sudah kedaluwarsa atau tidak valid. Minta yang baru.",
+      "invalid_recovery_token": "Tautan ini sudah kedaluwarsa atau tidak valid. Minta yang baru.",
+      "request_rate_limited": "Terlalu banyak percobaan. Tunggu sebentar lalu coba lagi.",
+      "user_not_found": "Kami tidak menemukan akun untuk tautan ini.",
+      "generic": "Gagal mereset kata sandi. Coba lagi."
+    }
   }
 }

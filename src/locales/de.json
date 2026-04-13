@@ -148,6 +148,17 @@
     "page_title": "Passwort zurücksetzen",
     "page_description": "Setze das Passwort deines Hearth-Kontos zurück",
     "confirm_page_title": "Überprüfung...",
-    "confirm_page_description": "Dein Passwort-Zurücksetzungslink wird überprüft"
+    "confirm_page_description": "Dein Passwort-Zurücksetzungslink wird überprüft",
+    "errors": {
+      "same_password": "Dein neues Passwort muss sich vom aktuellen unterscheiden.",
+      "password_too_short": "Das Passwort ist zu kurz. Verwende mindestens 8 Zeichen.",
+      "password_too_weak": "Das Passwort ist zu schwach. Füge Großbuchstaben, Zahlen oder Symbole hinzu.",
+      "token_expired_or_invalid": "Dieser Link ist abgelaufen oder ungültig. Fordere einen neuen an.",
+      "email_link_expired": "Dieser Link ist abgelaufen oder ungültig. Fordere einen neuen an.",
+      "invalid_recovery_token": "Dieser Link ist abgelaufen oder ungültig. Fordere einen neuen an.",
+      "request_rate_limited": "Zu viele Versuche. Warte einen Moment und versuche es erneut.",
+      "user_not_found": "Für diesen Link wurde kein Konto gefunden.",
+      "generic": "Zurücksetzen des Passworts fehlgeschlagen. Bitte erneut versuchen."
+    }
   }
 }

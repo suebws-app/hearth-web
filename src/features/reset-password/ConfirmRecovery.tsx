@@ -28,8 +28,20 @@ export default function ConfirmRecovery() {
     })
       .then(async (res) => {
         if (!res.ok) {
-          const data = await res.json().catch(() => null);
-          throw new Error(data?.message || t("reset_password.verify_failed"));
+          const data = (await res.json().catch(() => null)) as {
+            errorCode?: string;
+            message?: string;
+          } | null;
+          const code = data?.errorCode;
+          const key = code
+            ? `reset_password.errors.${code}`
+            : "reset_password.errors.generic";
+          const translated = t(key);
+          const message =
+            translated !== key
+              ? translated
+              : data?.message || t("reset_password.verify_failed");
+          throw new Error(message);
         }
         return res.json();
       })

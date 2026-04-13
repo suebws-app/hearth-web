@@ -64,15 +64,26 @@ export default function ResetPassword() {
       });
 
       if (!res.ok) {
-        const data = await res.json().catch(() => null);
-        throw new Error(data?.message || t("reset_password.failed"));
+        const data = (await res.json().catch(() => null)) as {
+          errorCode?: string;
+          message?: string;
+        } | null;
+        const code = data?.errorCode;
+        const key = code
+          ? `reset_password.errors.${code}`
+          : "reset_password.errors.generic";
+        const translated = t(key);
+        const fallback =
+          data?.message ||
+          t("reset_password.errors.generic") ||
+          t("reset_password.failed");
+        setError(translated !== key ? translated : fallback);
+        return;
       }
 
       setIsSubmitted(true);
-    } catch (err) {
-      setError(
-        err instanceof Error ? err.message : t("reset_password.generic_error"),
-      );
+    } catch {
+      setError(t("reset_password.generic_error"));
     } finally {
       setIsLoading(false);
     }

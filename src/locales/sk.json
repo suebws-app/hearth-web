@@ -148,6 +148,17 @@
     "page_title": "Obnoviť heslo",
     "page_description": "Obnovte heslo svojho účtu Hearth",
     "confirm_page_title": "Overuje sa...",
-    "confirm_page_description": "Overuje sa odkaz na obnovenie hesla"
+    "confirm_page_description": "Overuje sa odkaz na obnovenie hesla",
+    "errors": {
+      "same_password": "Nové heslo sa musí líšiť od súčasného.",
+      "password_too_short": "Heslo je príliš krátke. Použite aspoň 8 znakov.",
+      "password_too_weak": "Heslo je príliš slabé. Pridajte veľké písmená, čísla alebo symboly.",
+      "token_expired_or_invalid": "Tento odkaz vypršal alebo je neplatný. Požiadajte o nový.",
+      "email_link_expired": "Tento odkaz vypršal alebo je neplatný. Požiadajte o nový.",
+      "invalid_recovery_token": "Tento odkaz vypršal alebo je neplatný. Požiadajte o nový.",
+      "request_rate_limited": "Príliš veľa pokusov. Chvíľu počkajte a skúste znova.",
+      "user_not_found": "Pre tento odkaz sa nenašiel účet.",
+      "generic": "Obnovenie hesla zlyhalo. Skúste to znova."
+    }
   }
 }

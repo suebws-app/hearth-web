@@ -148,6 +148,17 @@
     "page_title": "Jelszó visszaállítása",
     "page_description": "Hearth fiók jelszavának visszaállítása",
     "confirm_page_title": "Ellenőrzés...",
-    "confirm_page_description": "A jelszó-visszaállítási link ellenőrzése"
+    "confirm_page_description": "A jelszó-visszaállítási link ellenőrzése",
+    "errors": {
+      "same_password": "Az új jelszónak különböznie kell a jelenlegitől.",
+      "password_too_short": "A jelszó túl rövid. Használj legalább 8 karaktert.",
+      "password_too_weak": "A jelszó túl gyenge. Adj hozzá nagybetűket, számokat vagy szimbólumokat.",
+      "token_expired_or_invalid": "Ez a hivatkozás lejárt vagy érvénytelen. Kérj újat.",
+      "email_link_expired": "Ez a hivatkozás lejárt vagy érvénytelen. Kérj újat.",
+      "invalid_recovery_token": "Ez a hivatkozás lejárt vagy érvénytelen. Kérj újat.",
+      "request_rate_limited": "Túl sok próbálkozás. Várj egy pillanatot és próbáld újra.",
+      "user_not_found": "Nem találtunk fiókot ehhez a hivatkozáshoz.",
+      "generic": "A jelszó visszaállítása sikertelen. Próbáld újra."
+    }
   }
 }

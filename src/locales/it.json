@@ -148,6 +148,17 @@
     "page_title": "Reimposta password",
     "page_description": "Reimposta la password del tuo account Hearth",
     "confirm_page_title": "Verifica...",
-    "confirm_page_description": "Verifica del link di reimpostazione della password"
+    "confirm_page_description": "Verifica del link di reimpostazione della password",
+    "errors": {
+      "same_password": "La nuova password deve essere diversa da quella attuale.",
+      "password_too_short": "La password è troppo corta. Usa almeno 8 caratteri.",
+      "password_too_weak": "La password è troppo debole. Aggiungi maiuscole, numeri o simboli.",
+      "token_expired_or_invalid": "Questo link è scaduto o non è valido. Richiedine uno nuovo.",
+      "email_link_expired": "Questo link è scaduto o non è valido. Richiedine uno nuovo.",
+      "invalid_recovery_token": "Questo link è scaduto o non è valido. Richiedine uno nuovo.",
+      "request_rate_limited": "Troppi tentativi. Attendi un momento e riprova.",
+      "user_not_found": "Nessun account trovato per questo link.",
+      "generic": "Reimpostazione della password non riuscita. Riprova."
+    }
   }
 }

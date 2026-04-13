@@ -148,6 +148,17 @@
     "page_title": "Nulstil adgangskode",
     "page_description": "Nulstil adgangskoden til din Hearth-konto",
     "confirm_page_title": "Verificerer...",
-    "confirm_page_description": "Verificerer dit link til nulstilling af adgangskode"
+    "confirm_page_description": "Verificerer dit link til nulstilling af adgangskode",
+    "errors": {
+      "same_password": "Din nye adgangskode skal være forskellig fra den nuværende.",
+      "password_too_short": "Adgangskoden er for kort. Brug mindst 8 tegn.",
+      "password_too_weak": "Adgangskoden er for svag. Tilføj store bogstaver, tal eller symboler.",
+      "token_expired_or_invalid": "Dette link er udløbet eller ugyldigt. Anmod om et nyt.",
+      "email_link_expired": "Dette link er udløbet eller ugyldigt. Anmod om et nyt.",
+      "invalid_recovery_token": "Dette link er udløbet eller ugyldigt. Anmod om et nyt.",
+      "request_rate_limited": "For mange forsøg. Vent et øjeblik og prøv igen.",
+      "user_not_found": "Vi kunne ikke finde en konto for dette link.",
+      "generic": "Nulstilling af adgangskode mislykkedes. Prøv igen."
+    }
   }
 }

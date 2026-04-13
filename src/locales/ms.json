@@ -148,6 +148,17 @@
     "page_title": "Tetapkan semula kata laluan",
     "page_description": "Tetapkan semula kata laluan akaun Hearth anda",
     "confirm_page_title": "Mengesahkan...",
-    "confirm_page_description": "Mengesahkan pautan tetapan semula kata laluan anda"
+    "confirm_page_description": "Mengesahkan pautan tetapan semula kata laluan anda",
+    "errors": {
+      "same_password": "Kata laluan baru anda mesti berbeza daripada yang sekarang.",
+      "password_too_short": "Kata laluan terlalu pendek. Gunakan sekurang-kurangnya 8 aksara.",
+      "password_too_weak": "Kata laluan terlalu lemah. Tambah huruf besar, nombor atau simbol.",
+      "token_expired_or_invalid": "Pautan ini telah tamat tempoh atau tidak sah. Minta yang baru.",
+      "email_link_expired": "Pautan ini telah tamat tempoh atau tidak sah. Minta yang baru.",
+      "invalid_recovery_token": "Pautan ini telah tamat tempoh atau tidak sah. Minta yang baru.",
+      "request_rate_limited": "Terlalu banyak percubaan. Tunggu sebentar dan cuba lagi.",
+      "user_not_found": "Akaun untuk pautan ini tidak dijumpai.",
+      "generic": "Set semula kata laluan gagal. Sila cuba lagi."
+    }
   }
 }

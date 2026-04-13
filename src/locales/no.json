@@ -148,6 +148,17 @@
     "page_title": "Tilbakestill passord",
     "page_description": "Tilbakestill passordet for Hearth-kontoen din",
     "confirm_page_title": "Verifiserer...",
-    "confirm_page_description": "Verifiserer lenken for tilbakestilling av passord"
+    "confirm_page_description": "Verifiserer lenken for tilbakestilling av passord",
+    "errors": {
+      "same_password": "Det nye passordet må være forskjellig fra det nåværende.",
+      "password_too_short": "Passordet er for kort. Bruk minst 8 tegn.",
+      "password_too_weak": "Passordet er for svakt. Legg til store bokstaver, tall eller symboler.",
+      "token_expired_or_invalid": "Denne lenken er utløpt eller ugyldig. Be om en ny.",
+      "email_link_expired": "Denne lenken er utløpt eller ugyldig. Be om en ny.",
+      "invalid_recovery_token": "Denne lenken er utløpt eller ugyldig. Be om en ny.",
+      "request_rate_limited": "For mange forsøk. Vent litt og prøv igjen.",
+      "user_not_found": "Fant ingen konto for denne lenken.",
+      "generic": "Tilbakestilling av passord mislyktes. Prøv igjen."
+    }
   }
 }
